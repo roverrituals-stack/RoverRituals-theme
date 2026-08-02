@@ -106,6 +106,10 @@
   </div>
 </div>
 
+{%- if product.template_suffix == 'fetchmate-2' -%}
+  {% render 'faq-fetchmate' %}
+{%- endif -%}
+
 {% schema %}
 {
   "name": "FAQ",
