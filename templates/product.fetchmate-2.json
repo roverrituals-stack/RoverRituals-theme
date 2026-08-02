@@ -484,7 +484,7 @@
           "type": "column",
           "settings": {
             "title": "🎾Soft custom balls",
-            "text": "<p>6 soft custom balls included, gentle on teeth and gums, smaller than standard tennis balls.</p><p>Either: <strong>48 to 50mm for small to medium</strong> doggos</p><p>or <strong>54 to 58mm ETPU balls better</strong> suited to <strong>medium to large</strong> dogs</p><p><strong>Note - can not be used with any other balls eg larger standard tennis balls.</strong></p>",
+            "text": "<p>6 soft custom safety balls included, gentle on teeth and gums, smaller than standard tennis balls.</p><p>Either: <strong>48 to 50mm for small to medium</strong> doggos</p><p>or <strong>54 to 58mm ETPU balls better</strong> suited to <strong>medium to large</strong> dogs</p><p><strong>Note - can not be used with any other balls eg larger standard tennis balls due to safety</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -879,28 +879,6 @@
         "padding_bottom": 36
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "collection_text_alignment": "left",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-db99ff9f-6edc-4519-b5ed-c65e6bf9d4bc",
-        "image_ratio": "adapt",
-        "image_no_crop": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_desc": false,
-        "quick_desc_legth": 90,
-        "quick_desc_size": 14,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 100
-      }
-    },
     "section_divider_tMkjCY": {
       "type": "section-divider",
       "settings": {
@@ -1107,6 +1085,28 @@
         "padding_bottom": 0
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "collection_text_alignment": "left",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-db99ff9f-6edc-4519-b5ed-c65e6bf9d4bc",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
     "lumin_mega_83GL93": {
       "type": "lumin-mega",
       "blocks": {
@@ -1185,10 +1185,10 @@
     "custom_columns_wj766j",
     "section_divider_MbaFyh",
     "comparison_table_pFrHmC",
-    "related-products",
     "section_divider_tMkjCY",
     "faq_6HVkFq",
     "section_divider_HUDVjJ",
+    "related-products",
     "lumin_mega_83GL93",
     "1738693624992cb069"
   ]
