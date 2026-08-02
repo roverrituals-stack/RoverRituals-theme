@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_ygjyYf": {
+      "type": "breadcrumbs",
+      "settings": {
+        "color_scheme": "",
+        "title_home": "Home",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".price-item--regular {color: red;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_scroll_tags": false,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 80,
+        "quick_desc_size": 12,
+        "enable_quick_add": true,
+        "show_secondary_add": false,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_zBMCm9": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width rte\">\n  <div class=\"collapsible-description\" id=\"collapsibleDescription\">\n    {{ collection.description }}\n  </div>\n  <button class=\"read-more-btn\" id=\"readMoreBtn\">...read more</button>\n</div>\n\n<style>\n.collapsible-description {\n  display: -webkit-box;\n  -webkit-line-clamp: 3;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  position: relative;\n  max-height: 8em; /* roughly 3 lines */\n}\n\n.collapsible-description.expanded {\n  -webkit-line-clamp: unset;\n  max-height: none;\n}\n\n.read-more-btn {\n  background: none;\n  border: none;\n  color: #007ace;\n  cursor: pointer;\n  padding: 0;\n  font-weight: bold;\n  margin-top: 0.5em;\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n  const desc = document.getElementById('collapsibleDescription');\n  const btn = document.getElementById('readMoreBtn');\n\n  btn.addEventListener('click', function () {\n    desc.classList.toggle('expanded');\n    btn.textContent = desc.classList.contains('expanded') ? 'Read less' : '...read more';\n  });\n});\n</script>",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_ygjyYf",
+    "banner",
+    "product-grid",
+    "custom_liquid_zBMCm9"
+  ]
+}

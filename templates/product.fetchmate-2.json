@@ -1,0 +1,1085 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb_MwgGWV": {
+      "type": "breadcrumb",
+      "name": "Breadcrumb Navigation",
+      "settings": {
+        "breadcrumbs_home_icon_bool": false,
+        "breadcrumb_delimeter": "angle_right",
+        "breadcrumb_bg_color": "#ffffff",
+        "breadcrumb_text_color": "#111111",
+        "breadcrumb_accent_color_bool": false,
+        "breadcrumb_accent_color": "#4770db",
+        "enable_product_page": false,
+        "enable_collection_page": false,
+        "enable_complete_site": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 30,
+            "title_height": 120,
+            "text_transform": "none"
+          }
+        },
+        "line_NzbVwF": {
+          "type": "line",
+          "settings": {
+            "line_color": "#030303",
+            "padding_top": 0,
+            "padding_bottom": 12
+          }
+        },
+        "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "lrw_text": "<strong>4.5 From 200+ Reviews</strong>",
+            "text_size": 14,
+            "star_style": "star_bg_2",
+            "star_size": 0.8,
+            "star_rating": 4.5,
+            "lrw_star_color": "#ffd700",
+            "lrw_star_color_disable": "#eeeeee",
+            "lrw_color": "#030303",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "loox_reviews_loox_rating_xnBNQ6": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 18,
+            "pattern": "4.6 of 200+ reviews",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_style": "price_2",
+            "price_size": 19,
+            "badge_text_1": 10,
+            "price_first": true,
+            "badge_bg_1": "#c74b4b",
+            "badge_price_1": "#ffffff",
+            "price_size_2": 0.7,
+            "badge_price": "#8b8d8f",
+            "price_bold_2": false,
+            "sale_price_color": "#d50000",
+            "regular_price_color": "#000000",
+            "price_bold": false,
+            "badge_hide": false,
+            "taxes_hide": false,
+            "shipping_hide": false,
+            "padding_top": 8,
+            "padding_bottom": 0
+          }
+        },
+        "smartbot_product_highlights_zgeXm3": {
+          "type": "shopify://apps/smartbot/blocks/product-highlights/d9407b81-7d3e-4612-91c3-2020086e2073",
+          "settings": {}
+        },
+        "custom_liquid_8HfVEe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  @keyframes shimmerGold{0%{background-position:-600px 0}100%{background-position:600px 0}}\n  @keyframes shimmerBlue{0%{background-position:-600px 0}100%{background-position:600px 0}}\n  @keyframes wave1{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}\n  @keyframes wave2{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}\n  @keyframes wave3{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}\n  @keyframes floatA{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-5px) rotate(5deg)}}\n  @keyframes floatB{0%,100%{transform:translateY(0) rotate(5deg)}50%{transform:translateY(-6px) rotate(-5deg)}}\n  @keyframes floatC{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.15)}}\n  @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}\n\n  .fm-banner{position:relative;border-radius:12px;overflow:hidden;background:#060614;padding:1.25rem .75rem;text-align:center;margin:.5rem 0}\n  .fm-liq{position:absolute;inset:0;overflow:hidden;border-radius:12px}\n  .fm-wl{position:absolute;width:200%;height:100%;top:0;left:0}\n  .fm-wl svg{width:100%;height:100%}\n  .fm-w1{animation:wave1 7s linear infinite;opacity:.6}\n  .fm-w2{animation:wave2 11s linear infinite;opacity:.4}\n  .fm-w3{animation:wave3 5s linear infinite;opacity:.25}\n  .fm-ring{position:absolute;inset:0;border-radius:12px;border:1.5px solid rgba(245,200,60,.55);pointer-events:none}\n  .fm-inner{position:relative;z-index:2}\n  .fm-row{display:flex;align-items:center;justify-content:center;gap:8px}\n  .fm-line{display:inline-block;font-weight:900;text-transform:uppercase;letter-spacing:.06em;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;background-size:600px 100%;line-height:1.15}\n  .fm-l1{font-size:clamp(11px,2.5vw,18px);background-image:linear-gradient(90deg,#b8860b 0%,#f5e642 20%,#fffde0 40%,#f5c542 55%,#fff176 70%,#d4a017 85%,#f5e642 100%);animation:shimmerGold 2s linear infinite}\n  .fm-l2{font-size:clamp(9px,2vw,14px);background-image:linear-gradient(90deg,#1a8fc1 0%,#7ee8ff 20%,#e0f9ff 40%,#81d4fa 55%,#ffffff 68%,#4fc3f7 80%,#1a8fc1 100%);animation:shimmerBlue 2.2s linear infinite}\n  .fm-sep{margin:.3rem 0}\n  .em{display:inline-block;font-size:14px;line-height:1}\n  .em-a{animation:floatA 2s ease-in-out infinite}\n  .em-b{animation:floatB 2.4s ease-in-out infinite}\n  .em-c{animation:floatC 1.8s ease-in-out infinite}\n  .em-spin{animation:spin 4s linear infinite;display:inline-block;font-size:13px}\n</style>\n\n<div class=\"fm-banner\">\n  <div class=\"fm-liq\">\n    <div class=\"fm-wl fm-w1\">\n      <svg viewBox=\"0 0 1440 200\" preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0,80 C180,140 360,20 540,80 C720,140 900,20 1080,80 C1260,140 1440,20 1440,80 L1440,200 L0,200 Z\" fill=\"#1a3a5c\"/>\n      </svg>\n    </div>\n    <div class=\"fm-wl fm-w2\">\n      <svg viewBox=\"0 0 1440 200\" preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0,100 C240,40 480,160 720,100 C960,40 1200,160 1440,100 L1440,200 L0,200 Z\" fill=\"#0d2b45\"/>\n      </svg>\n    </div>\n    <div class=\"fm-wl fm-w3\">\n      <svg viewBox=\"0 0 1440 200\" preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 C1440,60 1440,60 1440,60 L1440,200 L0,200 Z\" fill=\"#7b3a00\" opacity=\".4\"/>\n      </svg>\n    </div>\n  </div>\n  <div class=\"fm-ring\"></div>\n  <div class=\"fm-inner\">\n    <div class=\"fm-row\">\n      <span class=\"em em-spin\">✨</span>\n      <span class=\"em em-a\">🎁</span>\n      <span class=\"fm-line fm-l1\">FREE GIFT INCLUDED &</span>\n      <span class=\"em em-b\">🎁</span>\n      <span class=\"em em-spin\">✨</span>\n    </div>\n    <div class=\"fm-sep\"></div>\n    <div class=\"fm-row\">\n      <span class=\"em em-c\">🎾</span>\n      <span class=\"em em-b\">🐾</span>\n      <span class=\"fm-line fm-l2\">3 BONUS BALLS FREE!</span>\n      <span class=\"em em-b\">🐾</span>\n      <span class=\"em em-c\">🎾</span>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "text_benefits_YhdXMz": {
+          "type": "text_benefits",
+          "settings": {
+            "benefits": "<p>🎾 <strong>Fetch without lifting a finger</strong><br/>🐶 <strong>Suits every dog, every size</strong><br/>🔋 <strong>Rechargeable, no batteries needed</strong><br/>📏 <strong>Indoor & outdoor play ready</strong><br/>🎁 <strong>Everything included, plug & play</strong></p>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "label_style": "body",
+            "font_size": 14,
+            "font_style": "normal",
+            "swatchType": "variantImage",
+            "optionName": "Color",
+            "swatchStyle": "square-round-corners",
+            "swatchSize": 50,
+            "swatchHeight": 50,
+            "size_trigger": "size",
+            "chart_id": "Size Chart",
+            "size_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "enable_quantity_discounts": false,
+            "quantity_style": "horizontal",
+            "columns_block": "25",
+            "preselected": "option_2",
+            "show_quantity_label": true,
+            "hide_lines": true,
+            "show_head_border": true,
+            "title_text_align": "center",
+            "quantity_title_text": "<p>Buy More Save More</p>",
+            "quantity_subtitle_text": "<p>Limited Time Offer</p>",
+            "title_font_size": 1.8,
+            "subtitle_font_size": 1.3,
+            "title_color": "#000000",
+            "subtitle_color": "#000000",
+            "title_line_color": "#000000",
+            "title_bg_color": "#ffffff",
+            "hide_checkbox": false,
+            "show_strikethrough": true,
+            "show_total_pricing": true,
+            "show_per_unit": false,
+            "badge_style": "ribbon ribbon-top-right",
+            "option_1_label": "Buy 1",
+            "option_1_quantity": 1,
+            "option_1_discount_percentage": 0,
+            "option_1_badge_enable": false,
+            "option_1_badge_text": "Most Popular",
+            "option_1_unit_label": "($)/Pcs",
+            "option_1_save_text": "You save 50%",
+            "option_2_label": "Buy 2",
+            "option_2_quantity": 2,
+            "option_2_discount_percentage": 10,
+            "option_2_badge_enable": true,
+            "option_2_badge_text": "Most Popular",
+            "option_2_unit_label": "($)/Pcs",
+            "option_2_save_text": "You save extra 10%",
+            "option_3_label": "Buy 3",
+            "option_3_quantity": 3,
+            "option_3_discount_percentage": 20,
+            "option_3_badge_enable": false,
+            "option_3_badge_text": "Most Popular",
+            "option_3_unit_label": "($)/Pcs",
+            "option_3_save_text": "You save extra 20%",
+            "option_4_label": "",
+            "option_4_quantity": 4,
+            "option_4_discount_percentage": 0,
+            "option_4_badge_enable": false,
+            "option_4_badge_text": "Most Popular",
+            "option_4_unit_label": "($)/Pcs",
+            "option_4_save_text": "Save (%)",
+            "option_5_label": "Offer",
+            "option_5_quantity": 0,
+            "option_5_discount_percentage": 0,
+            "option_5_badge_enable": false,
+            "option_5_badge_text": "Most Popular",
+            "option_5_unit_label": "($)/Pcs",
+            "option_5_save_text": "Save (%)",
+            "option_6_label": "Offer",
+            "option_6_quantity": 0,
+            "option_6_discount_percentage": 0,
+            "option_6_badge_enable": false,
+            "option_6_badge_text": "Most Popular",
+            "option_6_unit_label": "($)/Pcs",
+            "option_6_save_text": "Save (%)",
+            "border_radius": 0.5,
+            "option_bottom_spacing": 2.5,
+            "option_height_spacing": 1.8,
+            "label_font_size": 1.7,
+            "compare_price_font_size": 1.3,
+            "final_price_font_size": 1.5,
+            "per_unit_font_size": 1,
+            "buttons_border_thickness": 0.1,
+            "border_color_unselected": "#cccccc",
+            "text_color_unselected": "#121212",
+            "back_color_unselected": "#ffffff",
+            "border-color-hover-unselected": "#eeeeee",
+            "text_color_selected": "#000000",
+            "selected_button_bg_color": "#f4f4f4",
+            "selected_button_dot_color": "#000000",
+            "selected_button_border_color": "#121212",
+            "savings_label_font_size": 1.1,
+            "badge_font_size": 1,
+            "savings_text_color": "#ffffff",
+            "savings_bg_color": "#334fb4",
+            "badge_bg_color": "#e33e3e",
+            "badge_font_color": "#ffffff",
+            "compare_font_color": "#000000"
+          }
+        },
+        "dealeasy_vd_cards_RrakMx": {
+          "type": "shopify://apps/dealeasy/blocks/vd-cards/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "disabled": true,
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "selleasy_lb_upsell_addon_block_manXUF": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_full_button": true,
+            "lm_main_button": "#ffa100",
+            "lm_main_button_gr": "",
+            "lm_main_text": "#ffffff",
+            "lm_button_animation": "soft",
+            "show_gift_card_recipient": true,
+            "skip_cart": false,
+            "cart_text": ""
+          }
+        },
+        "custom_liquid_mFHENq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    .custom-shipping-container {\n      display: flex;\n      padding: 6px 16px;\n      justify-content: space-between;\n      align-items: center;\n      background-color: #f6f6f6;\n      border-radius: 20px;\n      margin-top: 10px;\n    }\n\n    .custom-shipping-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .text-block-shipping {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-date {\n      font-weight: bold;\n    }\n\n    .shipping-worldwide {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-worldwide .bold {\n      font-weight: bold;\n    }\n\n    .green-circle {\n      animation: fade 1s ease-in-out infinite;\n    }\n\n    @keyframes fade {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .flags-container {\n      display: flex;\n      gap: 6px;\n      align-items: center;\n    }\n    \n    .custom-icon {\n      width: 12px;\n      height: 8px;\n    }\n  </style>\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      function getNextWeekday(date) {\n        var day = date.getDay();\n        var daysToAdd = (day === 5) ? 3 : (day === 6) ? 2 : 1;\n        return new Date(date.setDate(date.getDate() + daysToAdd));\n      }\n\n      var today = new Date();\n      var shipDate = getNextWeekday(today);\n      var options = { weekday: 'short', month: 'long', day: 'numeric' };\n      var formattedDate = shipDate.toLocaleDateString('en-US', options);\n      document.getElementById('shipping-date').textContent = formattedDate;\n    });\n  </script>\n</head>\n<body>\n  <div class=\"custom-shipping-container\">\n    <div class=\"custom-shipping-item\">\n      <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n        <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n      </svg>\n      <div class=\"text-block-shipping\">Ships by <span id=\"shipping-date\" class=\"shipping-date\"></span></div>\n    </div>\n    <div class=\"custom-shipping-item flags-container\">\n      <img class=\"custom-icon\" src=\"https://flagcdn.com/w20/{{ localization.country.iso_code | downcase }}.png\" alt=\"{{ localization.country.name }} Flag\">\n      <div class=\"shipping-worldwide\">Fast <span class=\"bold\">{{ localization.country.iso_code }}</span> Shipping</div>\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "parcelwill_parcel_panel_edd_nVXfBT": {
+          "type": "shopify://apps/cwill-parcel-panel/blocks/edd/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
+          "settings": {
+            "corner_radius": 4,
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "padding_x": 16,
+            "padding_y": 16
+          }
+        },
+        "custom_liquid_CDdbmk": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<!-- Add Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\" />\n\n<style>\n  /* Animation for the up-and-down effect */\n  .swiper-slide {\n    animation: moveUpDown 5.6s ease-in-out infinite; /* Increased the duration by 40% */\n  }\n\n  /* Keyframes for alternating up and down */\n  @keyframes moveUpDown {\n    0% {\n      transform: translateY(0);\n    }\n    50% {\n      transform: translateY(-10px); /* Moves up by 10px */\n    }\n    100% {\n      transform: translateY(0);\n    }\n  }\n\n  /* Stagger the animation using nth-child selector */\n  .swiper-slide:nth-child(odd) {\n    animation-delay: 0s;\n  }\n\n  .swiper-slide:nth-child(even) {\n    animation-delay: 2s; /* Adds a 2-second delay for even elements */\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; overflow: hidden; padding: 20px; background-color: #f9f9f9;\">\n  <div class=\"swiper-container\">\n    <div class=\"swiper-wrapper\">\n\n      <!-- Review 1 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_3.png?v=1738758299\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Alex Logan</div>\n            <div style=\"color: gray; font-size: 12px;\">5h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Removes fur fast without pulling. Coat looks amazing!\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">32</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">10 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/seli_1.png?v=1738757967\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Jane Smith</div>\n            <div style=\"color: gray; font-size: 12px;\">3h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Steam makes brushing smooth and painless—our dog loves it!\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">27</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">15 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_4.png?v=1738758487\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Dario Johnson</div>\n            <div style=\"color: gray; font-size: 12px;\">2h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Didn’t expect it to look this good in person. Feels like a scene alive.\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">12</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">8 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 4 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfi_2.png?v=1738758150\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Emily Davis</div>\n            <div style=\"color: gray; font-size: 12px;\">1h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Everyone who sees it compliments it. Looks even better at night with lights off.\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">45</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">22 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<!-- Add Swiper JS -->\n<script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n\n<script>\n  var swiper = new Swiper('.swiper-container', {\n    slidesPerView: 'auto',\n    spaceBetween: 20,\n    freeMode: true,\n    loop: true,\n  });\n</script>"
+          }
+        },
+        "loox_reviews_loox_card_carousel_section_aGBBnX": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 2,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": true,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "{{ product }}"
+          }
+        },
+        "selleasy_lb_upsell_fbt_block_L4mrmc": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "collapsible_tab_UDXTX9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "🐾 Features",
+            "icon": "none",
+            "content": "<ul><li><strong>3 Adjustable Launch Distances</strong></li></ul><p>Classic: 3m, 6m, or 9m (10, 20, 30 ft) </p><p>Upgraded: 6m, 10m, or 14m (20, 33, 46 ft)</p><p>to suit any room or backyard</p><ul><li><strong>Smart Auto-Launch</strong> — Infrared sensor fires the ball every 10 seconds automatically</li><li><strong>One-Button Control</strong> — Single button powers on and cycles through distance settings</li><li><strong>USB Rechargeable</strong> — No batteries required; charges like your phone. Lasts 3-4 hours on 2800mAh</li><li><strong>Compact Design</strong> — Small enough to tuck into any corner when not in use</li><li><strong>Works Indoors & Outdoors</strong> — Great for living rooms, patios, backyards, and hallways</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_CYF9aN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "📋 Description",
+            "icon": "none",
+            "content": "<p><strong>Keep Your Dog Active, Even When You're Busy</strong></p><p>The FetchMate™ Automatic Dog Ball Launcher is a compact, rechargeable launcher designed for dogs of all sizes. Available in two versions — Classic (48mm balls) and Upgraded (58mm ETPU balls) — there's a FetchMate suited to every breed and play style.</p><p>The Classic version uses a conveyor belt drive and comes with 6 soft 48mm tennis balls — ideal for small to medium dogs. The Upgraded version features a gear-side drive mechanism for greater reliability and power, with 6 larger 58mm ETPU balls that are better suited to medium and large breeds.</p><p>Both versions keep your pup physically active and mentally stimulated — helping to reduce boredom, restlessness, and the kind of mischief that comes with too much idle energy.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UNKeUR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "📦 What's Included?",
+            "icon": "none",
+            "content": "<p>Every FetchMate™ comes complete with everything you need to get playing straight out of the box:</p><ul><li><strong>1 × FetchMate™ Ball Launcher</strong> (Classic or Upgraded, based on your selection)</li><li><strong>6 × Soft Balls</strong> (48mm tennis balls for Classic / 58mm ETPU balls for Upgraded). Note - can't be used with any other balls eg standard tennis balls</li><li><strong>1 × USB Charging Cable</strong></li><li><strong>1 × Instruction Manual</strong></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_qMAYG7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "🛡️ Care + Safety",
+            "icon": "none",
+            "content": "<p><strong>Built with Your Dog's Safety in Mind</strong></p><ul><li><strong>Soft, mouth-friendly balls</strong> — Both the 48mm (2\") and 58mm (2.28\") balls are custom designed to be gentle on your dog's teeth and gums and softer impact. Any other balls can not be used with the machine eg standard tennis balls that will not fit. This is for your pet's safety.</li><li><strong>Supervised introduction recommended</strong> — We suggest staying nearby the first few times your dog uses the launcher to help them get comfortable with the sound and motion. Also, start with the lowest launch distance</li><li><strong>Normal operational noise</strong> — The internal roller mechanism produces some sound during use; this is completely normal and expected</li><li><strong>For supervised play</strong> — The FetchMate™ is best used with your awareness, even though it operates automatically</li><li><strong>Indoor surfaces</strong> — When using indoors, ensure there is enough clear space in the launch direction and remove any fragile items from the play area</li></ul><p><strong>Caring for Your Launcher</strong></p><ul><li>Wipe down with a dry or slightly damp cloth; do not submerge in water</li><li>Store indoors away from extreme heat or direct sunlight</li><li>Charge fully before first use and when the indicator light dims</li><li>If supplied balls are damaged or wet they should not be used or risk damaging the machine</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GreT7C": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "📐 Specifications",
+            "icon": "none",
+            "content": "<p><strong>Classic</strong></p><ul><li><strong>Ball Size:</strong> 48mm/2inch soft tennis balls</li><li><strong>Launch Mechanism</strong>: Conveyor belt drive</li><li>Best For: Small to medium dogs</li><li>Launch Distances:<strong> </strong>3, 6, 9m (10, 20, 30 ft)</li><li>Balls Included: 6</li><li>Power: USB rechargeable</li><li>Battery: 2800mAh rechargeable battery</li><li>Operation: One-button control</li><li>Auto-Launch Interval: Every 10 seconds</li><li>Detection: Infrared ball sensor</li><li>Unit Dimensions: 10.1 × 10.8 × 8.4 in</li><li>Use: Indoor & outdoor</li></ul><p><strong>Upgraded</strong></p><ul><li>Ball Size: 58mm/2.28inch ETPU balls</li><li>Launch Mechanism: Gear side drive</li><li>Best For: Medium to large dogs</li><li>Launch Distances: 6, 10, 14m (20, 33, 46 ft)</li><li>Balls Included: 6</li><li>Power: USB rechargeable</li><li>Battery: 2800mAh rechargeable battery</li><li>Operation: One-button control</li><li>Auto-Launch Interval: Every 10 seconds</li><li>Detection: Infrared ball sensor</li><li>Unit Dimensions: 10.1 × 10.8 × 8.4 in</li><li>Use: Indoor & outdoor</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_XUnHGE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "🚚 Shipping & Returns",
+            "icon": "none",
+            "content": "<p><strong>Shipping</strong></p><ul><li>✨ FREE Worldwide Shipping on all orders</li><li>Orders are processed and dispatched within 1–3 business days</li><li>Estimated delivery: 7–15 business days (may vary by location)</li></ul><p><strong>Returns</strong></p><ul><li><strong>30-day returns </strong>from the date of delivery</li><li>If you're not completely satisfied, contact our team to initiate a return or exchange</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "line_NzbVwF",
+        "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
+        "loox_reviews_loox_rating_xnBNQ6",
+        "price",
+        "smartbot_product_highlights_zgeXm3",
+        "custom_liquid_8HfVEe",
+        "text_benefits_YhdXMz",
+        "variant_picker",
+        "quantity_selector",
+        "dealeasy_vd_cards_RrakMx",
+        "selleasy_lb_upsell_addon_block_manXUF",
+        "buy_buttons",
+        "custom_liquid_mFHENq",
+        "parcelwill_parcel_panel_edd_nVXfBT",
+        "custom_liquid_CDdbmk",
+        "loox_reviews_loox_card_carousel_section_aGBBnX",
+        "selleasy_lb_upsell_fbt_block_L4mrmc",
+        "collapsible_tab_UDXTX9",
+        "collapsible_tab_CYF9aN",
+        "collapsible_tab_UNKeUR",
+        "collapsible_tab_qMAYG7",
+        "collapsible_tab_GreT7C",
+        "collapsible_tab_XUnHGE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "show_container": true,
+        "container_radius": 12,
+        "container_padding": 30,
+        "container_color": "#ffffff",
+        "container_border_color": "#ffa100",
+        "container_text": "<strong>This Offer is For Limited Time Only</strong>",
+        "container_text_bg": "#ffa100",
+        "container_text_txt": "#ffffff",
+        "show_container_mb": true,
+        "container_padding_mb": 20,
+        "container_radius_mb": 8,
+        "container_color_mb": "#ffffff",
+        "container_border_color_mb": "#f9f9f9",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "vertical_left",
+        "thumbnail_size": 80,
+        "thumbnail_radius": 4,
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "show_full_image": false,
+        "first_image_size": 100,
+        "second_image_size": 0,
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 28,
+        "padding_bottom": 100,
+        "padding_top_mb": 0,
+        "padding_bottom_mb": 36
+      }
+    },
+    "rich_text_6mpUN9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4qbVbb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hands-free fetch, on demand",
+            "heading_size": "h1"
+          }
+        },
+        "text_HeCUiU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>FetchMate</strong>™ does the throwing so your arm doesn't have to.</p><p>Drop a ball in, walk away, and let your dog <strong>entertain themselves</strong> — it auto-launches every 10 seconds using infrared ball detection.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4qbVbb",
+        "text_HeCUiU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_nLHK4B": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BTVMwn": {
+          "type": "column",
+          "settings": {
+            "title": "🎯 3 launch distances",
+            "text": "<p><strong>Classic </strong>Choose 3, 6 or 9m (10, 20, 30 ft) to suit your space — indoors or out or</p><p><strong>Upgraded</strong> 6, 10 or 14m (20, 33, 46 ft)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EpmRyw": {
+          "type": "column",
+          "settings": {
+            "title": "🔴 Smart infrared detection (Classic only)",
+            "text": "<p>Automatically senses a ball and fires — no button pressing needed after setup</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9t9eXe": {
+          "type": "column",
+          "settings": {
+            "title": "⚡ Rechargeable & portable",
+            "text": "<p>USB-C charging, 3-4 hours life, cord-free play anywhere — inside, outside, on the go</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CC4qyF": {
+          "type": "column",
+          "settings": {
+            "title": "🎾Soft custom balls",
+            "text": "<p>6 soft custom balls included, gentle on teeth and gums, smaller than standard tennis balls.</p><p>Either: <strong>48mm (2\") for small to medium</strong> doggos</p><p>or <strong>58mm (2.28\") ETPU balls better</strong> suited to <strong>medium to large</strong> dogs</p><p><strong>Note - can not be used with any other balls eg larger standard tennis balls.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BTVMwn",
+        "column_EpmRyw",
+        "column_9t9eXe",
+        "column_CC4qyF"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_center": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "navigation_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_LjFxmR": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_RTfQGY": {
+          "type": "heading",
+          "settings": {
+            "heading": "🐾 <strong>Keep your dog active, happy, and entertained — even when you're too busy to play.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_hBdbkb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>FetchMate</strong>™ is a compact, rechargeable automatic ball launcher that does the throwing for you. Set it up, drop in a ball, and watch your dog go wild — on repeat.</p><p>🎾 Adjustable launch distances, smart infrared detection, and six soft custom balls make it the go-to fetch toy for any space — living room or backyard.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RTfQGY",
+        "text_hBdbkb"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/instagram_1779788860785-ezgif.com-optimize.gif",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_qNV8xq": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_Rqt7Bc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designed for every dog",
+            "heading_size": "h1"
+          }
+        },
+        "text_Hh9bi6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you have a tireless border collie or a leisurely beagle, the <strong>FetchMate</strong>™ adapts to their energy level. The<strong> one-button control</strong> makes switching distances effortless, and the compact 10.1 × 10.8 × 8.4 inch body stores easily anywhere.</p><p>Dogs who play with the <strong>FetchMate</strong>™ get the <strong>physical exercise</strong> and <strong>mental stimulation</strong> they need — reducing boredom, restlessness, and destructive behaviour. And you get to <strong>sit back and enjoy</strong> watching.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rqt7Bc",
+        "text_Hh9bi6"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/ball_launcher_instruction.gif",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_q73bfX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"frm-compare-wrap\">\n  <style>\n    .frm-compare-wrap {\n      --frm-ink: #1B2B22;\n      --frm-forest: #1F3A2E;\n      --frm-forest-light: #2C5240;\n      --frm-amber: #D98E04;\n      --frm-amber-light: #F4C766;\n      --frm-cream: #FAF8F3;\n      --frm-cream-2: #F2F0E8;\n      --frm-upgraded-cell: #FFF7E8;\n      --frm-line: #E2E0D8;\n      --frm-muted: #6E7568;\n      max-width: 880px;\n      margin: 40px auto;\n      font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n      color: var(--frm-ink);\n      box-sizing: border-box;\n    }\n    .frm-compare-wrap *, .frm-compare-wrap *::before, .frm-compare-wrap *::after { box-sizing: border-box; }\n\n    .frm-compare-title {\n      text-align: center;\n      font-size: 24px;\n      font-weight: 800;\n      letter-spacing: -0.01em;\n      margin: 0 0 4px;\n      color: var(--frm-forest);\n    }\n    .frm-compare-sub {\n      text-align: center;\n      font-size: 14px;\n      color: var(--frm-muted);\n      margin: 0 0 24px;\n    }\n\n    /* ===== Table shell ===== */\n    .frm-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }\n    .frm-table {\n      width: 100%;\n      min-width: 560px;\n      border-collapse: separate;\n      border-spacing: 12px 0;\n      table-layout: fixed;\n    }\n    .frm-table col.frm-col-label { width: 30%; }\n    .frm-table col.frm-col-data { width: 35%; }\n\n    /* ===== Header row ===== */\n    .frm-th-blank { border: none; }\n    .frm-th {\n      padding: 16px 12px;\n      text-align: center;\n      vertical-align: middle;\n      position: relative;\n    }\n    .frm-th-classic { background: var(--frm-forest); color: #fff; border-radius: 14px 14px 0 0; }\n    .frm-th-upgraded { background: var(--frm-amber); color: var(--frm-forest); border-radius: 14px 14px 0 0; }\n    .frm-head-name { display: block; font-size: 17px; font-weight: 800; }\n    .frm-head-tag {\n      display: inline-block;\n      margin-top: 6px;\n      font-size: 11px;\n      font-weight: 700;\n      text-transform: uppercase;\n      letter-spacing: 0.04em;\n      padding: 3px 9px;\n      border-radius: 100px;\n      background: rgba(255,255,255,0.18);\n    }\n    .frm-th-upgraded .frm-head-tag { background: rgba(31,58,46,0.12); }\n    /* In normal document flow (not absolutely positioned) so it can never get\n       clipped by a scrolling/overflow ancestor — see .frm-table-scroll below. */\n    .frm-best-badge {\n      display: inline-block;\n      white-space: nowrap;\n      background: var(--frm-forest);\n      color: #fff;\n      font-size: 10px;\n      font-weight: 700;\n      text-transform: uppercase;\n      letter-spacing: 0.03em;\n      padding: 4px 8px;\n      border-radius: 100px;\n      box-shadow: 0 2px 6px rgba(0,0,0,0.18);\n      margin-bottom: 8px;\n    }\n\n    /* ===== Body cells ===== */\n    .frm-label {\n      padding: 16px 4px;\n      font-size: 13.5px;\n      font-weight: 700;\n      color: var(--frm-forest);\n      vertical-align: middle;\n      border-bottom: 1px solid var(--frm-line);\n      white-space: nowrap;\n    }\n    .frm-label svg { width: 18px; height: 18px; color: var(--frm-amber); vertical-align: -4px; margin-right: 6px; }\n\n    .frm-cell {\n      background: var(--frm-cream);\n      padding: 16px 14px;\n      font-size: 14px;\n      line-height: 1.45;\n      vertical-align: middle;\n      border-bottom: 1px solid var(--frm-line);\n    }\n    .frm-cell-upgraded { background: var(--frm-upgraded-cell); border-left: 2px solid var(--frm-amber-light); }\n\n    tbody tr:nth-child(even) .frm-cell:not(.frm-cell-upgraded) { background: var(--frm-cream-2); }\n    tbody tr:last-child .frm-label,\n    tbody tr:last-child .frm-cell { border-bottom: none; }\n    tbody tr:last-child .frm-cell:nth-child(2) { border-radius: 0 0 10px 10px; }\n    tbody tr:last-child .frm-cell-upgraded { border-radius: 0 0 10px 10px; }\n\n    /* distance bars — rendered as inline SVG rects rather than nested divs\n       with inline width styles, since some themes/apps strip inline `style`\n       attributes from pasted HTML, which silently kills that approach. */\n    .frm-bars { display: flex; flex-direction: column; gap: 6px; }\n    .frm-bar-line { display: flex; align-items: center; gap: 8px; }\n    .frm-bar-svg { flex: 1; min-width: 0; width: 100%; height: 8px; display: block; }\n    .frm-bar-num { font-size: 12px; font-weight: 700; width: 62px; flex-shrink: 0; color: var(--frm-muted); }\n\n    .frm-balls { display: flex; align-items: center; gap: 6px; font-weight: 700; }\n    .frm-balls svg { width: 16px; height: 16px; color: var(--frm-amber); }\n\n    .frm-scroll-hint {\n      display: none;\n      text-align: center;\n      font-size: 12px;\n      color: var(--frm-muted);\n      margin-top: 8px;\n    }\n\n    /* ===== Mobile: keep it a real table, just let it scroll ===== */\n    @media (max-width: 640px) {\n      .frm-table { min-width: 540px; }\n      .frm-scroll-hint { display: block; }\n    }\n  </style>\n\n  <p class=\"frm-compare-title\">Classic vs Upgraded — Which FetchMate Fits Your Dog?</p>\n  <p class=\"frm-compare-sub\">Compare launch distance, drive system, and ball compatibility at a glance</p>\n\n  <div class=\"frm-table-scroll\">\n    <table class=\"frm-table\">\n      <colgroup>\n        <col class=\"frm-col-label\">\n        <col class=\"frm-col-data\">\n        <col class=\"frm-col-data\">\n      </colgroup>\n      <thead>\n        <tr>\n          <th class=\"frm-th-blank\"></th>\n          <th class=\"frm-th frm-th-classic\">\n            <span class=\"frm-head-name\">Classic</span>\n            <span class=\"frm-head-tag\">48mm Balls</span>\n          </th>\n          <th class=\"frm-th frm-th-upgraded\">\n            <span class=\"frm-best-badge\">Best for Bigger Dogs</span><br>\n            <span class=\"frm-head-name\">Upgraded</span>\n            <span class=\"frm-head-tag\">58mm Balls</span>\n          </th>\n        </tr>\n      </thead>\n      <tbody>\n        <!-- Launch Distance -->\n        <tr>\n          <td class=\"frm-label\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 12h18M3 12l4-4M3 12l4 4M21 12l-4-4M21 12l-4 4\"/></svg>\n            Launch Distance\n          </td>\n          <td class=\"frm-cell\">\n            <div class=\"frm-bars\">\n              <div class=\"frm-bar-line\"><span class=\"frm-bar-num\">3m / 10ft</span><svg class=\"frm-bar-svg\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"rgba(0,0,0,0.08)\"/><rect x=\"0\" y=\"0\" width=\"21\" height=\"8\" rx=\"4\" fill=\"#2C5240\"/></svg></div>\n              <div class=\"frm-bar-line\"><span class=\"frm-bar-num\">6m / 20ft</span><svg class=\"frm-bar-svg\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"rgba(0,0,0,0.08)\"/><rect x=\"0\" y=\"0\" width=\"43\" height=\"8\" rx=\"4\" fill=\"#2C5240\"/></svg></div>\n              <div class=\"frm-bar-line\"><span class=\"frm-bar-num\">9m / 30ft</span><svg class=\"frm-bar-svg\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"rgba(0,0,0,0.08)\"/><rect x=\"0\" y=\"0\" width=\"64\" height=\"8\" rx=\"4\" fill=\"#2C5240\"/></svg></div>\n            </div>\n          </td>\n          <td class=\"frm-cell frm-cell-upgraded\">\n            <div class=\"frm-bars\">\n              <div class=\"frm-bar-line\"><span class=\"frm-bar-num\">6m / 20ft</span><svg class=\"frm-bar-svg\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"rgba(0,0,0,0.08)\"/><rect x=\"0\" y=\"0\" width=\"43\" height=\"8\" rx=\"4\" fill=\"#D98E04\"/></svg></div>\n              <div class=\"frm-bar-line\"><span class=\"frm-bar-num\">10m / 33ft</span><svg class=\"frm-bar-svg\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"rgba(0,0,0,0.08)\"/><rect x=\"0\" y=\"0\" width=\"71\" height=\"8\" rx=\"4\" fill=\"#D98E04\"/></svg></div>\n              <div class=\"frm-bar-line\"><span class=\"frm-bar-num\">14m / 46ft</span><svg class=\"frm-bar-svg\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"rgba(0,0,0,0.08)\"/><rect x=\"0\" y=\"0\" width=\"100\" height=\"8\" rx=\"4\" fill=\"#D98E04\"/></svg></div>\n            </div>\n          </td>\n        </tr>\n\n        <!-- Drive System -->\n        <tr>\n          <td class=\"frm-label\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009.6 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9.6a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9c.26.604.852 1 1.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z\"/></svg>\n            Drive System\n          </td>\n          <td class=\"frm-cell\">Conveyor belt drive</td>\n          <td class=\"frm-cell frm-cell-upgraded\"><strong>Gear side drive</strong> — built for greater reliability &amp; performance</td>\n        </tr>\n\n        <!-- Ball Size -->\n        <tr>\n          <td class=\"frm-label\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18\"/></svg>\n            Ball Size\n          </td>\n          <td class=\"frm-cell\">48mm / 2&Prime; soft tennis balls</td>\n          <td class=\"frm-cell frm-cell-upgraded\">58mm / 2.25&Prime; ETPU balls — better suited to medium–large dogs</td>\n        </tr>\n\n        <!-- Balls Included -->\n        <tr>\n          <td class=\"frm-label\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"9\"/></svg>\n            Balls Included\n          </td>\n          <td class=\"frm-cell\"><span class=\"frm-balls\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"9\"/></svg>6 balls included</span></td>\n          <td class=\"frm-cell frm-cell-upgraded\"><span class=\"frm-balls\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"9\"/></svg>6 balls included</span></td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  <p class=\"frm-scroll-hint\">Swipe to compare →</p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "section_divider_7pigDm": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_columns_wj766j": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_myc8Lz": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "color": "#ffffff",
+            "heading": "FetchMate™ Insights",
+            "heading_size": "h1",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "icon_with_text_WkqieC": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "pets",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Tired dog, guaranteed",
+            "text": "<p>Dogs need up to 2 hours of exercise daily. FetchMate keeps them moving in short, high-energy bursts — so they're calm, happy, and ready to rest by the time you are.</p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "icon_with_text_naBAkH": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "smart_toy",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Smarter than it looks",
+            "text": "<p>The infrared sensor detects when a ball is dropped in and auto-launches every 10 seconds. No buttons, no timing — your dog quickly learns the loop and runs the whole game themselves.</p>",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "image_PNhUrF": {
+          "type": "image",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "image": "shopify://shop_images/S62f8a67298a04167b4402f9eee812cebW.webp",
+            "width": 100,
+            "alignment": "center",
+            "mobile_alignment": "center",
+            "border_radius": 0,
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "icon_with_text_iwzQRQ": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "sound_detection_dog_barking",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Play anywhere, anytime",
+            "text": "<p>From hallways to backyards, the adjustable range fits any space. Cord-free USB charging means no wall needed — just set it down and let the game begin.</p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "icon_with_text_waAApd": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "sports_tennis",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Six balls, zero excuses",
+            "text": "<p>Six soft elastic balls are included so play never stops for a lost one. Smaller than standard tennis balls, they're gentle on gums — and tough enough to survive even the most enthusiastic retriever.</p>",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_myc8Lz",
+        "icon_with_text_WkqieC",
+        "icon_with_text_naBAkH",
+        "image_PNhUrF",
+        "icon_with_text_iwzQRQ",
+        "icon_with_text_waAApd"
+      ],
+      "custom_css": [
+        ".icons-with-text__icon__title {font-size: 24px !important;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 25%, rgba(3, 3, 3, 1) 68%)",
+        "text_color": "#000000",
+        "columns_count": 4,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 30,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 4,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 4,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 4,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_MbaFyh": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "#030303",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "comparison_table_pFrHmC": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_P7CGYM": {
+          "type": "row",
+          "settings": {
+            "benefit": "Infrared auto-detection",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_jkcHzy": {
+          "type": "row",
+          "settings": {
+            "benefit": "3 adjustable distances",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_WMDrN9": {
+          "type": "row",
+          "settings": {
+            "benefit": "6 balls included",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_FNfapp": {
+          "type": "row",
+          "settings": {
+            "benefit": "Indoor + outdoor use",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_mdxHAj": {
+          "type": "row",
+          "settings": {
+            "benefit": "USB rechargeable",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_kPwnBJ": {
+          "type": "row",
+          "settings": {
+            "benefit": "Two ball size options",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_EPYBEY": {
+          "type": "row",
+          "settings": {
+            "benefit": "Value for Money",
+            "us": true,
+            "others": false
+          }
+        }
+      },
+      "block_order": [
+        "row_P7CGYM",
+        "row_jkcHzy",
+        "row_WMDrN9",
+        "row_FNfapp",
+        "row_mdxHAj",
+        "row_kPwnBJ",
+        "row_EPYBEY"
+      ],
+      "settings": {
+        "title": "Why Choose Us",
+        "heading_size": "h1",
+        "text": "<p>Don’t settle for <strong>cheap imitations</strong>. </p><p><strong>Rover Rituals</strong> offers <strong>trusted quality</strong> and <strong>reliability</strong> for your pet’s<strong> needs</strong>.</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "layout": "table_second",
+        "color_scheme": "background-1",
+        "logo": "shopify://shop_images/image-removebg-preview_-_2024-12-16T152328.564_7c42fe58-0531-43ed-adb7-71a5343625e3.png",
+        "logo_width": 135,
+        "mobile_logo_width": 100,
+        "us_label": "",
+        "others_label": "OTHERS",
+        "benefit_color_scheme": "",
+        "checkmark_color": "#030303",
+        "icon_cells_color_scheme": "",
+        "cross_bg_color": "#e20000",
+        "cross_color": "#ffffff",
+        "table_corner_radius": 0,
+        "table_shadow_opacity": 15,
+        "table_shadow_horizontal_offset": 0,
+        "table_shadow_vertical_offset": 0,
+        "table_shadow_blur": 0,
+        "table_border_thickness": 1,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "collection_text_alignment": "left",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-db99ff9f-6edc-4519-b5ed-c65e6bf9d4bc",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "section_divider_tMkjCY": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq_6HVkFq": {
+      "type": "faq",
+      "blocks": {
+        "collapsible_row_feFeTq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to get my orders?",
+            "icon": "check_mark",
+            "row_content": "<p>Shipping times vary by customer location and product shipping location, however orders arrive in approximately 7 - 14 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YjzWgT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long after my order is placed will it be shipped?",
+            "icon": "check_mark",
+            "row_content": "<p>Orders are typically processed and shipped within 3 business days, although during high demand times items may ship within 5 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3nw4Nm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where is your company located?",
+            "icon": "check_mark",
+            "row_content": "<p>Our headquarters is in the AU while our warehouses are located across the United States, Europe, and China.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hWx9kq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I receive a confirmation number after I place my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, all customers will receive a confirmation number to the email they provide during checkout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9JxtVX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I pay?",
+            "icon": "check_mark",
+            "row_content": "<p>We accept all major credit cards: Visa, MasterCard, Discover; and PayPal</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_feFeTq",
+        "collapsible_row_YjzWgT",
+        "collapsible_row_3nw4Nm",
+        "collapsible_row_hWx9kq",
+        "collapsible_row_9JxtVX"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 23%, rgba(3, 3, 3, 1) 84%)",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_HUDVjJ": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lumin_mega_83GL93": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_HKRHnb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Started In Melbourne, AU",
+            "heading_size": "h1"
+          }
+        },
+        "text_HYHPr8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the journey of <strong>Rover Rituals™</strong>, born in the vibrant heart of <strong>Melbourne</strong>.</p><p>Our headquarters are in AU while our warehouses are located across the United States, Europe and Australia</p><p>Meticulously crafted, our products blend innovative <strong>design</strong> with unmatched functionality, making everyday pet care easier and more enjoyable.</p><p>We’re dedicated to your <strong>satisfaction</strong>, proudly backing every purchase with a <strong>Satisfaction Guarantee</strong>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HKRHnb",
+        "text_HYHPr8"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/dog-with-harness-in-park.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1738693624992cb069": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_HbWCiB": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_HbWCiB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumb_MwgGWV",
+    "main",
+    "rich_text_6mpUN9",
+    "multicolumn_nLHK4B",
+    "lumin_mega_LjFxmR",
+    "lumin_mega_qNV8xq",
+    "custom_liquid_q73bfX",
+    "section_divider_7pigDm",
+    "custom_columns_wj766j",
+    "section_divider_MbaFyh",
+    "comparison_table_pFrHmC",
+    "related-products",
+    "section_divider_tMkjCY",
+    "faq_6HVkFq",
+    "section_divider_HUDVjJ",
+    "lumin_mega_83GL93",
+    "1738693624992cb069"
+  ]
+}

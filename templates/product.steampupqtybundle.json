@@ -1,0 +1,951 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 30,
+            "title_height": 120,
+            "text_transform": "none"
+          }
+        },
+        "line_NzbVwF": {
+          "type": "line",
+          "settings": {
+            "line_color": "#030303",
+            "padding_top": 0,
+            "padding_bottom": 12
+          }
+        },
+        "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "lrw_text": "<strong>4.4 From 200+ Reviews</strong>",
+            "text_size": 14,
+            "star_style": "star_bg_2",
+            "star_size": 0.8,
+            "star_rating": 4.5,
+            "lrw_star_color": "#ffd700",
+            "lrw_star_color_disable": "#eeeeee",
+            "lrw_color": "#030303",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "loox_reviews_loox_rating_KCyQ9A": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_style": "price_2",
+            "price_size": 19,
+            "badge_text_1": 10,
+            "price_first": true,
+            "badge_bg_1": "#c74b4b",
+            "badge_price_1": "#ffffff",
+            "price_size_2": 0.7,
+            "badge_price": "#8b8d8f",
+            "price_bold_2": false,
+            "sale_price_color": "#d50000",
+            "regular_price_color": "#000000",
+            "price_bold": false,
+            "badge_hide": false,
+            "taxes_hide": false,
+            "shipping_hide": false,
+            "padding_top": 8,
+            "padding_bottom": 0
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "label_style": "body",
+            "font_size": 14,
+            "font_style": "normal",
+            "swatchType": "variantImage",
+            "optionName": "Color",
+            "swatchStyle": "square-round-corners",
+            "swatchSize": 50,
+            "swatchHeight": 50,
+            "size_trigger": "",
+            "chart_id": "",
+            "size_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "enable_quantity_discounts": true,
+            "quantity_style": "horizontal",
+            "columns_block": "25",
+            "preselected": "1",
+            "show_quantity_label": true,
+            "hide_lines": false,
+            "show_head_border": true,
+            "title_text_align": "center",
+            "quantity_title_text": "<p><strong>BUNDLE & SAVE</strong></p>",
+            "quantity_subtitle_text": "",
+            "title_font_size": 1.8,
+            "subtitle_font_size": 1.3,
+            "title_color": "#000000",
+            "subtitle_color": "#000000",
+            "title_line_color": "#000000",
+            "title_bg_color": "#ffffff",
+            "hide_checkbox": false,
+            "show_strikethrough": true,
+            "show_total_pricing": true,
+            "show_per_unit": false,
+            "badge_style": "ribbon ribbon-top-right",
+            "option_1_label": "Buy 1",
+            "option_1_quantity": 1,
+            "option_1_discount_percentage": 0,
+            "option_1_badge_enable": false,
+            "option_1_badge_text": "Most Popular",
+            "option_1_unit_label": "($)/Pcs",
+            "option_1_save_text": "You save 50%",
+            "option_2_label": "Buy 2",
+            "option_2_quantity": 2,
+            "option_2_discount_percentage": 10,
+            "option_2_badge_enable": true,
+            "option_2_badge_text": "Most Popular",
+            "option_2_unit_label": "($)/Pcs",
+            "option_2_save_text": "You save extra 10%",
+            "option_3_label": "Buy 3",
+            "option_3_quantity": 3,
+            "option_3_discount_percentage": 20,
+            "option_3_badge_enable": false,
+            "option_3_badge_text": "Most Popular",
+            "option_3_unit_label": "($)/Pcs",
+            "option_3_save_text": "You save extra 20%",
+            "option_4_label": "",
+            "option_4_quantity": 4,
+            "option_4_discount_percentage": 0,
+            "option_4_badge_enable": false,
+            "option_4_badge_text": "Most Popular",
+            "option_4_unit_label": "($)/Pcs",
+            "option_4_save_text": "Save (%)",
+            "option_5_label": "Offer",
+            "option_5_quantity": 0,
+            "option_5_discount_percentage": 0,
+            "option_5_badge_enable": false,
+            "option_5_badge_text": "Most Popular",
+            "option_5_unit_label": "($)/Pcs",
+            "option_5_save_text": "Save (%)",
+            "option_6_label": "Offer",
+            "option_6_quantity": 0,
+            "option_6_discount_percentage": 0,
+            "option_6_badge_enable": false,
+            "option_6_badge_text": "Most Popular",
+            "option_6_unit_label": "($)/Pcs",
+            "option_6_save_text": "Save (%)",
+            "border_radius": 0.5,
+            "option_bottom_spacing": 2.5,
+            "option_height_spacing": 1.8,
+            "label_font_size": 1.7,
+            "compare_price_font_size": 1.3,
+            "final_price_font_size": 1.5,
+            "per_unit_font_size": 1,
+            "buttons_border_thickness": 0.1,
+            "border_color_unselected": "#cccccc",
+            "text_color_unselected": "#121212",
+            "back_color_unselected": "#ffffff",
+            "border-color-hover-unselected": "#eeeeee",
+            "text_color_selected": "#000000",
+            "selected_button_bg_color": "#f4f4f4",
+            "selected_button_dot_color": "#000000",
+            "selected_button_border_color": "#121212",
+            "savings_label_font_size": 1.1,
+            "badge_font_size": 1,
+            "savings_text_color": "#ffffff",
+            "savings_bg_color": "#334fb4",
+            "badge_bg_color": "#e33e3e",
+            "badge_font_color": "#ffffff",
+            "compare_font_color": "#000000"
+          }
+        },
+        "inventory_qFQUbD": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "bar_font_size": 14,
+            "inventory_threshold": 10,
+            "show_inventory_bar": true,
+            "show_inventory_pill": true,
+            "text_soldout": "Unfortunately this item is sold-out!",
+            "text_untracked": "Currently this item has stock!",
+            "text_low_one": "Hurry up! Only 1 item is in stock",
+            "text_low_many": "Hurry up! Only [qty] items are in stock.",
+            "text_normal": "Currently [qty] items are in stock!",
+            "inv_bar_height": 3,
+            "inv_bar_radius": 0,
+            "normal_pill_color": "#3ed660",
+            "normal_color": "#0da73f",
+            "normal_color_2": "#9befb6",
+            "low_pill_color": "#ff0505",
+            "low_color": "#ff3484",
+            "low_color_2": "#f1e04d",
+            "sold_pill_color": "#c8c8c8",
+            "background_bar": "#e9ecef"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_full_button": true,
+            "lm_main_button": "#b0014d",
+            "lm_main_button_gr": "",
+            "lm_main_text": "#ffffff",
+            "lm_button_animation": "soft",
+            "show_gift_card_recipient": true,
+            "skip_cart": false,
+            "cart_text": ""
+          }
+        },
+        "custom_liquid_mFHENq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    .custom-shipping-container {\n      display: flex;\n      padding: 6px 16px;\n      justify-content: space-between;\n      align-items: center;\n      background-color: #f6f6f6;\n      border-radius: 20px;\n      margin-top: 10px;\n    }\n\n    .custom-shipping-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .text-block-shipping {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-date {\n      font-weight: bold;\n    }\n\n    .shipping-worldwide {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-worldwide .bold {\n      font-weight: bold;\n    }\n\n    .green-circle {\n      animation: fade 1s ease-in-out infinite;\n    }\n\n    @keyframes fade {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .flags-container {\n      display: flex;\n      gap: 6px;\n      align-items: center;\n    }\n    \n    .custom-icon {\n      width: 12px;\n      height: 8px;\n    }\n  </style>\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      function getNextWeekday(date) {\n        var day = date.getDay();\n        var daysToAdd = (day === 5) ? 3 : (day === 6) ? 2 : 1;\n        return new Date(date.setDate(date.getDate() + daysToAdd));\n      }\n\n      var today = new Date();\n      var shipDate = getNextWeekday(today);\n      var options = { weekday: 'short', month: 'long', day: 'numeric' };\n      var formattedDate = shipDate.toLocaleDateString('en-US', options);\n      document.getElementById('shipping-date').textContent = formattedDate;\n    });\n  </script>\n</head>\n<body>\n  <div class=\"custom-shipping-container\">\n    <div class=\"custom-shipping-item\">\n      <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n        <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n      </svg>\n      <div class=\"text-block-shipping\">Ships by <span id=\"shipping-date\" class=\"shipping-date\"></span></div>\n    </div>\n    <div class=\"custom-shipping-item flags-container\">\n      <img class=\"custom-icon\" src=\"https://flagcdn.com/w20/{{ localization.country.iso_code | downcase }}.png\" alt=\"{{ localization.country.name }} Flag\">\n      <div class=\"shipping-worldwide\">Fast <span class=\"bold\">{{ localization.country.iso_code }}</span> Shipping</div>\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "custom_liquid_CDdbmk": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Add Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\" />\n\n<style>\n  /* Animation for the up-and-down effect */\n  .swiper-slide {\n    animation: moveUpDown 5.6s ease-in-out infinite; /* Increased the duration by 40% */\n  }\n\n  /* Keyframes for alternating up and down */\n  @keyframes moveUpDown {\n    0% {\n      transform: translateY(0);\n    }\n    50% {\n      transform: translateY(-10px); /* Moves up by 10px */\n    }\n    100% {\n      transform: translateY(0);\n    }\n  }\n\n  /* Stagger the animation using nth-child selector */\n  .swiper-slide:nth-child(odd) {\n    animation-delay: 0s;\n  }\n\n  .swiper-slide:nth-child(even) {\n    animation-delay: 2s; /* Adds a 2-second delay for even elements */\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; overflow: hidden; padding: 20px; background-color: #f9f9f9;\">\n  <div class=\"swiper-container\">\n    <div class=\"swiper-wrapper\">\n\n      <!-- Review 1 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_3.png?v=1738758299\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Alex Logan</div>\n            <div style=\"color: gray; font-size: 12px;\">5h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Couldn’t stop staring at it. The glow, the scene - it’s absolutely beautiful!\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">32</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">10 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/seli_1.png?v=1738757967\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Jane Smith</div>\n            <div style=\"color: gray; font-size: 12px;\">3h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Honestly the best thing I’ve added to my room. Subtle, emotional, and super aesthetic.\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">27</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">15 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_4.png?v=1738758487\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Dario Johnson</div>\n            <div style=\"color: gray; font-size: 12px;\">2h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Didn’t expect it to look this good in person. Feels like a scene alive.\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">12</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">8 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 4 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfi_2.png?v=1738758150\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Emily Davis</div>\n            <div style=\"color: gray; font-size: 12px;\">1h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Everyone who sees it compliments it. Looks even better at night with lights off.\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">45</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">22 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<!-- Add Swiper JS -->\n<script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n\n<script>\n  var swiper = new Swiper('.swiper-container', {\n    slidesPerView: 'auto',\n    spaceBetween: 20,\n    freeMode: true,\n    loop: true,\n  });\n</script>"
+          }
+        },
+        "collapsible_tab_9izKX8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "Specifications",
+            "icon": "question_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "line_NzbVwF",
+        "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
+        "loox_reviews_loox_rating_KCyQ9A",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "inventory_qFQUbD",
+        "buy_buttons",
+        "custom_liquid_mFHENq",
+        "custom_liquid_CDdbmk",
+        "collapsible_tab_9izKX8"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "show_container": true,
+        "container_radius": 12,
+        "container_padding": 30,
+        "container_color": "#ffffff",
+        "container_border_color": "#b0014d",
+        "container_text": "<strong>This Offer is For Limited Time Only</strong>",
+        "container_text_bg": "#b0014d",
+        "container_text_txt": "#ffffff",
+        "show_container_mb": true,
+        "container_padding_mb": 20,
+        "container_radius_mb": 8,
+        "container_color_mb": "#ffffff",
+        "container_border_color_mb": "#f9f9f9",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "vertical_left",
+        "thumbnail_size": 80,
+        "thumbnail_radius": 4,
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "show_full_image": false,
+        "first_image_size": 100,
+        "second_image_size": 0,
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 28,
+        "padding_bottom": 100,
+        "padding_top_mb": 0,
+        "padding_bottom_mb": 36
+      }
+    },
+    "rich_text_6mpUN9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4qbVbb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ultimate Walking Redefined",
+            "heading_size": "h1"
+          }
+        },
+        "text_HeCUiU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>WalkEase Pro™</strong> offers the ultimate in <strong>No Pull Dog Harness and AUTO LOCK Retractable Leash</strong> with an <strong>adjustable chest band</strong>, ensuring a perfect fit for dogs of all sizes.</p><p>From small puppies with the <strong>mini </strong>to larger breeds, every walk is <strong>stress-free</strong>, with <strong>maximum comfort</strong> and support for your four-legged friend.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4qbVbb",
+        "text_HeCUiU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "lumin_mega_qNV8xq": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_Rqt7Bc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Freedom with Security",
+            "heading_size": "h1"
+          }
+        },
+        "text_Hh9bi6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let your dog explore safely with <strong>WalkEase Pro™</strong></p><p>The 1.3m (52inch) <strong>retractable leash</strong> allows controlled roaming, while the secure harness ensures safety.</p><p>The retractable leash also features an innovative<strong> seat belt style auto lock off </strong>lead ensuring control for unexpected pulls or if the lead if dropped</p><p>Perfect for busy streets or nature trails, giving your dog the <strong>freedom</strong> they crave.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rqt7Bc",
+        "text_Hh9bi6"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/harnessgif2.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_eGYexp": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_bmFEEH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Freedom with Security",
+            "heading_size": "h1"
+          }
+        },
+        "text_cgLgkd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let your dog explore safely with <strong>WalkEase Pro™</strong></p><p>The 1.3m (52inch) <strong>retractable leash</strong> allows controlled roaming, while the secure harness ensures safety.</p><p>The retractable leash also features an innovative<strong> seat belt style auto lock off </strong>lead ensuring control for unexpected pulls or if the lead if dropped</p><p>Perfect for busy streets or nature trails, giving your dog the <strong>freedom</strong> they crave.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bmFEEH",
+        "text_cgLgkd"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/harnessgif2.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_7pigDm": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_columns_wj766j": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_myc8Lz": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "color": "#ffffff",
+            "heading": "WalkEase Pro™ Insights",
+            "heading_size": "h1",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "icon_with_text_WkqieC": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "merge_type",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "All-In-One",
+            "text": "<p>Combines <strong>retractable auto lock off belt</strong> and <strong>no-pull harness</strong> for ultimate <strong>convenience</strong> and <strong>control</strong>.</p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "icon_with_text_naBAkH": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "gesture",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Hands-Free",
+            "text": "<p><strong>Retractable belt</strong> automatically retracts into the harness, keeping your pet <strong>within reach</strong>.</p>",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "image_PNhUrF": {
+          "type": "image",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "image": "shopify://shop_images/gifi_2.webp",
+            "width": 100,
+            "alignment": "center",
+            "mobile_alignment": "center",
+            "border_radius": 0,
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "icon_with_text_iwzQRQ": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "security",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Secure Attachments",
+            "text": "<p>Secure Attachments</p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "icon_with_text_waAApd": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "water_drop",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "#ffffff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Durable Comfort",
+            "text": "<p>Made from <strong>waterproof</strong>, <strong>sturdy material</strong>, providing <strong>comfort</strong> for your pet's <strong>back</strong>.</p>",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_myc8Lz",
+        "icon_with_text_WkqieC",
+        "icon_with_text_naBAkH",
+        "image_PNhUrF",
+        "icon_with_text_iwzQRQ",
+        "icon_with_text_waAApd"
+      ],
+      "custom_css": [
+        ".icons-with-text__icon__title {font-size: 24px !important;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 25%, rgba(3, 3, 3, 1) 68%)",
+        "text_color": "#000000",
+        "columns_count": 4,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 30,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 4,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 4,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 4,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_MbaFyh": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "#030303",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "comparison_table_pFrHmC": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_WMDrN9": {
+          "type": "row",
+          "settings": {
+            "benefit": "Auto Lock Leash",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_FNfapp": {
+          "type": "row",
+          "settings": {
+            "benefit": "Retractable Lead",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_dVx7bw": {
+          "type": "row",
+          "settings": {
+            "benefit": "Hands-Free Design",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_mdxHAj": {
+          "type": "row",
+          "settings": {
+            "benefit": "No-pull harness",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_kPwnBJ": {
+          "type": "row",
+          "settings": {
+            "benefit": "Metal Rings",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_dTVRcJ": {
+          "type": "row",
+          "settings": {
+            "benefit": "Waterproof material",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_EPYBEY": {
+          "type": "row",
+          "settings": {
+            "benefit": "Value for Money",
+            "us": true,
+            "others": false
+          }
+        }
+      },
+      "block_order": [
+        "row_WMDrN9",
+        "row_FNfapp",
+        "row_dVx7bw",
+        "row_mdxHAj",
+        "row_kPwnBJ",
+        "row_dTVRcJ",
+        "row_EPYBEY"
+      ],
+      "settings": {
+        "title": "Genuine Quality",
+        "heading_size": "h1",
+        "text": "<p>Don’t fall for <strong>knock-off brands</strong>.</p><p>Choose <strong>WalkEase Pro</strong> for genuine, <strong>reliable performance</strong> and <strong>superior craftsmanship</strong> you can trust for your dog's <strong>safety</strong>.</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "layout": "table_second",
+        "color_scheme": "background-1",
+        "logo_width": 135,
+        "mobile_logo_width": 100,
+        "us_label": "",
+        "others_label": "OTHERS",
+        "benefit_color_scheme": "",
+        "checkmark_color": "#030303",
+        "icon_cells_color_scheme": "",
+        "cross_bg_color": "#e20000",
+        "cross_color": "#ffffff",
+        "table_corner_radius": 0,
+        "table_shadow_opacity": 15,
+        "table_shadow_horizontal_offset": 0,
+        "table_shadow_vertical_offset": 0,
+        "table_shadow_blur": 0,
+        "table_border_thickness": 1,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "collection_text_alignment": "left",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-db99ff9f-6edc-4519-b5ed-c65e6bf9d4bc",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "section_divider_tMkjCY": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq_6HVkFq": {
+      "type": "faq",
+      "blocks": {
+        "collapsible_row_feFeTq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to get my orders?",
+            "icon": "check_mark",
+            "row_content": "<p>Shipping times vary by customer location and product shipping location, however orders arrive in approximately 7 - 14 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YjzWgT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long after my order is placed will it be shipped?",
+            "icon": "check_mark",
+            "row_content": "<p>Orders are typically processed and shipped within 3 business days, although during high demand times items may ship within 5 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3nw4Nm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where is your company located?",
+            "icon": "check_mark",
+            "row_content": "<p>Our headquarters is in the AU while our warehouses are located across the United States, Europe, and China.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hWx9kq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I receive a confirmation number after I place my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, all customers will receive a confirmation number to the email they provide during checkout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9JxtVX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I pay?",
+            "icon": "check_mark",
+            "row_content": "<p>We accept all major credit cards: Visa, MasterCard, Discovery and PayPal</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_feFeTq",
+        "collapsible_row_YjzWgT",
+        "collapsible_row_3nw4Nm",
+        "collapsible_row_hWx9kq",
+        "collapsible_row_9JxtVX"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 23%, rgba(3, 3, 3, 1) 84%)",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_HUDVjJ": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lumin_mega_83GL93": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_HKRHnb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Started In Melbourne, AU",
+            "heading_size": "h1"
+          }
+        },
+        "text_HYHPr8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the journey of <strong>Rover Rituals™</strong>, born in the authentic heart of <strong>Melbourne</strong>.</p><p>Meticulously crafted, our products blend innovative <strong>design</strong> with unmatched functionality, making everyday pet care easier and more enjoyable.</p><p>We’re dedicated to your <strong>satisfaction</strong>, proudly backing every purchase with a <strong>Satisfaction Guarantee</strong>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HKRHnb",
+        "text_HYHPr8"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/dog-with-harness-in-park.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1738693624992cb069": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_HbWCiB": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_HbWCiB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "lumin_review_VQYwcc": {
+      "type": "Lumin-review",
+      "blocks": {
+        "review_JqF9h4": {
+          "type": "review",
+          "settings": {
+            "star_rating": 5,
+            "name_text": "Johan D.",
+            "date_text": "June 2024",
+            "review_head": "Nice Product",
+            "review_text": "Nice Product. I'm happy with my purchase.",
+            "like_size": 0,
+            "dislike_size": 0,
+            "feature_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "review_JqF9h4"
+      ],
+      "disabled": true,
+      "name": "Lumin Review",
+      "settings": {
+        "editing": true,
+        "color_scheme": "",
+        "header_text": "what our customers say about us",
+        "show_top": true,
+        "rating_text": "4.8",
+        "rating_range": 4.5,
+        "star_size_top": 1,
+        "rating_count": "Based on 16 Reviews",
+        "review_column_mobile": "1",
+        "review_column_tab": "1",
+        "review_column_desk": "1",
+        "review_load": "4",
+        "load_text": "Load More",
+        "rw_img_size": 140,
+        "rw_img_radius": 0,
+        "block_name_size": 20,
+        "date_size": 16,
+        "block_head_size": 20,
+        "block_text_size": 14,
+        "star_style": "star",
+        "star_size": 1,
+        "star_radius": 0,
+        "feature_svg_color": "#000000",
+        "inactive_star_color": "#e2e2e2",
+        "show_border": true,
+        "rw_border": "#f2f2f2",
+        "border_radius": 0,
+        "section_bg3": "#000000",
+        "section_bg2": "#000000",
+        "verify_text": "Verified Buyer",
+        "review_bg": "#ffffff",
+        "feature_acc_color": "#000000",
+        "review_pd": 20,
+        "review_pd_m": 20,
+        "show_footer": true,
+        "show_product": true,
+        "like_text": "Was this helpful?",
+        "rw_margin": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_6mpUN9",
+    "lumin_mega_qNV8xq",
+    "lumin_mega_eGYexp",
+    "section_divider_7pigDm",
+    "custom_columns_wj766j",
+    "section_divider_MbaFyh",
+    "comparison_table_pFrHmC",
+    "related-products",
+    "section_divider_tMkjCY",
+    "faq_6HVkFq",
+    "section_divider_HUDVjJ",
+    "lumin_mega_83GL93",
+    "1738693624992cb069",
+    "lumin_review_VQYwcc"
+  ]
+}

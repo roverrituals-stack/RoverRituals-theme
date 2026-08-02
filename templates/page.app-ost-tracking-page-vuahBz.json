@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e1db56b3-89f7-4d54-8edc-6b094b93b0ba": {
+      "type": "app-ost-container-grid",
+      "blocks": {
+        "e5627af1-7c58-46ba-a505-8cc0309a877b": {
+          "type": "shopify://apps/order-status-tracker/blocks/announce-bar/66c7eba3-dd2f-4580-9aa0-f17552f0b971",
+          "settings": {
+            "announce": "<p><strong>Big news</strong>! We're excited to announce...</p>",
+            "crossable": true,
+            "startDate": "",
+            "endDate": "",
+            "rightToLeft": false,
+            "textColor": "#000000",
+            "bgColor": "#f3f3f3",
+            "cssStyle": ""
+          }
+        },
+        "09e1b409-db4b-4ab9-8d39-1eb241c23359": {
+          "type": "shopify://apps/order-status-tracker/blocks/search-bar/66c7eba3-dd2f-4580-9aa0-f17552f0b971",
+          "settings": {
+            "searchMode": "any",
+            "searchTitle": "",
+            "buttonLabel": "",
+            "rightToLeft": false,
+            "titleColor": "#000000",
+            "buttonLabelColor": "#ffffff",
+            "buttonBgColor": "#000000",
+            "buttonBgHoverColor": "#000000",
+            "formBGColor": "#f3f3f3",
+            "showFormBGColor": false,
+            "cssStyle": ""
+          }
+        },
+        "306f8ad2-4e5c-41be-a0e1-51429858eab4": {
+          "type": "shopify://apps/order-status-tracker/blocks/cross-sells/66c7eba3-dd2f-4580-9aa0-f17552f0b971",
+          "settings": {
+            "viewAllTitle": "",
+            "viewAllLink": "",
+            "listSource": "products",
+            "pickProducts": [],
+            "pickCollection": "",
+            "pickLink": "",
+            "layout": "slider",
+            "numOfItems": 20,
+            "imageAction": "view_item",
+            "textColor": "#000000",
+            "viewAllColor": "#000000",
+            "viewAllHoverColor": "#000000",
+            "cssStyle": ""
+          }
+        }
+      },
+      "block_order": [
+        "e5627af1-7c58-46ba-a505-8cc0309a877b",
+        "09e1b409-db4b-4ab9-8d39-1eb241c23359",
+        "306f8ad2-4e5c-41be-a0e1-51429858eab4"
+      ],
+      "settings": {
+        "visibility": "all_the_time",
+        "columns_mobile": 1,
+        "columns_tablet": 1,
+        "columns_desktop": 1,
+        "columns_large": 1,
+        "columns_xlarge": 1,
+        "columns_2xlarge": 1
+      }
+    },
+    "94aaed1e-689e-4989-8a47-84abe70311d0": {
+      "type": "app-ost-container-empty-space",
+      "settings": {
+        "desktop_height": 40,
+        "mobile_height": 28
+      }
+    }
+  },
+  "order": [
+    "e1db56b3-89f7-4d54-8edc-6b094b93b0ba",
+    "94aaed1e-689e-4989-8a47-84abe70311d0"
+  ]
+}

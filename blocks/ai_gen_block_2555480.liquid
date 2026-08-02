@@ -1,0 +1,207 @@
+{% doc %}
+  @prompt
+    Create a collapsible "read more" text block that shows only 2 lines of text initially, with a "read more" link to expand and show the full content, and a "read less" link to collapse it back. Include the necessary CSS for line clamping and JavaScript for the toggle functionality.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-read-more-container-{{ ai_gen_id }} {
+    max-width: 100%;
+    font-family: inherit;
+    line-height: 1.5;
+  }
+
+  .ai-read-more-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    transition: max-height 0.3s ease;overflow: hidden;
+  }
+
+  .ai-read-more-text-{{ ai_gen_id }}.collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .ai-read-more-toggle-{{ ai_gen_id }} {
+    background: none;
+    border: none;
+    color: {{ block.settings.link_color }};
+    cursor: pointer;
+    font-size: {{ block.settings.text_size }}px;
+    text-decoration: underline;
+    padding: 0;
+    margin-top: 8px;
+    display: inline-block;
+  }
+
+  .ai-read-more-toggle-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.link_hover_color }};
+  }
+
+  .ai-read-more-toggle-{{ ai_gen_id }}:focus {
+    outline: 2px solid {{ block.settings.link_color }};
+    outline-offset: 2px;
+  }
+
+  .ai-read-more-toggle-{{ ai_gen_id }}.hidden {
+    display: none;
+  }
+{% endstyle %}
+
+<read-more-block-{{ ai_gen_id }}
+  class="ai-read-more-container-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-read-more-text-{{ ai_gen_id }} collapsed">
+    {% if block.settings.content != blank %}
+      {{ block.settings.content }}
+    {% else %}
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+    {% endif %}
+  </div>
+  
+  <button
+    class="ai-read-more-toggle-{{ ai_gen_id }}"
+    aria-expanded="false"
+    data-read-more-text="{{ block.settings.read_more_text }}"
+    data-read-less-text="{{ block.settings.read_less_text }}"
+  >
+    {{ block.settings.read_more_text }}
+  </button>
+</read-more-block-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ReadMoreBlock{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.textElement = null;
+        this.toggleButton = null;
+        this.isExpanded = false;
+        this.originalHeight = null;
+      }
+
+      connectedCallback() {
+        this.textElement = this.querySelector('.ai-read-more-text-{{ ai_gen_id }}');
+        this.toggleButton = this.querySelector('.ai-read-more-toggle-{{ ai_gen_id }}');
+        if (!this.textElement || !this.toggleButton) return;
+
+        this.init();
+      }
+
+      init() {
+        this.checkIfToggleNeeded();
+        this.toggleButton.addEventListener('click', () => this.toggle());
+        
+        window.addEventListener('resize', () => this.checkIfToggleNeeded());
+      }
+
+      checkIfToggleNeeded() {
+        this.textElement.classList.remove('collapsed');
+        const fullHeight = this.textElement.scrollHeight;
+        this.textElement.classList.add('collapsed');
+        const clampedHeight = this.textElement.scrollHeight;
+        
+        if (fullHeight > clampedHeight) {
+          this.toggleButton.classList.remove('hidden');
+        } else {
+          this.toggleButton.classList.add('hidden');
+        }
+      }
+
+      toggle() {
+        this.isExpanded = !this.isExpanded;
+        
+        if (this.isExpanded) {
+          this.expand();
+        } else {
+          this.collapse();
+        }
+      }
+
+      expand() {
+        this.textElement.classList.remove('collapsed');
+        this.toggleButton.textContent = this.toggleButton.dataset.readLessText;
+        this.toggleButton.setAttribute('aria-expanded', 'true');}
+
+      collapse() {
+        this.textElement.classList.add('collapsed');
+        this.toggleButton.textContent = this.toggleButton.dataset.readMoreText;
+        this.toggleButton.setAttribute('aria-expanded', 'false');
+      }
+    }
+
+    customElements.define('read-more-block-{{ ai_gen_id }}', ReadMoreBlock{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Read More Text Block",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text content",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more text",
+      "default": "Read more"
+    },
+    {
+      "type": "text",
+      "id": "read_less_text",
+      "label": "Read less text",
+      "default": "Read less"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link color",
+      "default": "#0066cc"
+    },
+    {
+      "type": "color",
+      "id": "link_hover_color",
+      "label": "Link hover color",
+      "default": "#004499"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Read More Text Block"
+    }
+  ]
+}
+{% endschema %}

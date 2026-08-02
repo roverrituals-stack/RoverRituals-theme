@@ -1,0 +1,481 @@
+{% doc %}
+  @prompt
+    Create a CSS-based estimated delivery time display that shows delivery dates based on when an order was fulfilled, with customizable number of days that can be manually set in the CSS. Include styling for different delivery timeframes and make it easy to update the delivery days directly in the CSS code.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-delivery-display-{{ ai_gen_id }} {
+    --ai-delivery-days-standard: {{ block.settings.standard_delivery_days }};
+    --ai-delivery-days-express: {{ block.settings.express_delivery_days }};
+    --ai-delivery-days-overnight: {{ block.settings.overnight_delivery_days }};
+    
+    background-color: {{ block.settings.background_color }};
+    border: 1px solid {{ block.settings.border_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    padding: 20px;
+    font-family: inherit;
+  }
+
+  .ai-delivery-display__header-{{ ai_gen_id }} {
+    margin: 0 0 16px 0;
+    font-size: {{ block.settings.heading_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-delivery-option-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    border-radius: {{ block.settings.option_border_radius }}px;
+    transition: background-color 0.2s ease;
+  }
+
+  .ai-delivery-option-{{ ai_gen_id }}:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-delivery-option-{{ ai_gen_id }}--standard {
+    background-color: {{ block.settings.standard_bg_color }};
+    border-left: 4px solid {{ block.settings.standard_accent_color }};
+  }
+
+  .ai-delivery-option-{{ ai_gen_id }}--express {
+    background-color: {{ block.settings.express_bg_color }};
+    border-left: 4px solid {{ block.settings.express_accent_color }};
+  }
+
+  .ai-delivery-option-{{ ai_gen_id }}--overnight {
+    background-color: {{ block.settings.overnight_bg_color }};
+    border-left: 4px solid {{ block.settings.overnight_accent_color }};
+  }
+
+  .ai-delivery-option__info-{{ ai_gen_id }} {
+    flex-grow: 1;
+  }
+
+  .ai-delivery-option__name-{{ ai_gen_id }} {
+    font-weight: 600;
+    font-size: {{ block.settings.option_name_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 4px 0;
+  }
+
+  .ai-delivery-option__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.description_color }};
+    margin: 0;
+  }
+
+  .ai-delivery-option__date-{{ ai_gen_id }} {
+    text-align: right;
+    flex-shrink: 0;
+    margin-left: 16px;
+  }
+
+  .ai-delivery-option__estimated-date-{{ ai_gen_id }} {
+    font-weight: 600;
+    font-size: {{ block.settings.date_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 4px 0;
+  }
+
+  .ai-delivery-option__day-label-{{ ai_gen_id }} {
+    font-size: {{ block.settings.day_label_size }}px;
+    color: {{ block.settings.description_color }};
+    margin: 0;
+  }
+
+  .ai-delivery-note-{{ ai_gen_id }} {
+    margin-top: 16px;
+    padding: 12px;
+    background-color: {{ block.settings.note_bg_color }};
+    border-radius: {{ block.settings.option_border_radius }}px;
+    font-size: {{ block.settings.note_size }}px;
+    color: {{ block.settings.note_text_color }};
+    text-align: center;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-delivery-option-{{ ai_gen_id }} {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .ai-delivery-option__date-{{ ai_gen_id }} {
+      margin-left: 0;
+      text-align: left;
+    }
+  }
+{% endstyle %}
+
+<delivery-calculator-{{ ai_gen_id }}
+  class="ai-delivery-display-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.heading != blank %}
+    <h3 class="ai-delivery-display__header-{{ ai_gen_id }}">{{ block.settings.heading }}</h3>
+  {% endif %}
+
+  <div class="ai-delivery-option-{{ ai_gen_id }} ai-delivery-option-{{ ai_gen_id }}--standard" data-delivery-type="standard">
+    <div class="ai-delivery-option__info-{{ ai_gen_id }}">
+      <div class="ai-delivery-option__name-{{ ai_gen_id }}">{{ block.settings.standard_name }}</div>
+      <div class="ai-delivery-option__description-{{ ai_gen_id }}">{{ block.settings.standard_description }}</div>
+    </div>
+    <div class="ai-delivery-option__date-{{ ai_gen_id }}">
+      <div class="ai-delivery-option__estimated-date-{{ ai_gen_id }}" data-delivery-date></div>
+      <div class="ai-delivery-option__day-label-{{ ai_gen_id }}" data-delivery-day></div>
+    </div>
+  </div>
+
+  <div class="ai-delivery-option-{{ ai_gen_id }} ai-delivery-option-{{ ai_gen_id }}--express" data-delivery-type="express">
+    <div class="ai-delivery-option__info-{{ ai_gen_id }}">
+      <div class="ai-delivery-option__name-{{ ai_gen_id }}">{{ block.settings.express_name }}</div>
+      <div class="ai-delivery-option__description-{{ ai_gen_id }}">{{ block.settings.express_description }}</div>
+    </div>
+    <div class="ai-delivery-option__date-{{ ai_gen_id }}">
+      <div class="ai-delivery-option__estimated-date-{{ ai_gen_id }}" data-delivery-date></div>
+      <div class="ai-delivery-option__day-label-{{ ai_gen_id }}" data-delivery-day></div>
+    </div>
+  </div>
+
+  <div class="ai-delivery-option-{{ ai_gen_id }} ai-delivery-option-{{ ai_gen_id }}--overnight" data-delivery-type="overnight">
+    <div class="ai-delivery-option__info-{{ ai_gen_id }}">
+      <div class="ai-delivery-option__name-{{ ai_gen_id }}">{{ block.settings.overnight_name }}</div>
+      <div class="ai-delivery-option__description-{{ ai_gen_id }}">{{ block.settings.overnight_description }}</div>
+    </div>
+    <div class="ai-delivery-option__date-{{ ai_gen_id }}">
+      <div class="ai-delivery-option__estimated-date-{{ ai_gen_id }}" data-delivery-date></div>
+      <div class="ai-delivery-option__day-label-{{ ai_gen_id }}" data-delivery-day></div>
+    </div>
+  </div>
+
+  {% if block.settings.note != blank %}
+    <div class="ai-delivery-note-{{ ai_gen_id }}">{{ block.settings.note }}</div>
+  {% endif %}
+</delivery-calculator-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class DeliveryCalculator{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.calculateDeliveryDates();
+      }
+
+      calculateDeliveryDates() {
+        const deliveryOptions = this.querySelectorAll('[data-delivery-type]');
+        const today = new Date();
+        
+        const styles = getComputedStyle(this);
+        const standardDays = parseInt(styles.getPropertyValue('--ai-delivery-days-standard')) || 5;
+        const expressDays = parseInt(styles.getPropertyValue('--ai-delivery-days-express')) || 2;
+        const overnightDays = parseInt(styles.getPropertyValue('--ai-delivery-days-overnight')) || 1;
+
+        const deliveryDays = {
+          standard: standardDays,
+          express: expressDays,
+          overnight: overnightDays
+        };
+
+        deliveryOptions.forEach(option => {
+          const deliveryType = option.getAttribute('data-delivery-type');
+          const daysToAdd = deliveryDays[deliveryType];
+          
+          if (daysToAdd !== undefined) {
+            const deliveryDate = new Date(today);
+            deliveryDate.setDate(today.getDate() + daysToAdd);
+            
+            const dateElement = option.querySelector('[data-delivery-date]');
+            const dayElement = option.querySelector('[data-delivery-day]');
+            
+            if (dateElement && dayElement) {
+              const formattedDate = deliveryDate.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric'
+              });
+              
+              const dayName = deliveryDate.toLocaleDateString('en-US', {
+                weekday: 'long'
+              });
+              
+              dateElement.textContent = formattedDate;
+              dayElement.textContent = dayName;
+            }
+          }
+        });
+      }
+    }
+
+    customElements.define('delivery-calculator-{{ ai_gen_id }}', DeliveryCalculator{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Delivery Time Display",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Estimated Delivery"
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Note",
+      "default": "Delivery times are estimates and may vary based on location"
+    },
+    {
+      "type": "header",
+      "content": "Delivery Options"
+    },
+    {
+      "type": "range",
+      "id": "standard_delivery_days",
+      "label": "Standard delivery days",
+      "min": 1,
+      "max": 30,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "text",
+      "id": "standard_name",
+      "label": "Standard delivery name",
+      "default": "Standard Delivery"
+    },
+    {
+      "type": "text",
+      "id": "standard_description",
+      "label": "Standard delivery description",
+      "default": "Free shipping on orders over $50"
+    },
+    {
+      "type": "range",
+      "id": "express_delivery_days",
+      "label": "Express delivery days",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "text",
+      "id": "express_name",
+      "label": "Express delivery name",
+      "default": "Express Delivery"
+    },
+    {
+      "type": "text",
+      "id": "express_description",
+      "label": "Express delivery description",
+      "default": "Fast shipping for urgent orders"
+    },
+    {
+      "type": "range",
+      "id": "overnight_delivery_days",
+      "label": "Overnight delivery days",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "text",
+      "id": "overnight_name",
+      "label": "Overnight delivery name",
+      "default": "Overnight Delivery"
+    },
+    {
+      "type": "text",
+      "id": "overnight_description",
+      "label": "Overnight delivery description",
+      "default": "Next business day delivery"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#e5e5e5"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "standard_bg_color",
+      "label": "Standard option background",
+      "default": "#f8f9fa"
+    },
+    {
+      "type": "color",
+      "id": "standard_accent_color",
+      "label": "Standard accent color",
+      "default": "#28a745"
+    },
+    {
+      "type": "color",
+      "id": "express_bg_color",
+      "label": "Express option background",
+      "default": "#fff3cd"
+    },
+    {
+      "type": "color",
+      "id": "express_accent_color",
+      "label": "Express accent color",
+      "default": "#ffc107"
+    },
+    {
+      "type": "color",
+      "id": "overnight_bg_color",
+      "label": "Overnight option background",
+      "default": "#f8d7da"
+    },
+    {
+      "type": "color",
+      "id": "overnight_accent_color",
+      "label": "Overnight accent color",
+      "default": "#dc3545"
+    },
+    {
+      "type": "color",
+      "id": "note_bg_color",
+      "label": "Note background color",
+      "default": "#e9ecef"
+    },
+    {
+      "type": "color",
+      "id": "note_text_color",
+      "label": "Note text color",
+      "default": "#495057"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 14,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "option_name_size",
+      "label": "Option name size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "date_size",
+      "label": "Date size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "day_label_size",
+      "label": "Day label size",
+      "min": 10,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "note_size",
+      "label": "Note size",
+      "min": 10,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Container border radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "option_border_radius",
+      "label": "Option border radius",
+      "min": 0,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+      "name": "Delivery Time Display"
+    }
+  ]
+}
+{% endschema %}

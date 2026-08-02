@@ -1,0 +1,1333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "lumin_slidshow_pro_gGR6jt": {
+      "type": "lumin-slidshow-pro",
+      "blocks": {
+        "image_hyi6bT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Oct_27_2025_06_45_28_PM.png",
+            "focal_point": "top center",
+            "focal_point_mobile": "top center",
+            "title": "Shop The Must Have Dog Accessories Pet Parents Trust",
+            "subtitle": "",
+            "image_link": "",
+            "clickable_image_new_tab": false,
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections",
+            "button_text_2": "",
+            "button_link_2": "",
+            "title_font_size": 40,
+            "title_font_size_mobile": 20,
+            "subtitle_font_size": 21,
+            "subtitle_font_size_mobile": 17,
+            "button_text_size": 13,
+            "button_text_size_mobile": 13,
+            "text_shadow": 20,
+            "overlay_opacity": 0,
+            "button_background_color": "",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_background_color_2": "",
+            "button_text_color_2": "#ffffff",
+            "button_border_color_2": "#ffffff",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "text_shadow_color": "#000000",
+            "overlay_color": "#000000",
+            "text_align": "LuminSlideshow-textbox--bottom-center"
+          }
+        },
+        "image_TBeEMk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/spring30sale_wolfandico.jpg",
+            "focal_point": "center center",
+            "focal_point_mobile": "center center",
+            "title": "Grooming\nAccessories",
+            "subtitle": "",
+            "image_link": "",
+            "clickable_image_new_tab": false,
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/dog-grooming",
+            "button_text_2": "",
+            "button_link_2": "",
+            "title_font_size": 80,
+            "title_font_size_mobile": 40,
+            "subtitle_font_size": 21,
+            "subtitle_font_size_mobile": 17,
+            "button_text_size": 13,
+            "button_text_size_mobile": 13,
+            "text_shadow": 20,
+            "overlay_opacity": 0,
+            "button_background_color": "",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_background_color_2": "",
+            "button_text_color_2": "#ffffff",
+            "button_border_color_2": "#ffffff",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "text_shadow_color": "#000000",
+            "overlay_color": "#000000",
+            "text_align": "LuminSlideshow-textbox--bottom-center"
+          }
+        },
+        "image_jmzyFW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/small-white-dog-stands-on-a-dirt-road.jpg",
+            "focal_point": "center center",
+            "focal_point_mobile": "center center",
+            "title": "Two line\ntitle slide.",
+            "subtitle": "",
+            "image_link": "",
+            "clickable_image_new_tab": false,
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "title_font_size": 80,
+            "title_font_size_mobile": 40,
+            "subtitle_font_size": 21,
+            "subtitle_font_size_mobile": 17,
+            "button_text_size": 13,
+            "button_text_size_mobile": 13,
+            "text_shadow": 20,
+            "overlay_opacity": 0,
+            "button_background_color": "",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_background_color_2": "",
+            "button_text_color_2": "#ffffff",
+            "button_border_color_2": "#ffffff",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "text_shadow_color": "#000000",
+            "overlay_color": "#000000",
+            "text_align": "LuminSlideshow-textbox--bottom-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_hyi6bT",
+        "image_TBeEMk",
+        "image_jmzyFW"
+      ],
+      "disabled": true,
+      "name": "Lumin Slideshow Pro",
+      "settings": {
+        "section_height": "natural",
+        "section_height_mobile": "auto",
+        "full_width_images": false,
+        "full_width_images_mobile": false,
+        "parallax": false,
+        "parallax_mobile": false,
+        "dots_style": "bars",
+        "arrows_style": "none",
+        "arrows_style_mobile": "none",
+        "autoplay": true,
+        "autoplay_stop": true,
+        "autoplay_speed": 5,
+        "loader_background_color": "rgba(0,0,0,0)",
+        "dots_color": "#ffffff",
+        "arrow_background_color": "#ffffff",
+        "arrow_chevron_color": "#333333",
+        "dot_size": 6,
+        "dot_size_selected": 9,
+        "arrow_size": 40,
+        "arrow_size_mobile": 40,
+        "arrow_chevron_size": 12,
+        "arrow_chevron_size_mobile": 12,
+        "button_letter_spacing": 0,
+        "button_letter_spacing_mobile": 0,
+        "button_border_radius": 0,
+        "button_border_radius_mobile": 0,
+        "text_animation": true,
+        "fade": true,
+        "zoom_animation": true,
+        "parallax_speed": 80,
+        "parallax_speed_mobile": 70
+      }
+    },
+    "scroll_text_R8i9Wq": {
+      "type": "scroll-text",
+      "blocks": {
+        "text_LBn9eD": {
+          "type": "text",
+          "settings": {
+            "text": "😊<strong>20k+ HAPPY CUSTOMERS</strong>",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "scrolling",
+            "text_color": "#121212",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        },
+        "text_ayHW8U": {
+          "type": "text",
+          "settings": {
+            "text": "🛡️<strong>Love It Or We Refund!</strong>",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "scrolling",
+            "text_color": "#121212",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        },
+        "text_y7ymHR": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>❤️Made By Dog Lovers</strong>",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "scrolling",
+            "text_color": "#121212",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        }
+      },
+      "block_order": [
+        "text_LBn9eD",
+        "text_ayHW8U",
+        "text_y7ymHR"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "reverse_direction": false,
+        "pause_hover": true,
+        "lazy": true,
+        "scrolling_velocity": 50,
+        "scrolling_velocity_mobile": 54,
+        "background_color": "#eeeeee",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
+    },
+    "image_with_text_overlay_xEyztJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XrBAG8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>UPTO 50% OFF</strong> SALE",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_dKyqkf": {
+          "type": "buttons",
+          "settings": {
+            "style": "outline",
+            "size": "base",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections",
+            "background": "#064cfd",
+            "text_color": "#030303"
+          }
+        },
+        "text_q3xPCT": {
+          "type": "text",
+          "settings": {
+            "content": "<h4>Shop The Must Have Dog Accessories Pet Parents Trust</h4><h4>Sale Ends Soon</h4>"
+          }
+        },
+        "subheading_cyUn7Q": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Sale Ends May 10th"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XrBAG8",
+        "buttons_dKyqkf",
+        "text_q3xPCT",
+        "subheading_cyUn7Q"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "animations_reveal_on_scroll": false,
+        "image_height": "medium",
+        "image": "shopify://shop_images/0AB14DDE-6572-42B0-A9E3-5DF9075DE874.png",
+        "mobile_image": "shopify://shop_images/0AB14DDE-6572-42B0-A9E3-5DF9075DE874.png",
+        "mobile_text_position": "bottom-center",
+        "desktop_content_position": "bottom-center",
+        "color": "#ffffff",
+        "overlay_color": "#000000",
+        "image_overlay_opacity": 40
+      }
+    },
+    "collection_list_9JKUVh": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dKctfV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sale"
+          }
+        },
+        "featured_collection_gVebhe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-walking-accessories"
+          }
+        },
+        "featured_collection_RNpjpE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-couch-beds-dog-sofas-dog-couch-covers"
+          }
+        },
+        "featured_collection_X7CNGF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-brushes"
+          }
+        },
+        "featured_collection_xBAWgh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-harness-and-leash-sets"
+          }
+        },
+        "featured_collection_7bbgKk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-collars"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dKctfV",
+        "featured_collection_gVebhe",
+        "featured_collection_RNpjpE",
+        "featured_collection_X7CNGF",
+        "featured_collection_xBAWgh",
+        "featured_collection_7bbgKk"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Shop By Category",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "image_radius": 0,
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "subtitle_center": false,
+        "show_arrow": false,
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_tWcLzg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "BEST SELLERS | Dog Accessories to Cater for Walks, Wear, Care, Training, Play, Sleep, Eating & More!",
+        "description": "",
+        "collection_text_alignment": "left",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "our-best-sellers",
+        "show_collection_image": false,
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "navigation_on_desk": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_scroll_tags": false,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "enable_quick_add": false,
+        "show_secondary_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "navigation_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_KDgYfi": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_2",
+        "flip_horizontal": false,
+        "flip_vertical": true,
+        "shape_color": "#000000",
+        "background_color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_testimonial_mttjJ9": {
+      "type": "custom-testimonial",
+      "blocks": {
+        "review_8kYi9A": {
+          "type": "review",
+          "settings": {
+            "title": "Perfect for Outdoor Adventures!",
+            "text": "<p>I love this portable water bottle for my dog. It's easy to carry, prevents spills, and makes outdoor adventures so much smoother. My dog enjoys drinking from it!</p>",
+            "link_label": "",
+            "link": "",
+            "customer_name": "Brian P.",
+            "city_name": ""
+          }
+        },
+        "review_3PACjh": {
+          "type": "review",
+          "settings": {
+            "title": "A Game-Changer for Paws!",
+            "text": "<p>The PawSpa cleaner is fantastic! My dog’s paws are always clean after walks, and I don’t have to struggle with messy towels. A must-have!</p>",
+            "link_label": "",
+            "link": "",
+            "customer_name": "Lily T.",
+            "city_name": ""
+          }
+        },
+        "review_rC4jRU": {
+          "type": "review",
+          "settings": {
+            "title": "<strong>Grooming Made Easy!</strong>",
+            "text": "<p>The SteamPup Brush makes grooming quick and easy—my dog’s fur has never looked better! It’s gentle, effective, and totally stress-free.</p>",
+            "link_label": "",
+            "link": "",
+            "customer_name": "Nora R.",
+            "city_name": ""
+          }
+        },
+        "review_9gF9ii": {
+          "type": "review",
+          "settings": {
+            "title": "Best Purchase for my Pup!",
+            "text": "<p>I bought the leash for my energetic pup, and it’s amazing. Durable, easy to control, and keeps him safe. Highly recommend it for any dog owner!</p>",
+            "link_label": "",
+            "link": "",
+            "customer_name": "Anthony T.",
+            "city_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_8kYi9A",
+        "review_3PACjh",
+        "review_rC4jRU",
+        "review_9gF9ii"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {background-color: #ffffff !important;}",
+        ".inline-richtext.h1 {color: white;}",
+        ".inline-richtext.h2 {color: white;}",
+        ".testimonial-stars {display: flex; justify-content: center; align-items: center; font-size: 0.75em; /* Adjust size as needed */ margin-bottom: 10px; /* Adjust spacing as needed */}",
+        ".inline-richtext {margin-bottom: 15px; /* Adjust spacing as needed */}",
+        ".multicolumn-card {border-radius: 15px; /* Adjust for more or less roundness */ overflow: hidden; /* Ensures content doesn't overflow rounded edges */}"
+      ],
+      "settings": {
+        "title": "DISCOVER WHAT OUR HAPPY CUSTOMERS ARE SAYING",
+        "heading_size": "h2",
+        "heading_center": "center",
+        "image_width": "sixth",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 23%, rgba(3, 3, 3, 1) 77%)",
+        "color_scheme": "scheme-78d2e301-66be-46b4-8bf3-c85455b81fc4",
+        "color_star": "#ffc107",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "navigation_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1777014894e7266238": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_carousel_rxLxr6": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "corner-radius": 40,
+            "items-per-view": 2,
+            "items-per-view-mobile": 3,
+            "max-characters": 180,
+            "autoplay": false,
+            "autoplay-delay": 5,
+            "main-color": "#ae8868",
+            "stars-color": "#ff8d00",
+            "show-review-text": true,
+            "text-color": "",
+            "reviewer-name-color": "",
+            "verified-badge-color": "",
+            "quote-marks-icon": "style-1",
+            "quote-marks-icon-color": "",
+            "review-background-color": "#212121",
+            "product-ids": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_carousel_rxLxr6"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collection_list_RrbAbQ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_MJTy4M": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-mom-gifts-personalized"
+          }
+        },
+        "featured_collection_DPAtgF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-brushes"
+          }
+        },
+        "featured_collection_BAJRma": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-walking-accessories"
+          }
+        },
+        "featured_collection_n6EizG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-grooming"
+          }
+        },
+        "featured_collection_fKaXaH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-training-supplies"
+          }
+        },
+        "featured_collection_PdznTE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-couch-beds-dog-sofas-dog-couch-covers"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_MJTy4M",
+        "featured_collection_DPAtgF",
+        "featured_collection_BAJRma",
+        "featured_collection_n6EizG",
+        "featured_collection_fKaXaH",
+        "featured_collection_PdznTE"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Our Range",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "image_radius": 0,
+        "columns_desktop": 6,
+        "color_scheme": "inverse",
+        "subtitle_center": true,
+        "show_arrow": false,
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_Y6GxaW": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Tactical Millitary Gear",
+        "description": "",
+        "collection_text_alignment": "left",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tactical-dog-harnesses-tactical-dog-collars-and-leashes",
+        "show_collection_image": false,
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "navigation_on_desk": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_scroll_tags": false,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "enable_quick_add": false,
+        "show_secondary_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "navigation_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_h4mqJN": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_drGtw3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-hammocks-and-dog-car-seat-covers"
+          }
+        },
+        "featured_collection_NjdDdA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-clothes"
+          }
+        },
+        "featured_collection_bPMyWe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "durable-dog-toys"
+          }
+        },
+        "featured_collection_YPeAm6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-bowls-dog-slow-feeders-dog-lick-mats-dog-water-bottles"
+          }
+        },
+        "featured_collection_PYiE3b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-leads"
+          }
+        },
+        "featured_collection_tbMwFG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-collars"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_drGtw3",
+        "featured_collection_NjdDdA",
+        "featured_collection_bPMyWe",
+        "featured_collection_YPeAm6",
+        "featured_collection_PYiE3b",
+        "featured_collection_tbMwFG"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "image_radius": 0,
+        "columns_desktop": 6,
+        "color_scheme": "inverse",
+        "subtitle_center": true,
+        "show_arrow": false,
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_gQzDnT": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "rgba(0,0,0,0)",
+        "background_color": "#0c0c0c",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_gPLr7r": {
+      "type": "featured-product",
+      "blocks": {
+        "title_gtYH3X": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_CjMpKn": {
+          "type": "price",
+          "settings": {
+            "price_style": "price",
+            "price_size_2": 1,
+            "badge_size": 14,
+            "sale_price_color": "#131313",
+            "badge_price": "#8b8d8f",
+            "badge_bg": "#f2f2f2",
+            "badge_border": "#f2f2f2",
+            "price_bold": false,
+            "price_bold_2": false,
+            "badge_hide": false,
+            "taxes_hide": false,
+            "shipping_hide": false,
+            "padding_top": 4,
+            "padding_bottom": 4
+          }
+        },
+        "rating_3tjyhh": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker_RGArYX": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatchType": "color",
+            "optionName": "Color",
+            "swatchStyle": "round",
+            "swatchSize": 30,
+            "swatchHeight": 30
+          }
+        },
+        "quantity_selector_EHpHRQ": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_zHD8Xj": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_ekeNxC": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_gtYH3X",
+        "price_CjMpKn",
+        "rating_3tjyhh",
+        "variant_picker_RGArYX",
+        "quantity_selector_EHpHRQ",
+        "buy_buttons_zHD8Xj",
+        "share_ekeNxC"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "steampup-slicker-brush-for-dogs-dog-steam-brush",
+        "color_scheme": "",
+        "secondary_background": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_XFqF6M": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_HkDNAi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "<b>Read More</b>",
+            "icon": "paw_print",
+            "row_content": "<p>Becoming a dog owner is one of life’s most rewarding adventures. Welcoming a furry friend into your home brings endless joy, laughter, and companionship. As a pet owner, it’s important to recognize the responsibilities that come with caring for your new dog—starting with covering your pup's basic needs like a cozy dog bed and nutritious dog food to ensure your dog's comfort.</p><p>Before exploring extra accessories, make sure to cover your pup's essential needs to provide a solid foundation for your dog's well-being.</p><p>Whether you’re settling into a bustling New York City apartment or have plenty of space to roam on the land, there are dog accessories designed to fit every lifestyle. The best dog accessories can transform everything from daily walks to car rides and outdoor adventures, making each moment with your pet stress free and enjoyable. With the right preparation and mindset, you’ll create a loving environment where your dog can thrive.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_HkDNAi"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Every Dog Owner’s Adventure Begins with Rover Rituals 🐾",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_aE9XEf": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_MBifnK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Rover Rituals | Premium Dog Products & Accessories",
+            "heading_size": "h1"
+          }
+        },
+        "text_AKyEHY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At <strong>Rover Rituals</strong>, we create <strong>high-quality</strong>, <strong>innovative pet care dog accessories </strong>to keep your furry friends <strong>happy</strong>, <strong>healthy</strong>, and <strong>hydrated</strong>.</p><p>From <strong>portable water bottles, no pull dog harness & leashes, dog collars, dog toys</strong> to essential <strong>grooming tools</strong>, we’ve got everything your pet needs for a <strong>vibrant life</strong>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_GMJLb3": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MBifnK",
+        "text_AKyEHY",
+        "button_GMJLb3"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/a2_5a36144e-e02f-41bb-9ad7-1c63804b91ee.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_n7Yf6A": {
+      "type": "featured-product",
+      "blocks": {
+        "text_HkBCFB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_f6xRJL": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_HKXGXf": {
+          "type": "price",
+          "settings": {
+            "price_style": "price",
+            "price_size_2": 1,
+            "badge_size": 14,
+            "sale_price_color": "#131313",
+            "badge_price": "#8b8d8f",
+            "badge_bg": "#f2f2f2",
+            "badge_border": "#f2f2f2",
+            "price_bold": false,
+            "price_bold_2": false,
+            "badge_hide": false,
+            "taxes_hide": false,
+            "shipping_hide": false,
+            "padding_top": 4,
+            "padding_bottom": 4
+          }
+        },
+        "variant_picker_AFAYRx": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatchType": "color",
+            "optionName": "Color",
+            "swatchStyle": "round",
+            "swatchSize": 30,
+            "swatchHeight": 30
+          }
+        },
+        "quantity_selector_66nHwD": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_94TU8z": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_jUpCJ6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_HkBCFB",
+        "title_f6xRJL",
+        "price_HKXGXf",
+        "variant_picker_AFAYRx",
+        "quantity_selector_66nHwD",
+        "buy_buttons_94TU8z",
+        "share_jUpCJ6"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "durable-tactical-dog-collar-and-leash-set",
+        "color_scheme": "",
+        "secondary_background": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_fLKhY3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_yVijMN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Preparing Your Home for a New Dog",
+            "icon": "paw_print",
+            "row_content": "<p>Bringing home a new pup is an exciting milestone, but a little preparation goes a long way in ensuring a smooth transition. Start by setting up a comfortable dog bed in a quiet spot, and make sure you have plenty of pet food on hand. Potty training is a key part of those first few weeks, so be ready with a plan and the right supplies. For car rides and future getaways, a sturdy pet carrier and travel accessories are must-haves. Don’t forget to stock up on poop bags and a securely affixed leash for those first walks around the neighborhood. With thoughtful planning, you’ll create a welcoming space where your new furry friend feels right at home.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ytz9U9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Grooming Essentials",
+            "icon": "paw_print",
+            "row_content": "<p>Keeping your dog looking and feeling their best starts with the right grooming essentials. Every dog owner should have a reliable brush, gentle shampoo, and nail clippers suited to their pup’s needs. Regular grooming not only keeps pet hair and dirt under control but also helps prevent physically pains and discomfort. Bath time can be a breeze with tools like the aquapaw pet bathing tool, which makes rinsing and cleaning stress free for both you and your furry friend. Don’t forget to check and trim your dog’s nails regularly—your pet will thank you for the extra comfort and care.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MhKp4x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Feeding and Hydration",
+            "icon": "paw_print",
+            "row_content": "<p>A healthy dog starts with a balanced diet and plenty of fresh water. Choose a high-quality pet food that meets your dog’s unique nutritional needs, and consider using a Yeti’s bowl for mealtime. Consult your veterinarian to ensure you are meeting your dog's dietary requirements. For hydration, a leak proof water bowl that holds up to eight cups is ideal, especially for active pups. Make sure your dog’s food and water bowls are securely affixed and chosen based on your dog's specific needs to prevent spills and keep feeding areas tidy. As a responsible pet owner, keep an eye on your dog’s food intake and adjust portions as needed to support their health and happiness.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yCHAq6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dog Health and Wellness",
+            "icon": "paw_print",
+            "row_content": "<p>A happy, healthy pup starts with a strong foundation of wellness. As a responsible pet owner, regular checkups with your vet are essential for keeping your dog in top shape. Stay on top of vaccinations, flea and tick prevention, and routine dental care—these small steps can make a big difference in your dog’s long-term health. Accessories like dental chews, calming dog beds, and supportive harnesses can help maintain both physical and mental well-being. Don’t forget to provide plenty of toys for mental stimulation and exercise, which are just as important for your dog’s happiness as nutritious food and a cozy bed. By prioritizing your dog’s health and wellness, you’ll ensure your good boy or girl enjoys every adventure by your side.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HkLcdw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dog Accessories for Specific Needs",
+            "icon": "paw_print",
+            "row_content": "<p>Every dog is unique, and the best dog accessories are those that cater to your pup’s individual needs. For energetic pit mixes or little chonk breeds, a sturdy harness can make walks safer and more enjoyable. Puppies and new pups benefit from gentle collars and adjustable leashes designed for their smaller size, while senior dogs may appreciate orthopedic beds and easy-step car seats for comfortable travel. If you’re tackling potty training, look for accessories that make the process easier, like absorbent pads and leak proof mats. For those who love outdoor adventures or frequent car rides, a secure car seat or harness keeps your furry friend safe in the back seat. No matter your dog’s age or breed, there’s an accessory out there to make life easier and more fun for both of you.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EhzHrj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Choosing the Best Dog Accessories",
+            "icon": "paw_print",
+            "row_content": "<p>Selecting the right accessories for your dog can feel overwhelming, but a few simple tips can help you make the best choices. Start by measuring your dog to ensure you pick the right size for collars, harnesses, and beds—comfort and safety always come first. Look for durable materials that can withstand daily wear and tear, especially if your pup loves outdoor adventures or has a habit of chewing. Features like a nonslip base on food and water bowls, or a securely affixed leash, can make a world of difference in your daily routine. Consider your lifestyle, too: city dwellers might prefer compact, easy-to-clean accessories, while active owners may need gear that stands up to hiking and travel. With options available in seven sizes, two sizes, and a rainbow of colors, you’re sure to find the best dog accessories to suit every adorable little nugget in your life.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_K9Hdh4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Traveling with Your Dog",
+            "icon": "paw_print",
+            "row_content": "<p>Traveling with your dog can be a fun and stress free experience with the right accessories. A comfortable pet carrier or car seat keeps your furry friend safe and secure during car rides, whether you’re heading out for errands or planning a road trip. Using a dog car seat cover helps protect your vehicle from dirt, hair, and moisture, while accessories like harnesses or seat belts protect your dog during travel. Remember to pack essentials like food, water, and poop bags, and bring along a portable water bowl for hydration on the go. Favorite toys and treats can help keep your dog entertained and relaxed during longer journeys. With a bit of planning and the best travel accessories, every trip becomes an adventure you and your dog will love.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hEHGWm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Tips for New Puppy Owners",
+            "icon": "paw_print",
+            "row_content": "<p>Whether you’re a seasoned dog owner or welcoming a new puppy into your home, a few smart strategies can make life with your furry friend even more enjoyable. Keep pet hair under control with regular brushing and invest in accessories that make bath time a breeze—tools like the aquapaw pet bathing tool can divert water exactly where you need it, making cleanup quick and stress free. If your dog gives you the stink eye after a muddy walk, a garden hose with an included adapter can help wash away dirt before it gets inside. Living in City apartments or other tight spaces? Choose compact beds and storage-friendly accessories to maximize your space. For road trips and car rides, always have a stash of poop bags, a portable water bowl, and a comfy car seat ready to go. And don’t forget to trade tips with other pet owners—sometimes the best advice comes from those who’ve walked in your shoes (or with your pup at their loyal heel). With the right approach and a few clever accessories, every day with your dog can be a new adventure.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_yVijMN",
+        "collapsible_row_ytz9U9",
+        "collapsible_row_MhKp4x",
+        "collapsible_row_yCHAq6",
+        "collapsible_row_HkLcdw",
+        "collapsible_row_EhzHrj",
+        "collapsible_row_K9Hdh4",
+        "collapsible_row_hEHGWm"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Find Everything to Meet Your Doggo Needs Here!",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_html_cVEB4W": {
+      "type": "custom-html",
+      "custom_css": [
+        ".h1-trusted1 {font-size: 48px; box-shadow: #c2b2bc 4px 4px 16px; border-radius: 50px; padding-top: 25px; padding-bottom: 25px; background-color: #ffffff; background-size: cover; text-align: center; margin-bottom: 25px; color: black; margin-top: 0px;}",
+        ".p-trusted {text-align: center; font-size: 20px; margin-bottom: 30px; color: white; /* qitu ja ndrron ngjyren paragrafit */}",
+        "@media only screen and (max-width: 768px) {.desktop-trusti {display: none !important; }}",
+        "@media only screen and (min-width: 769px) {.mobile-trusti {display: none !important; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div data-pf-type=\"Column\" class=\"cust-html-sec1 sc-gUQvok iVVDxu pf-91_\" style=\"max-width: 1170px;margin: 0 auto;\">\n    <h2 tabindex=\"0\" spellcheck=\"false\" data-pf-type=\"Heading2\" style=\"font-family: 'Montserrat', sans-serif;\" data-animation=\"flip\" class=\"h1-trusted1\">\n        <span>Trusted By Over 4,400+ Happy Customers</span>\n    </h2>\n    <p class=\"p-trusted\">\n        <span data-pf-type=\"Text\" style=\"text-align: center;font-size: 20px; margin-bottom: 30px;font-family: 'Montserrat', sans-serif;\" class=\"sc-jKTccl dCeBIC pf-96_\">\n            <br>We average 5-star reviews from trusted online sources such as Facebook, Amazon and Trustpilot!\n            <br><br>Read our customers reviews on our product page to hear directly from our happy customers!\n        </span>\n    </p>\n    <img class=\"desktop-trusti\" src=\"https://cdn.shopify.com/s/files/1/0764/9414/3800/files/trusti_per_pc-1.png?v=1687868374\">\n    <img class=\"mobile-trusti\" src=\"https://cdn.shopify.com/s/files/1/0764/9414/3800/files/trusti_per_tel_1.png?v=1687868388\">\n</div>",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 34%, rgba(12, 12, 12, 1) 74%)",
+        "text_color": ""
+      }
+    },
+    "section_divider_J6NzPr": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "rgba(0,0,0,0)",
+        "background_color": "#0c0c0c",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "f6aa73dd-735c-463c-a915-039d2a5a8dd1": {
+      "type": "lumin-mega",
+      "blocks": {
+        "text_DDM8Kk": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>INCREDIBLE RESULTS</strong></h2>",
+            "text_style": "body"
+          }
+        },
+        "text_kyPrnt": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Customer Satisfaction Stories</h2>",
+            "text_style": "body"
+          }
+        },
+        "text_yzkk4X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover why so many <strong>pet owners</strong> trust <strong>Rover Rituals™</strong> to <strong>enhance</strong> their daily routines and <strong>improve</strong> their pets' lives.</p>",
+            "text_style": "body"
+          }
+        },
+        "percent_WxHKFa": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 80,
+            "circle_width": 4,
+            "percent_bg": "#030303",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 90,
+            "percent_text": 10,
+            "heading": "",
+            "heading_size_alt": 20,
+            "text": "<p><strong>of our customers </strong>are thrilled with the convenience and quality of our products, making pet care easier and more enjoyable.</p>"
+          }
+        },
+        "percent_QBYbHV": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 80,
+            "circle_width": 4,
+            "percent_bg": "#030303",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 95,
+            "percent_text": 10,
+            "heading": "",
+            "heading_size_alt": 20,
+            "text": "<p><strong>of our customers </strong>report that our products have transformed their daily routines, providing lasting value for them and their pets.</p>"
+          }
+        },
+        "percent_mpnYtT": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 80,
+            "circle_width": 4,
+            "percent_bg": "#030303",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 97,
+            "percent_text": 10,
+            "heading": "",
+            "heading_size_alt": 20,
+            "text": "<p><strong>of our customers </strong>recommend <strong>Rover Rituals™ </strong>for its reliability, ensuring a smoother and more comfortable experience for both pets and owners.</p>"
+          }
+        },
+        "caption_QfyJCQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Results based on 20,000+ orders",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "text_DDM8Kk",
+        "text_kyPrnt",
+        "text_yzkk4X",
+        "percent_WxHKFa",
+        "percent_QBYbHV",
+        "percent_mpnYtT",
+        "caption_QfyJCQ"
+      ],
+      "settings": {
+        "color_scheme_main": "background-1",
+        "full-width": true,
+        "image": "shopify://shop_images/a-cute-dog-looking-up-at-its-smiling-owner-during-a-cuddle.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-cd8ff304-8858-43d4-8ace-1ba168cff031",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_UdPGfj": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_jWCzDF": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "#000000",
+        "background_color": "#030303",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lumin_mega_pEy3cK": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_6bAVnT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Support and Services</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_6C9RMf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Got a question or comment?</strong><br/><br/><strong>We're here to help! </strong>Our friendly and knowledgeable customer service team is available to assist you with anything you need.</p><p>Whether you're <strong>looking for more information</strong> about our products, need help with an order, or just want to say hello, <strong>we'd love to hear from you.</strong></p><p><strong>Get in touch with us today and let us know how we can help!</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_MzNNnr": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTACT US",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6bAVnT",
+        "text_6C9RMf",
+        "button_MzNNnr"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/support.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_pyBnkw": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h2",
+        "collection_text_alignment": "left",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "navigation_show": true,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "waves_rDz8Tr": {
+      "type": "waves",
+      "settings": {
+        "wave_color": "#ffffff",
+        "wave_height": 40,
+        "wave_speed": 10,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "lumin_slidshow_pro_gGR6jt",
+    "image_with_text_overlay_xEyztJ",
+    "scroll_text_R8i9Wq",
+    "collection_list_9JKUVh",
+    "featured_collection_tWcLzg",
+    "section_divider_KDgYfi",
+    "custom_testimonial_mttjJ9",
+    "1777014894e7266238",
+    "collection_list_RrbAbQ",
+    "featured_collection_Y6GxaW",
+    "collection_list_h4mqJN",
+    "section_divider_gQzDnT",
+    "featured_product_gPLr7r",
+    "collapsible_content_XFqF6M",
+    "lumin_mega_aE9XEf",
+    "featured_product_n7Yf6A",
+    "collapsible_content_fLKhY3",
+    "custom_html_cVEB4W",
+    "section_divider_J6NzPr",
+    "f6aa73dd-735c-463c-a915-039d2a5a8dd1",
+    "section_divider_UdPGfj",
+    "section_divider_jWCzDF",
+    "lumin_mega_pEy3cK",
+    "featured_blog_pyBnkw",
+    "waves_rDz8Tr"
+  ]
+}

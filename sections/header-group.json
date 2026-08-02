@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header.name",
+  "sections": {
+    "scroll_text_yhGTtr": {
+      "type": "scroll-text",
+      "blocks": {
+        "timer_DVHfF8": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "year": "2025",
+            "month": "12",
+            "day": "02",
+            "hour": "00",
+            "minute": "00",
+            "hide_timer_on_completed": true,
+            "timer_completed_text": "",
+            "days_text": "DAYS",
+            "hours_text": "HOUR",
+            "minutes_text": "MIN",
+            "seconds_text": "SEC",
+            "timer_numbers_size": 20,
+            "timer_numbers_size_mobile": 18,
+            "timer_numbers_height": 100,
+            "timer_mr": 50,
+            "timer_mr_mobile": 40,
+            "timer_text_size": 10,
+            "timer_text_size_mobile": 10,
+            "timer_text_height": 80,
+            "timer_text_mt": 8,
+            "timer_text_mt_mobile": 8,
+            "timer_numbers_color": "#ff0000",
+            "timer_text_color": "#ff0000"
+          }
+        },
+        "text_6YqMee": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "🎉✨<strong>New Year SALE NOW ON!</strong>🎉✨",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "",
+            "text_color": "#ffffff",
+            "text_size": 18,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        },
+        "text_wKCJyf": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>4,400+ 5 STAR REVIEWS❤️</strong>",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "",
+            "text_color": "#ffffff",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        },
+        "text_wDznDm": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Free Shipping</strong>😎",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "",
+            "text_color": "#ffffff",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        },
+        "text_AXzRyc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>WE'RE ON HOLIDAY -BACK FEB 23❤️</strong>",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "",
+            "text_color": "#ffffff",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        },
+        "text_Lpjj3e": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>UPTO 50% OFF SALE!👍</strong>",
+            "url": "",
+            "icon": "none",
+            "outline_all": false,
+            "outline_text": "scrolling",
+            "text_color": "#ffffff",
+            "text_size": 18,
+            "text_size_mobile": 14,
+            "text_height": 130,
+            "text_mr": 50,
+            "text_mr_mobile": 40
+          }
+        }
+      },
+      "block_order": [
+        "timer_DVHfF8",
+        "text_6YqMee",
+        "text_wKCJyf",
+        "text_wDznDm",
+        "text_AXzRyc",
+        "text_Lpjj3e"
+      ],
+      "settings": {
+        "reverse_direction": false,
+        "pause_hover": true,
+        "lazy": true,
+        "scrolling_velocity": 60,
+        "scrolling_velocity_mobile": 50,
+        "background_color": "#000000",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
+    },
+    "announcement_bar_3dr6me": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_LbfMLn": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE GIFTS WITH $100 + $150 ORDERS",
+            "link": "shopify://products/dog-bandana-dog-scarf-with-buckle-sca_clone_freegift"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_LbfMLn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-78d2e301-66be-46b4-8bf3-c85455b81fc4",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "hide_arrows": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "@media (min-width: 1025px) {/* Adjust breakpoint if needed */ .header a {font-weight: bold; }}"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "hide_search": false,
+        "menu": "main-menu",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "transparent_header": "none",
+        "content_color": "#000000",
+        "menu_type_desktop": "mega",
+        "menu_hover": true,
+        "mega_columns": "20",
+        "menu_align": "center",
+        "extended-megamenu-show-imgs": "no",
+        "link_img_size": 45,
+        "img_radius": 0,
+        "mega_menu_head_size": 14,
+        "head_menu_bold": false,
+        "mega_menu_link_size": 12,
+        "menu_bold": false,
+        "mega_menu_head_color": "",
+        "mega_menu_link_color": "",
+        "color_scheme": "scheme-52650f17-4d3d-4be4-aa3c-4ef82f95ed07",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "scroll_text_yhGTtr",
+    "announcement_bar_3dr6me",
+    "header"
+  ]
+}

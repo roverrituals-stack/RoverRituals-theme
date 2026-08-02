@@ -1,0 +1,485 @@
+{% doc %}
+  @prompt
+    Create a collection section block that displays the collection title as a heading and the collection description with a customizable "read more" expandable feature. The section should allow merchants to set the number of lines or words to show before the expand/collapse functionality kicks in. Include settings for typography, spacing, and the expand/collapse text labels., add left and right padding options. Also, collection should be dynamically linked to collection displayed by user, use this page theme div class, copy section div class for title and description text
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .page-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-collection-description-{{ ai_gen_id }} {
+    padding: {{ block.settings.padding_top }}px {{ block.settings.padding_horizontal }}px {{ block.settings.padding_bottom }}px;
+  }
+
+  .ai-collection-description__heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    font-weight: {{ block.settings.heading_weight }};
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.heading_margin }}px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-collection-description__content-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    line-height: {{ block.settings.line_height }};
+    color: {{ block.settings.description_color }};
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-collection-description__text-{{ ai_gen_id }} {
+    margin: 0;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+  }
+
+  .ai-collection-description__text-{{ ai_gen_id }}.collapsed {
+    {% if block.settings.truncate_by == 'lines' %}
+      display: -webkit-box;
+      -webkit-line-clamp: {{ block.settings.max_lines }};
+      -webkit-box-orient: vertical;
+    {% endif %}
+  }
+
+  .ai-collection-description__toggle-{{ ai_gen_id }} {
+    background: none;
+    border: none;
+    color: {{ block.settings.toggle_color }};
+    font-size: {{ block.settings.description_size }}px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: {{ block.settings.toggle_margin }}px;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .ai-collection-description__toggle-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.toggle_hover_color }};
+  }
+
+  .ai-collection-description__toggle-{{ ai_gen_id }}:focus {
+    outline: 2px solid {{ block.settings.toggle_color }};
+    outline-offset: 2px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .page-width {
+      padding: 0 16px;
+    }
+
+    .ai-collection-description-{{ ai_gen_id }} {
+      padding-left: {{ block.settings.padding_horizontal_mobile }}px;
+      padding-right: {{ block.settings.padding_horizontal_mobile }}px;
+    }
+
+    .ai-collection-description__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.8 }}px;
+    }
+    
+    .ai-collection-description__content-{{ ai_gen_id }} {
+      font-size: {{ block.settings.description_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="page-width">
+  <collection-description-{{ ai_gen_id }}
+    class="ai-collection-description-{{ ai_gen_id }}"
+    data-truncate-by="{{ block.settings.truncate_by }}"
+    data-max-lines="{{ block.settings.max_lines }}"
+    data-max-words="{{ block.settings.max_words }}"
+    {{ block.shopify_attributes }}
+  >
+    {% liquid
+      assign current_collection = collection
+      if block.settings.collection != blank
+        assign current_collection = block.settings.collection
+      endif
+    %}
+
+    {% if current_collection %}
+      {% if current_collection.title != blank %}
+        <h2 class="ai-collection-description__heading-{{ ai_gen_id }} page-width">
+          {{ current_collection.title }}
+        </h2>
+      {% endif %}
+
+      {% if current_collection.description != blank %}
+        <div class="ai-collection-description__content-{{ ai_gen_id }} page-width">
+          <div class="ai-collection-description__text-{{ ai_gen_id }}" data-full-text="{{ current_collection.description | escape }}">
+            {{ current_collection.description }}
+          </div>
+          <button 
+            class="ai-collection-description__toggle-{{ ai_gen_id }}"
+            aria-expanded="false"
+            style="display: none;"
+          >
+            {{ block.settings.read_more_text }}
+          </button>
+        </div>
+      {% endif %}
+    {% else %}
+      {% if block.settings.placeholder_title != blank %}
+        <h2 class="ai-collection-description__heading-{{ ai_gen_id }} page-width">
+          {{ block.settings.placeholder_title }}
+        </h2>
+      {% endif %}
+      
+      {% if block.settings.placeholder_description != blank %}
+        <div class="ai-collection-description__content-{{ ai_gen_id }} page-width">
+          <div class="ai-collection-description__text-{{ ai_gen_id }}" data-full-text="{{ block.settings.placeholder_description | escape }}">
+            {{ block.settings.placeholder_description }}
+          </div>
+          <button 
+            class="ai-collection-description__toggle-{{ ai_gen_id }}"
+            aria-expanded="false"
+            style="display: none;"
+          >
+            {{ block.settings.read_more_text }}
+          </button>
+        </div>
+      {% endif %}
+    {% endif %}
+  </collection-description-{{ ai_gen_id }}>
+</div>
+
+<script>
+  (function() {
+    class CollectionDescription{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.textElement = null;
+        this.toggleButton = null;
+        this.fullText = '';
+        this.truncatedText = '';
+        this.isExpanded = false;
+        this.truncateBy = this.dataset.truncateBy;
+        this.maxLines = parseInt(this.dataset.maxLines);
+        this.maxWords = parseInt(this.dataset.maxWords);
+      }
+
+      connectedCallback() {
+        this.textElement = this.querySelector('.ai-collection-description__text-{{ ai_gen_id }}');
+        this.toggleButton = this.querySelector('.ai-collection-description__toggle-{{ ai_gen_id }}');
+        
+        if (!this.textElement || !this.toggleButton) return;
+
+        this.fullText = this.textElement.dataset.fullText;
+        this.setupTruncation();
+        this.setupEventListeners();
+      }
+
+      setupTruncation() {
+        if (this.truncateBy === 'words') {
+          this.setupWordTruncation();
+        } else {
+          this.setupLineTruncation();
+        }
+      }
+
+      setupWordTruncation() {
+        const words = this.fullText.split(' ');
+        if (words.length <= this.maxWords) return;
+
+        this.truncatedText = words.slice(0, this.maxWords).join(' ') + '...';
+        this.textElement.innerHTML = this.truncatedText;
+        this.textElement.classList.add('collapsed');
+        this.toggleButton.style.display = 'inline-block';
+      }
+
+      setupLineTruncation() {
+        this.textElement.classList.add('collapsed');
+        
+        const lineHeight = parseFloat(getComputedStyle(this.textElement).lineHeight);
+        const maxHeight = lineHeight * this.maxLines;
+        
+        if (this.textElement.scrollHeight > maxHeight) {
+          this.toggleButton.style.display = 'inline-block';
+        }
+      }
+
+      setupEventListeners() {
+        this.toggleButton.addEventListener('click', () => {
+          this.toggleExpansion();
+        });
+      }
+
+      toggleExpansion() {
+        this.isExpanded = !this.isExpanded;
+        
+        if (this.truncateBy === 'words') {
+          this.textElement.innerHTML = this.isExpanded ? this.fullText : this.truncatedText;
+        } else {
+          this.textElement.classList.toggle('collapsed', !this.isExpanded);
+        }
+
+        this.toggleButton.textContent = this.isExpanded 
+          ? '{{ block.settings.read_less_text }}' 
+          : '{{ block.settings.read_more_text }}';
+        
+        this.toggleButton.setAttribute('aria-expanded', this.isExpanded.toString());
+      }
+    }
+
+    customElements.define('collection-description-{{ ai_gen_id }}', CollectionDescription{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Collection Description",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection",
+      "info": "Leave blank to use the current collection page"
+    },
+    {
+      "type": "text",
+      "id": "placeholder_title",
+      "label": "Placeholder title",
+      "default": "Collection Title",
+      "info": "Used when no collection is available"
+    },
+    {
+      "type": "textarea",
+      "id": "placeholder_description",
+      "label": "Placeholder description",
+      "default": "This is a sample collection description that demonstrates the expandable text feature. You can customize this text and set various options to control how the expand/collapse functionality works.",
+      "info": "Used when no collection is available"
+    },
+    {
+      "type": "header",
+      "content": "Truncation Settings"
+    },
+    {
+      "type": "select",
+      "id": "truncate_by",
+      "label": "Truncate by",
+      "options": [
+        {
+          "value": "lines",
+          "label": "Lines"
+        },
+        {
+          "value": "words",
+          "label": "Words"
+        }
+      ],
+      "default": "lines"
+    },
+    {
+      "type": "range",
+      "id": "max_lines",
+      "label": "Maximum lines to show",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 3,
+      "info": "Used when truncating by lines"
+    },
+    {
+      "type": "range",
+      "id": "max_words",
+      "label": "Maximum words to show",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "default": 30,
+      "info": "Used when truncating by words"
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more text",
+      "default": "Read more"
+    },
+    {
+      "type": "text",
+      "id": "read_less_text",
+      "label": "Read less text",
+      "default": "Read less"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "line_height",
+      "label": "Line height",
+      "min": 1.0,
+      "max": 2.0,
+      "step": 0.1,
+      "default": 1.5
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "toggle_color",
+      "label": "Toggle button color",
+      "default": "#0066cc"
+    },
+    {
+      "type": "color",
+      "id": "toggle_hover_color",
+      "label": "Toggle button hover color",
+      "default": "#004499"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Left and right padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal_mobile",
+      "label": "Left and right padding (mobile)",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "heading_margin",
+      "label": "Heading bottom margin",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "toggle_margin",
+      "label": "Toggle button top margin",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Description"
+    }
+  ],
+  "tag": null
+}
+{% endschema %}

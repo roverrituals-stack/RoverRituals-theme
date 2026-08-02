@@ -1,0 +1,103 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e45dab48-de03-420e-a878-43e5493d092f": {
+      "type": "random-number",
+      "disabled": true,
+      "settings": {
+        "layout": "full_bleed",
+        "color_scheme": "inverse",
+        "pill_color": "#c92127",
+        "fomo_border": 6,
+        "fomo_border_color": "rgba(0,0,0,0)",
+        "fomo_min": 2,
+        "fomo_max": 7,
+        "fomo_speed": 3,
+        "fomo_text_before": "",
+        "number_bold": true,
+        "fomo_text_after": "<strong>People</strong> are checking out now",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 12,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1774953551cec5ead2": {
+      "type": "apps",
+      "blocks": {
+        "dealeasy_cvg_progress_bar_Yt7d6A": {
+          "type": "shopify://apps/dealeasy/blocks/cvg-progress-bar/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "dealeasy_cvg_progress_bar_Yt7d6A"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 48
+      }
+    },
+    "1762604057212f669c": {
+      "type": "apps",
+      "blocks": {
+        "bogos_io_free_gift_gift_slider_view_9Yp6RB": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/gift-slider-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bogos_io_free_gift_gift_slider_view_9Yp6RB"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "e45dab48-de03-420e-a878-43e5493d092f",
+    "1774953551cec5ead2",
+    "cart-items",
+    "cart-footer",
+    "1762604057212f669c"
+  ]
+}
