@@ -46,9 +46,10 @@
         },
         "loox_reviews_loox_rating_7QwzYW": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "contentSize": 18,
-            "pattern": "<b>[rating] out of [count] reviews</b>",
+            "pattern": "[rating] out of [count] reviews",
             "hideText": false,
             "alignment": "",
             "layout": "",
@@ -83,12 +84,13 @@
         },
         "smartbot_product_highlights_dpLerx": {
           "type": "shopify://apps/smartbot/blocks/product-highlights/d9407b81-7d3e-4612-91c3-2020086e2073",
+          "disabled": true,
           "settings": {}
         },
         "text_benefits_dkzHhG": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p>✨ FREE Shipping Worldwide</p><p>✨ 30 Day Returns</p><p><em><strong>FREE GIFT ON $100 ORDERS</strong></em></p>"
+            "benefits": "<p><strong>🐕 Perfect Gift - For Every Dog Parent</strong><br/><br/>From must have harnesses to grooming essentials and stylish apparel—your gift recipient picks what suits their pup best.</p>"
           }
         },
         "variant_picker": {
@@ -247,6 +249,7 @@
         },
         "loox_reviews_loox_snippets_widget_HnBM6W": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "reviews-type": "product-reviews",
             "reviews-limit": 3,
@@ -272,6 +275,16 @@
         "selleasy_lb_upsell_fbt_block_78qkwi": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
+        },
+        "auto_tabs_ychTyU": {
+          "type": "auto_tabs",
+          "settings": {
+            "tabs_color_scheme": "background-1",
+            "compact": true,
+            "auto_tab_heading": 13,
+            "padding_top": 16,
+            "padding_bottom": 16
+          }
         },
         "collapsible_tab_gkh6PC": {
           "type": "collapsible_tab",
@@ -307,6 +320,7 @@
         "custom_liquid_CDdbmk",
         "loox_reviews_loox_snippets_widget_HnBM6W",
         "selleasy_lb_upsell_fbt_block_78qkwi",
+        "auto_tabs_ychTyU",
         "collapsible_tab_gkh6PC",
         "description_ghn3LD"
       ],
@@ -396,6 +410,7 @@
         "collapsible_row_GRYD8J",
         "collapsible_row_Kc7zw7"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
