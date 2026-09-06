@@ -254,7 +254,7 @@
             "rating-icon-color": "",
             "border-color": "",
             "shadow-color": "",
-            "product_selection": ""
+            "product_selection": "secureride-dog-carrier-backpack"
           }
         },
         "tab_details": {
@@ -271,7 +271,7 @@
           "type": "collapsible_tab",
           "settings": {
             "open_first_collapsible_row": false,
-            "heading": "📏 Size Guide - find your dog's fit",
+            "heading": "Size Guide - find your dog's fit",
             "icon": "ruler",
             "content": "<p>Measure your dog's weight and back length, then match the list below. Between two sizes? Size up for room to move.</p><ul><li><strong>S</strong> - 1-5 kg - back length 42 cm (16.9 in)</li><li><strong>M</strong> - 4-9 kg - back length 48 cm (19.7 in)</li><li><strong>L</strong> - 8-18 kg - back length 57 cm (22.8 in)</li><li><strong>XL</strong> - 16-30 kg - back length 68 cm (26.8 in)</li></ul><p>See the full size chart with photos in the Size Guide section further down the page.</p>",
             "page": ""
@@ -589,6 +589,7 @@
     },
     "custom_liquid_QcHepj": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "",
