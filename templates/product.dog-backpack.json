@@ -842,42 +842,6 @@
         "include_margins": true
       }
     },
-    "div1": {
-      "type": "section-divider",
-      "settings": {
-        "shape": "diagonal_1",
-        "flip_horizontal": true,
-        "flip_vertical": true,
-        "shape_color": "#000000",
-        "background_color": "#030303",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "div2": {
-      "type": "section-divider",
-      "settings": {
-        "shape": "waves_3",
-        "flip_horizontal": false,
-        "flip_vertical": false,
-        "shape_color": "#030303",
-        "background_color": "#030303",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "div3": {
-      "type": "section-divider",
-      "settings": {
-        "shape": "diagonal_1",
-        "flip_horizontal": true,
-        "flip_vertical": true,
-        "shape_color": "#000000",
-        "background_color": "#030303",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "cmp": {
       "type": "comparison-table",
       "blocks": {
@@ -1107,4 +1071,3 @@
     "reviews_full"
   ]
 }
-
