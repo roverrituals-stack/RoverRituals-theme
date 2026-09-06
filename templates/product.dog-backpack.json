@@ -106,8 +106,8 @@
             "swatchSize": 50,
             "swatchHeight": 50,
             "size_trigger": "Size",
-            "chart_id": "<b><i>Size Chart<b><i></i></b></i></b>",
-            "size_page": ""
+            "chart_id": "Size Chart",
+            "size_page": "secureride-size-chart"
           }
         },
         "quantity_selector": {
@@ -312,7 +312,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#8c30ff",
-        "container_text": "<strong>Fits dogs 1-30kg · 4 true sizes · Free size exchange</strong>",
+        "container_text": "<strong>Fits dogs 1-30kg / 2-66lbs · Limited Time Offer</strong>",
         "container_text_bg": "#8c30ff",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
