@@ -93,6 +93,10 @@
             "benefits": "<p><strong>🐾 Buckled SecureRide harness</strong> keeps front legs secure</p><p><strong>🌬️ 360° breathable mesh</strong> keeps your dog cool</p><p><strong>📏 4 true sizes</strong> for dogs 1-30kg (S-XL)</p><p><strong>🛡️ 30-day money-back guarantee</strong> + free size exchanges</p>"
           }
         },
+        "selleasy_lb_upsell_addon_block_yJBbRx": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -106,12 +110,20 @@
             "swatchSize": 50,
             "swatchHeight": 50,
             "size_trigger": "Size",
-            "chart_id": "Size Chart",
+            "chart_id": "<b><i>Size Chart<i><b></b></i></i></b>",
             "size_page": "secureride-size-chart"
+          }
+        },
+        "dealeasy_vd_cards_D4R8fT": {
+          "type": "shopify://apps/dealeasy/blocks/vd-cards/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
             "enable_quantity_discounts": false,
             "quantity_style": "horizontal",
@@ -293,7 +305,9 @@
         "price",
         "text_tagline",
         "text_benefits",
+        "selleasy_lb_upsell_addon_block_yJBbRx",
         "variant_picker",
+        "dealeasy_vd_cards_D4R8fT",
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_trust",
