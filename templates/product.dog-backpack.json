@@ -90,7 +90,7 @@
         "text_benefits": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p><strong>🐾 Buckled SecureRide harness</strong> keeps front legs secure</p><p><strong>🌬️ 360° breathable mesh</strong> keeps your dog cool</p><p><strong>📏 4 true sizes</strong> for dogs 1-30kg (S-XL)</p><p><strong>🛡️ 30-day money-back guarantee</strong> + free size exchanges</p>"
+            "benefits": "<p><strong>🐾 Buckled SecureRide harness</strong> keeps front legs secure</p><p><strong>🌬️ 360° breathable mesh</strong> keeps your dog cool</p><p><strong>📏 4 true sizes</strong> for dogs 1-30kg / 2-66 lb (S-XL)</p><p><strong>🛡️ 30-day money-back guarantee</strong> + free size exchanges</p>"
           }
         },
         "selleasy_lb_upsell_addon_block_yJBbRx": {
@@ -273,7 +273,7 @@
             "open_first_collapsible_row": false,
             "heading": "Size Guide - find your dog's fit",
             "icon": "ruler",
-            "content": "<p>Measure your dog's weight and back length, then match the list below. Between two sizes? Size up for room to move.</p><ul><li><strong>S</strong> - 1-5 kg - back length 42 cm (16.9 in)</li><li><strong>M</strong> - 4-9 kg - back length 48 cm (19.7 in)</li><li><strong>L</strong> - 8-18 kg - back length 57 cm (22.8 in)</li><li><strong>XL</strong> - 16-30 kg - back length 68 cm (26.8 in)</li></ul><p>See the full size chart with photos in the Size Guide section further down the page.</p>",
+            "content": "<p>Measure your dog's weight and back length, then match the list below. Between two sizes? Size up for room to move.</p><ul><li><strong>S</strong> - 1-5 kg / 2-11 lb - back length 42 cm (16.9 in)</li><li><strong>M</strong> - 4-9 kg / 9-20 lb - back length 48 cm (19.7 in)</li><li><strong>L</strong> - 8-18 kg / 18-40 lb - back length 57 cm (22.8 in)</li><li><strong>XL</strong> - 16-30 kg / 35-66 lb - back length 68 cm (26.8 in)</li></ul><p>See the full size chart with photos in the Size Guide section further down the page.</p>",
             "page": ""
           }
         },
@@ -326,7 +326,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#8c30ff",
-        "container_text": "<strong>Fits dogs 1-30kg / 2-66lbs · Limited Time Offer</strong>",
+        "container_text": "<strong>Fits dogs 1-30kg / 2-66 lb / 2-66lbs · Limited Time Offer</strong>",
         "container_text_bg": "#8c30ff",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
@@ -551,7 +551,7 @@
     "size_guide": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>.sr-sg{max-width:900px;margin:0 auto;text-align:center;padding:8px 16px}.sr-sg h2{font-size:28px;margin:0 0 6px}.sr-sg p.sub{color:#555;margin:0 0 18px}.sr-sg img{width:100%;height:auto;border-radius:12px;margin:0 0 18px}.sr-sg table{width:100%;border-collapse:collapse;font-size:15px}.sr-sg th,.sr-sg td{padding:10px 12px;border-bottom:1px solid #e6e6e6;text-align:left}.sr-sg th{background:#f5f5f5;font-weight:700}.sr-sg caption{caption-side:bottom;color:#777;font-size:12px;padding-top:10px}</style>\n<div class=\"sr-sg\">\n<h2>Find your dog's perfect fit</h2>\n<p class=\"sub\">Measure your dog's weight and back length, then choose the matching size. Between two sizes? Size up.</p>\n<img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/S18e816b04db24772b8b7aeac6e5917d3a.webp\" alt=\"SecureRide Dog Carrier Backpack size chart: S, M, L and XL weight and length ranges\" loading=\"lazy\">\n<table>\n<thead>\n<tr>\n<th>Size</th>\n<th>Weight</th>\n<th>Back length</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>1-5 kg (2-11 lb)</td>\n<td>42 cm / 16.9 in</td>\n</tr>\n<tr>\n<td>M</td>\n<td>4-9 kg (9-20 lb)</td>\n<td>48 cm / 19.7 in</td>\n</tr>\n<tr>\n<td>L</td>\n<td>8-18 kg (18-40 lb)</td>\n<td>57 cm / 22.8 in</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>16-30 kg (35-66 lb)</td>\n<td>68 cm / 26.8 in</td>\n</tr>\n</tbody>\n<caption>Sizes verified against the product size chart. Free size exchange within 30 days.</caption>\n</table>\n</div>",
+        "custom_liquid": "<style>.sr-sg{max-width:900px;margin:0 auto;text-align:center;padding:8px 16px}.sr-sg h2{font-size:28px;margin:0 0 6px}.sr-sg p.sub{color:#555;margin:0 0 18px}.sr-sg img{width:100%;height:auto;border-radius:12px;margin:0 0 18px}.sr-sg table{width:100%;border-collapse:collapse;font-size:15px}.sr-sg th,.sr-sg td{padding:10px 12px;border-bottom:1px solid #e6e6e6;text-align:left}.sr-sg th{background:#f5f5f5;font-weight:700}.sr-sg caption{caption-side:bottom;color:#777;font-size:12px;padding-top:10px}</style>\n<div class=\"sr-sg\">\n<h2>Find your dog's perfect fit</h2>\n<p class=\"sub\">Measure your dog's weight and back length, then choose the matching size. Between two sizes? Size up.</p>\n<img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/S18e816b04db24772b8b7aeac6e5917d3a.webp\" alt=\"SecureRide Dog Carrier Backpack size chart: S, M, L and XL weight and length ranges\" loading=\"lazy\">\n<table>\n<thead>\n<tr>\n<th>Size</th>\n<th>Weight</th>\n<th>Back length</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>1-5 kg / 2-11 lb (2-11 lb)</td>\n<td>42 cm / 16.9 in</td>\n</tr>\n<tr>\n<td>M</td>\n<td>4-9 kg / 9-20 lb (9-20 lb)</td>\n<td>48 cm / 19.7 in</td>\n</tr>\n<tr>\n<td>L</td>\n<td>8-18 kg / 18-40 lb (18-40 lb)</td>\n<td>57 cm / 22.8 in</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>16-30 kg / 35-66 lb (35-66 lb)</td>\n<td>68 cm / 26.8 in</td>\n</tr>\n</tbody>\n<caption>Sizes verified against the product size chart. Free size exchange within 30 days.</caption>\n</table>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -591,183 +591,10 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"srb\">\n  <h2 class=\"srb__title\">Why dog parents choose SecureRide</h2>\n  <p class=\"srb__sub\">Built around your dog, not the bag.</p>\n\n  <div class=\"srb__grid\">\n    <div class=\"srb__card\" style=\"--srb:#6366f1\">\n      <span class=\"srb__chip\">🐕‍🦺</span>\n      <h3 class=\"srb__h\">Buckled harness</h3>\n      <p class=\"srb__t\">Front legs buckle in secure and supported, so your dog rides steady.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#0ea5e9\">\n      <span class=\"srb__chip\">🌬️</span>\n      <h3 class=\"srb__h\">360° breathable mesh</h3>\n      <p class=\"srb__t\">Airflow on every side keeps your dog cool instead of panting.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#10b981\">\n      <span class=\"srb__chip\">📏</span>\n      <h3 class=\"srb__h\">4 true sizes</h3>\n      <p class=\"srb__t\">A real fit for dogs 1–30kg (S–XL), not “most dogs”.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#f59e0b\">\n      <span class=\"srb__chip\">👀</span>\n      <h3 class=\"srb__h\">Head-out view</h3>\n      <p class=\"srb__t\">Your dog can see, breathe, and take in the whole ride.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#f43f5e\">\n      <span class=\"srb__chip\">💪</span>\n      <h3 class=\"srb__h\">Padded straps</h3>\n      <p class=\"srb__t\">Wide, adjustable, ergonomic straps — comfortable for you too.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#8b5cf6\">\n      <span class=\"srb__chip\">🚴</span>\n      <h3 class=\"srb__h\">All-season use</h3>\n      <p class=\"srb__t\">Bike rides, hikes, vet trips, and daily walks, rain or shine.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .srb{max-width:1040px;margin:0 auto;padding:48px 20px;font-family:inherit}\n  .srb__title{text-align:center;margin:0 0 6px;font-size:30px;line-height:1.15;font-weight:800;color:#17141f}\n  .srb__sub{text-align:center;margin:0 0 34px;font-size:16px;color:#6b6b75}\n  .srb__grid{display:grid;gap:18px;grid-template-columns:repeat(3,1fr)}\n  .srb__card{\n    position:relative;background:#fff;border:1px solid #eceaf1;border-radius:18px;\n    padding:24px 22px;text-align:left;\n    box-shadow:0 1px 2px rgba(20,17,25,.04);\n    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;\n  }\n  .srb__card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(20,17,25,.10);border-color:var(--srb)}\n  .srb__chip{\n    display:inline-flex;align-items:center;justify-content:center;\n    width:56px;height:56px;border-radius:16px;font-size:28px;line-height:1;margin-bottom:16px;\n    background:color-mix(in srgb, var(--srb) 14%, #fff);\n    box-shadow:inset 0 0 0 1px color-mix(in srgb, var(--srb) 22%, #fff);\n  }\n  .srb__h{margin:0 0 6px;font-size:18px;font-weight:700;color:#17141f}\n  .srb__t{margin:0;font-size:15px;line-height:1.55;color:#5c5c66}\n  @media (max-width:820px){ .srb__grid{grid-template-columns:repeat(2,1fr)} }\n  @media (max-width:520px){\n    .srb__title{font-size:25px}\n    .srb__grid{grid-template-columns:repeat(2,1fr);gap:14px}\n    .srb__card{padding:18px 16px;border-radius:16px}\n    .srb__chip{width:48px;height:48px;font-size:24px;border-radius:14px}\n    .srb__h{font-size:16px}\n    .srb__t{font-size:13.5px}\n  }\n</style>",
+        "custom_liquid": "<div class=\"srb\">\n  <h2 class=\"srb__title\">Why dog parents choose SecureRide</h2>\n  <p class=\"srb__sub\">Built around your dog, not the bag.</p>\n  <div class=\"srb__grid\">\n    <div class=\"srb__card\" style=\"--srb:#6366f1\"><span class=\"srb__chip\">🐕‍🦺</span><h3 class=\"srb__h\">Buckled harness</h3><p class=\"srb__t\">Front legs buckle in secure and supported, so your dog rides steady.</p></div>\n    <div class=\"srb__card\" style=\"--srb:#0ea5e9\"><span class=\"srb__chip\">🌬️</span><h3 class=\"srb__h\">360° breathable mesh</h3><p class=\"srb__t\">Airflow on every side keeps your dog cool instead of panting.</p></div>\n    <div class=\"srb__card\" style=\"--srb:#10b981\"><span class=\"srb__chip\">📏</span><h3 class=\"srb__h\">4 true sizes</h3><p class=\"srb__t\">A real fit for dogs 1-30 kg (2-66 lb), S to XL, not \"most dogs\".</p></div>\n    <div class=\"srb__card\" style=\"--srb:#f59e0b\"><span class=\"srb__chip\">👀</span><h3 class=\"srb__h\">Head-out view</h3><p class=\"srb__t\">Your dog can see, breathe, and take in the whole ride.</p></div>\n    <div class=\"srb__card\" style=\"--srb:#f43f5e\"><span class=\"srb__chip\">💪</span><h3 class=\"srb__h\">Padded straps</h3><p class=\"srb__t\">Wide, adjustable, ergonomic straps, comfortable for you too.</p></div>\n    <div class=\"srb__card\" style=\"--srb:#8b5cf6\"><span class=\"srb__chip\">🚴</span><h3 class=\"srb__h\">All-season use</h3><p class=\"srb__t\">Bike rides, hikes, vet trips, and daily walks, rain or shine.</p></div>\n  </div>\n</div>\n<style>\n  .srb{max-width:1040px;margin:0 auto;padding:48px 20px;font-family:inherit}\n  .srb__title{text-align:center;margin:0 0 6px;font-size:30px;line-height:1.15;font-weight:800;color:#17141f}\n  .srb__sub{text-align:center;margin:0 0 34px;font-size:16px;color:#6b6b75}\n  .srb__grid{display:grid;gap:18px;grid-template-columns:repeat(3,1fr)}\n  .srb__card{position:relative;background:#fff;border:1px solid #eceaf1;border-radius:18px;padding:24px 22px;text-align:left;box-shadow:0 1px 2px rgba(20,17,25,.04);transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease}\n  .srb__card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(20,17,25,.10);border-color:var(--srb)}\n  .srb__chip{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:16px;font-size:28px;line-height:1;margin-bottom:16px;background:color-mix(in srgb, var(--srb) 14%, #fff);box-shadow:inset 0 0 0 1px color-mix(in srgb, var(--srb) 22%, #fff)}\n  .srb__h{margin:0 0 6px;font-size:18px;font-weight:700;color:#17141f}\n  .srb__t{margin:0;font-size:15px;line-height:1.55;color:#5c5c66}\n  @media (max-width:820px){ .srb__grid{grid-template-columns:repeat(2,1fr)} }\n  @media (max-width:520px){ .srb__title{font-size:25px} .srb__grid{grid-template-columns:repeat(2,1fr);gap:14px} .srb__card{padding:18px 16px;border-radius:16px} .srb__chip{width:48px;height:48px;font-size:24px;border-radius:14px} .srb__h{font-size:16px} .srb__t{font-size:13.5px} }\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "benefit_icons": {
-      "type": "custom-columns",
-      "blocks": {
-        "heading_ic": {
-          "type": "heading",
-          "settings": {
-            "column": "col_1",
-            "visibility": "always-display",
-            "color": "#111111",
-            "heading": "Why dog parents choose SecureRide",
-            "heading_size": "h2",
-            "alignment": "center",
-            "mobile_alignment": "mobile-center",
-            "margin_top": 12,
-            "margin_bottom": 20
-          }
-        },
-        "ic1": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_2",
-            "visibility": "always-display",
-            "icon": "lock",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "above",
-            "icon_color": "#8c30ff",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Buckled harness",
-            "text": "<p>Front legs buckle in secure and supported.</p>",
-            "margin_top": 12,
-            "margin_bottom": 12
-          }
-        },
-        "ic2": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_2",
-            "visibility": "always-display",
-            "icon": "air",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "above",
-            "icon_color": "#8c30ff",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "360° mesh",
-            "text": "<p>Breathable panels keep your dog cool.</p>",
-            "margin_top": 12,
-            "margin_bottom": 12
-          }
-        },
-        "ic3": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_3",
-            "visibility": "always-display",
-            "icon": "straighten",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "above",
-            "icon_color": "#8c30ff",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "4 true sizes",
-            "text": "<p>A real fit for dogs 1-30kg, not \"most dogs\".</p>",
-            "margin_top": 12,
-            "margin_bottom": 12
-          }
-        },
-        "ic4": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_3",
-            "visibility": "always-display",
-            "icon": "visibility",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "above",
-            "icon_color": "#8c30ff",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Head-out view",
-            "text": "<p>Your dog sees, breathes, and rides calm.</p>",
-            "margin_top": 12,
-            "margin_bottom": 12
-          }
-        },
-        "ic5": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_4",
-            "visibility": "always-display",
-            "icon": "fitness_center",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "above",
-            "icon_color": "#8c30ff",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Padded straps",
-            "text": "<p>Adjustable, ergonomic - built for you too.</p>",
-            "margin_top": 12,
-            "margin_bottom": 12
-          }
-        },
-        "ic6": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_4",
-            "visibility": "always-display",
-            "icon": "hiking",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "above",
-            "icon_color": "#8c30ff",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "All-season use",
-            "text": "<p>Bikes, hikes, vet trips, and daily walks.</p>",
-            "margin_top": 12,
-            "margin_bottom": 12
-          }
-        }
-      },
-      "block_order": [
-        "heading_ic",
-        "ic1",
-        "ic2",
-        "ic3",
-        "ic4",
-        "ic5",
-        "ic6"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".icons-with-text__icon__title {font-size: 18px !important;}"
-      ],
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "text_color": "#111111",
-        "columns_count": 6,
-        "column_gap_desktop": 40,
-        "row_gap_desktop": 40,
-        "desktop_vertical_alignment": "center",
-        "column_gap_mobile": 20,
-        "row_gap_mobile": 30,
-        "mobile_vertical_alignment": "flex-start",
-        "col_1_desktop_width": 12,
-        "col_1_mobile_width": 4,
-        "col_1_visibility": "always-display",
-        "col_2_desktop_width": 2,
-        "col_2_mobile_width": 4,
-        "col_2_visibility": "always-display",
-        "col_3_desktop_width": 2,
-        "col_3_mobile_width": 4,
-        "col_3_visibility": "always-display",
-        "col_4_desktop_width": 2,
-        "col_4_mobile_width": 4,
-        "col_4_visibility": "always-display",
-        "col_5_desktop_width": 3,
-        "col_5_mobile_width": 4,
-        "col_5_visibility": "always-display",
-        "col_6_desktop_width": 3,
-        "col_6_mobile_width": 4,
-        "col_6_visibility": "always-display",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "cmp": {
@@ -792,7 +619,7 @@
         "row_2": {
           "type": "row",
           "settings": {
-            "benefit": "4 true sizes (1-30kg)",
+            "benefit": "4 true sizes (1-30kg / 2-66 lb)",
             "us": true,
             "others": false
           }
@@ -961,7 +788,7 @@
           "settings": {
             "heading": "Which sizes and weights does it fit?",
             "icon": "check_mark",
-            "row_content": "<p>Four true sizes: S (1-5kg), M (4-9kg), L (8-18kg), and XL (16-30kg). See the Size Guide for back-length measurements too.</p>",
+            "row_content": "<p>Four true sizes: S (1-5kg / 2-11 lb), M (4-9kg / 9-20 lb), L (8-18kg / 18-40 lb), and XL (16-30kg / 35-66 lb). See the Size Guide for back-length measurements too.</p>",
             "page": ""
           }
         },
@@ -1054,10 +881,6 @@
     "ugc_loox": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_reviews_stories_PEibHG": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-reviews-stories/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {}
-        },
         "loox_reviews_loox_dynamic_section_HbWCiB": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -1073,7 +896,6 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_reviews_stories_PEibHG",
         "loox_reviews_loox_dynamic_section_HbWCiB"
       ],
       "settings": {
@@ -1092,7 +914,6 @@
     "size_guide",
     "ugc_heading",
     "custom_liquid_QcHepj",
-    "benefit_icons",
     "cmp",
     "guarantee",
     "faq",
