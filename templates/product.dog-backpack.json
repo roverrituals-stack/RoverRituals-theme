@@ -1,0 +1,1098 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "name": "Breadcrumb Navigation",
+      "settings": {
+        "breadcrumbs_home_icon_bool": false,
+        "breadcrumb_delimeter": "angle_right",
+        "breadcrumb_bg_color": "#ffffff",
+        "breadcrumb_text_color": "#111111",
+        "breadcrumb_accent_color_bool": false,
+        "breadcrumb_accent_color": "#4770db",
+        "enable_product_page": false,
+        "enable_collection_page": false,
+        "enable_complete_site": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 34,
+            "title_height": 120,
+            "text_transform": "none"
+          }
+        },
+        "line_div": {
+          "type": "line",
+          "settings": {
+            "line_color": "#030303",
+            "padding_top": 0,
+            "padding_bottom": 12
+          }
+        },
+        "loox_rating": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 18,
+            "pattern": "4.8 of 200+ reviews",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_style": "price_2",
+            "price_size": 19,
+            "badge_text_1": 10,
+            "price_first": true,
+            "badge_bg_1": "#c74b4b",
+            "badge_price_1": "#ffffff",
+            "price_size_2": 0.7,
+            "badge_price": "#8b8d8f",
+            "price_bold_2": false,
+            "sale_price_color": "#d50000",
+            "regular_price_color": "#000000",
+            "price_bold": false,
+            "badge_hide": false,
+            "taxes_hide": false,
+            "shipping_hide": false,
+            "padding_top": 8,
+            "padding_bottom": 0
+          }
+        },
+        "text_tagline": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Hands-free carrying for every hike, bike ride, and walk - your dog secure, cool, and calm from day one.</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_benefits": {
+          "type": "text_benefits",
+          "settings": {
+            "benefits": "<p><strong>🐾 Buckled SecureRide harness</strong> keeps front legs secure</p><p><strong>🌬️ 360° breathable mesh</strong> keeps your dog cool</p><p><strong>📏 4 true sizes</strong> for dogs 1-30kg (S-XL)</p><p><strong>🛡️ 30-day money-back guarantee</strong> + free size exchanges</p>"
+          }
+        },
+        "selleasy_lb_upsell_addon_block_yJBbRx": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "label_style": "body",
+            "font_size": 14,
+            "font_style": "normal",
+            "swatchType": "variantImage",
+            "optionName": "Color",
+            "swatchStyle": "square-round-corners",
+            "swatchSize": 50,
+            "swatchHeight": 50,
+            "size_trigger": "Size",
+            "chart_id": "<b><i>Size Chart<i><b></b></i></i></b>",
+            "size_page": "secureride-size-chart"
+          }
+        },
+        "dealeasy_vd_cards_D4R8fT": {
+          "type": "shopify://apps/dealeasy/blocks/vd-cards/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "enable_quantity_discounts": false,
+            "quantity_style": "horizontal",
+            "columns_block": "25",
+            "preselected": "1",
+            "show_quantity_label": true,
+            "hide_lines": true,
+            "show_head_border": true,
+            "title_text_align": "center",
+            "quantity_title_text": "<p>Buy More Save More</p>",
+            "quantity_subtitle_text": "<p>Limited Time Offer</p>",
+            "title_font_size": 1.8,
+            "subtitle_font_size": 1.3,
+            "title_color": "#000000",
+            "subtitle_color": "#000000",
+            "title_line_color": "#000000",
+            "title_bg_color": "#ffffff",
+            "hide_checkbox": false,
+            "show_strikethrough": true,
+            "show_total_pricing": true,
+            "show_per_unit": false,
+            "badge_style": "ribbon ribbon-top-right",
+            "option_1_label": "Buy 1",
+            "option_1_quantity": 1,
+            "option_1_discount_percentage": 0,
+            "option_1_badge_enable": false,
+            "option_1_badge_text": "Most Popular",
+            "option_1_unit_label": "($)/Pcs",
+            "option_1_save_text": "You save 50%",
+            "option_2_label": "Buy 2",
+            "option_2_quantity": 2,
+            "option_2_discount_percentage": 10,
+            "option_2_badge_enable": true,
+            "option_2_badge_text": "Most Popular",
+            "option_2_unit_label": "($)/Pcs",
+            "option_2_save_text": "You save extra 10%",
+            "option_3_label": "Buy 3",
+            "option_3_quantity": 3,
+            "option_3_discount_percentage": 20,
+            "option_3_badge_enable": false,
+            "option_3_badge_text": "Most Popular",
+            "option_3_unit_label": "($)/Pcs",
+            "option_3_save_text": "You save extra 20%",
+            "option_4_label": "",
+            "option_4_quantity": 4,
+            "option_4_discount_percentage": 0,
+            "option_4_badge_enable": false,
+            "option_4_badge_text": "Most Popular",
+            "option_4_unit_label": "($)/Pcs",
+            "option_4_save_text": "Save (%)",
+            "option_5_label": "Offer",
+            "option_5_quantity": 0,
+            "option_5_discount_percentage": 0,
+            "option_5_badge_enable": false,
+            "option_5_badge_text": "Most Popular",
+            "option_5_unit_label": "($)/Pcs",
+            "option_5_save_text": "Save (%)",
+            "option_6_label": "Offer",
+            "option_6_quantity": 0,
+            "option_6_discount_percentage": 0,
+            "option_6_badge_enable": false,
+            "option_6_badge_text": "Most Popular",
+            "option_6_unit_label": "($)/Pcs",
+            "option_6_save_text": "Save (%)",
+            "border_radius": 0.5,
+            "option_bottom_spacing": 2.5,
+            "option_height_spacing": 1.8,
+            "label_font_size": 1.7,
+            "compare_price_font_size": 1.3,
+            "final_price_font_size": 1.5,
+            "per_unit_font_size": 1,
+            "buttons_border_thickness": 0.1,
+            "border_color_unselected": "#cccccc",
+            "text_color_unselected": "#121212",
+            "back_color_unselected": "#ffffff",
+            "border-color-hover-unselected": "#eeeeee",
+            "text_color_selected": "#000000",
+            "selected_button_bg_color": "#f4f4f4",
+            "selected_button_dot_color": "#000000",
+            "selected_button_border_color": "#121212",
+            "savings_label_font_size": 1.1,
+            "badge_font_size": 1,
+            "savings_text_color": "#ffffff",
+            "savings_bg_color": "#334fb4",
+            "badge_bg_color": "#e33e3e",
+            "badge_font_color": "#ffffff",
+            "compare_font_color": "#000000"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_full_button": true,
+            "lm_main_button": "#8c30ff",
+            "lm_main_button_gr": "",
+            "lm_main_text": "#ffffff",
+            "lm_button_animation": "soft",
+            "show_gift_card_recipient": true,
+            "skip_cart": false,
+            "cart_text": "ADD TO CART"
+          }
+        },
+        "custom_liquid_trust": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>.sr-trust{display:flex;justify-content:space-between;gap:8px;margin-top:14px;padding:12px 8px;border-top:1px solid #ececec;border-bottom:1px solid #ececec}.sr-trust a,.sr-trust div{flex:1;text-align:center;text-decoration:none;color:#111;font-size:12px;line-height:1.3}.sr-trust svg{display:block;margin:0 auto 6px;width:24px;height:24px;stroke:#111;fill:none;stroke-width:1.6}.sr-trust span{font-weight:600}</style><div class=\"sr-trust\"><div><svg viewBox=\"0 0 24 24\"><path d=\"M3 12a9 9 0 1 0 3-6.7\"/><path d=\"M3 4v4h4\"/></svg><span>Free Returns</span><br>30-day money-back</div><div><svg viewBox=\"0 0 24 24\"><rect x=\"1\" y=\"6\" width=\"15\" height=\"11\" rx=\"1\"/><path d=\"M16 9h4l3 3v5h-7z\"/><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"19\" cy=\"18\" r=\"2\"/></svg><span>Fast Shipping</span><br>Tracked worldwide</div><div><svg viewBox=\"0 0 24 24\"><path d=\"M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z\"/><path d=\"M9 12l2 2 4-4\"/></svg><span>Fit Guarantee</span><br>Free size exchange</div></div>"
+          }
+        },
+        "loox_snippets": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 4,
+            "alignment": "left",
+            "max-width": "736px",
+            "color-scheme": "alternative",
+            "shadow": "basic",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": true,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": "secureride-dog-carrier-backpack"
+          }
+        },
+        "tab_details": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "Product Details",
+            "icon": "paw_print",
+            "content": "<ul><li><strong>Structured carrier backpack</strong> - front legs go through leg holes and buckle into a harness; the body sits in a cushioned, zippered compartment; the head stays out the top.</li><li><strong>360° breathable mesh</strong> side panels for airflow in every season</li><li><strong>Padded, adjustable shoulder straps</strong> built for your comfort too</li><li><strong>Reflective trim</strong> for low-light visibility</li><li><strong>Storage:</strong> two exterior pockets plus one adjustable/expandable pocket</li><li><strong>Thickened cushioned base</strong> for support and comfort</li><li><strong>Material:</strong> durable polyester shell with reinforced stitching</li><li><strong>Sizes:</strong> S, M, L, XL - fits dogs from 1kg to 30kg</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_sizeguide": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "Size Guide - find your dog's fit",
+            "icon": "ruler",
+            "content": "<p>Measure your dog's weight and back length, then match the list below. Between two sizes? Size up for room to move.</p><ul><li><strong>S</strong> - 1-5 kg - back length 42 cm (16.9 in)</li><li><strong>M</strong> - 4-9 kg - back length 48 cm (19.7 in)</li><li><strong>L</strong> - 8-18 kg - back length 57 cm (22.8 in)</li><li><strong>XL</strong> - 16-30 kg - back length 68 cm (26.8 in)</li></ul><p>See the full size chart with photos in the Size Guide section further down the page.</p>",
+            "page": ""
+          }
+        },
+        "tab_how": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "How It Works",
+            "icon": "check_mark",
+            "content": "<ol><li><strong>Front legs through the harness holes</strong> - guide each front leg through its leg hole.</li><li><strong>Buckle the harness</strong> - clip the buckle so the harness holds securely.</li><li><strong>Zip the compartment closed</strong> around your dog's body.</li><li><strong>Head stays out the top</strong> - your dog can see, breathe, and enjoy the ride.</li></ol><p>Tip: let your dog get used to it with a few minutes at home before your first outing.</p>",
+            "page": ""
+          }
+        },
+        "tab_shipping": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "Shipping & Returns",
+            "icon": "plane",
+            "content": "<p>Orders ship within 2-5 business days. Most deliveries arrive in about 7-15 business days depending on your location.</p><p><strong>30-day money-back guarantee</strong> and <strong>free size exchanges</strong> - if the fit or the fit for your dog isn't right, we'll make it right.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "line_div",
+        "loox_rating",
+        "price",
+        "text_tagline",
+        "text_benefits",
+        "selleasy_lb_upsell_addon_block_yJBbRx",
+        "variant_picker",
+        "dealeasy_vd_cards_D4R8fT",
+        "quantity_selector",
+        "buy_buttons",
+        "custom_liquid_trust",
+        "loox_snippets",
+        "tab_details",
+        "tab_sizeguide",
+        "tab_how",
+        "tab_shipping"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "show_container": true,
+        "container_radius": 12,
+        "container_padding": 30,
+        "container_color": "#ffffff",
+        "container_border_color": "#8c30ff",
+        "container_text": "<strong>Fits dogs 1-30kg / 2-66lbs · Limited Time Offer</strong>",
+        "container_text_bg": "#8c30ff",
+        "container_text_txt": "#ffffff",
+        "show_container_mb": true,
+        "container_padding_mb": 20,
+        "container_radius_mb": 8,
+        "container_color_mb": "#ffffff",
+        "container_border_color_mb": "#f9f9f9",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "vertical_left",
+        "thumbnail_size": 80,
+        "thumbnail_radius": 4,
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "show_full_image": false,
+        "first_image_size": 100,
+        "second_image_size": 0,
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 28,
+        "padding_bottom": 100,
+        "padding_top_mb": 0,
+        "padding_bottom_mb": 36
+      }
+    },
+    "subhead": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_sh": {
+          "type": "heading",
+          "settings": {
+            "heading": "The backpack built around your dog, not the bag",
+            "heading_size": "h2"
+          }
+        },
+        "text_sh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of leaving your dog behind or watching them struggle to keep up? The SecureRide is the only backpack with a buckled harness and 360° breathable mesh built to guarantee a secure fit, zero shoulder strain, and a calm dog by day one.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_sh",
+        "text_sh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "vp1": {
+      "type": "lumin-mega",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Most dog backpacks are built for the bag, not the dog",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you hesitate to bring your dog on hikes, bike rides, or errands because you're not sure they can keep up? Are you tired of carriers that pinch your dog's legs, dig into your shoulders, or leave them panting in the heat?</p><p>Here's what usually goes wrong:</p><p>✓ Thin straps that dig into your shoulders after twenty minutes<br/>✓ Fabric that traps heat, so your dog is panting before the trail<br/>✓ A \"one size fits most\" fit, so small dogs slide and big dogs feel squeezed<br/>✓ Seams that give out after a few uses</p><p>Every time that happens, something slips away - the spontaneous hike, the stress-free vet visit, the ride you used to take alone.</p><p><strong>You don't need a bulkier bag. You need a carrier built around how a dog's body actually moves and rests.</strong></p><p>Our buckled SecureRide harness holds the front legs in place, 360° mesh lets heat escape, and 4 true sizes give you a fit made for your dog. Every walk, ride, and errand becomes something you do together again.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/ezgif.com-optimize_eef8355b-0f2f-4e2b-bc92-1d27ad199317.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_hftiBy": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_KzYtdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Never leave your dog behind again",
+            "heading_size": "h2"
+          }
+        },
+        "text_UPrx8f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feel your dog settle in instantly. The <strong>buckled SecureRide harness</strong> holds their front legs secure and supported, so they ride steady on every bike ride, hike, and walk.</p><p>Hands-free carrying that keeps you both moving - no more choosing between your adventures and your dog.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KzYtdb",
+        "text_UPrx8f"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/Sf36749833d264ba3aab865949c302f53g.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "vp2": {
+      "type": "lumin-mega",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cool, calm, and able to see it all",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>360° breathable mesh</strong> panels let heat escape so your dog stays cool instead of panting. And with the <strong>head-out design</strong>, they can see, breathe, and take in the view the whole way.</p><p>Comfort for warm days and cold, rain or shine.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/ezgif.com-optimize_1_b23c3a81-4304-4274-a185-80b5a5e543f3.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "vp3": {
+      "type": "lumin-mega",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "One backpack for every adventure",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike rides, hikes, vet visits, and daily walks - the SecureRide does it all. <strong>Padded, adjustable straps</strong> carry the load without sore shoulders, and <strong>reflective trim</strong> keeps you both visible in low light.</p><p>Lightweight shell, reinforced stitching, built to hold up trip after trip.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/S8b531b722af04aab814d788acc45a74aO.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "size_guide": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.sr-sg{max-width:900px;margin:0 auto;text-align:center;padding:8px 16px}.sr-sg h2{font-size:28px;margin:0 0 6px}.sr-sg p.sub{color:#555;margin:0 0 18px}.sr-sg img{width:100%;height:auto;border-radius:12px;margin:0 0 18px}.sr-sg table{width:100%;border-collapse:collapse;font-size:15px}.sr-sg th,.sr-sg td{padding:10px 12px;border-bottom:1px solid #e6e6e6;text-align:left}.sr-sg th{background:#f5f5f5;font-weight:700}.sr-sg caption{caption-side:bottom;color:#777;font-size:12px;padding-top:10px}</style>\n<div class=\"sr-sg\">\n<h2>Find your dog's perfect fit</h2>\n<p class=\"sub\">Measure your dog's weight and back length, then choose the matching size. Between two sizes? Size up.</p>\n<img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/S18e816b04db24772b8b7aeac6e5917d3a.webp\" alt=\"SecureRide Dog Carrier Backpack size chart: S, M, L and XL weight and length ranges\" loading=\"lazy\">\n<table>\n<thead>\n<tr>\n<th>Size</th>\n<th>Weight</th>\n<th>Back length</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>1-5 kg (2-11 lb)</td>\n<td>42 cm / 16.9 in</td>\n</tr>\n<tr>\n<td>M</td>\n<td>4-9 kg (9-20 lb)</td>\n<td>48 cm / 19.7 in</td>\n</tr>\n<tr>\n<td>L</td>\n<td>8-18 kg (18-40 lb)</td>\n<td>57 cm / 22.8 in</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>16-30 kg (35-66 lb)</td>\n<td>68 cm / 26.8 in</td>\n</tr>\n</tbody>\n<caption>Sizes verified against the product size chart. Free size exchange within 30 days.</caption>\n</table>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ugc_heading": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real dogs, real adventures",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See how dog parents ride, hike, and explore with their best friend in the SecureRide.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "custom_liquid_QcHepj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"srb\">\n  <h2 class=\"srb__title\">Why dog parents choose SecureRide</h2>\n  <p class=\"srb__sub\">Built around your dog, not the bag.</p>\n\n  <div class=\"srb__grid\">\n    <div class=\"srb__card\" style=\"--srb:#6366f1\">\n      <span class=\"srb__chip\">🐕‍🦺</span>\n      <h3 class=\"srb__h\">Buckled harness</h3>\n      <p class=\"srb__t\">Front legs buckle in secure and supported, so your dog rides steady.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#0ea5e9\">\n      <span class=\"srb__chip\">🌬️</span>\n      <h3 class=\"srb__h\">360° breathable mesh</h3>\n      <p class=\"srb__t\">Airflow on every side keeps your dog cool instead of panting.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#10b981\">\n      <span class=\"srb__chip\">📏</span>\n      <h3 class=\"srb__h\">4 true sizes</h3>\n      <p class=\"srb__t\">A real fit for dogs 1–30kg (S–XL), not “most dogs”.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#f59e0b\">\n      <span class=\"srb__chip\">👀</span>\n      <h3 class=\"srb__h\">Head-out view</h3>\n      <p class=\"srb__t\">Your dog can see, breathe, and take in the whole ride.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#f43f5e\">\n      <span class=\"srb__chip\">💪</span>\n      <h3 class=\"srb__h\">Padded straps</h3>\n      <p class=\"srb__t\">Wide, adjustable, ergonomic straps — comfortable for you too.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#8b5cf6\">\n      <span class=\"srb__chip\">🚴</span>\n      <h3 class=\"srb__h\">All-season use</h3>\n      <p class=\"srb__t\">Bike rides, hikes, vet trips, and daily walks, rain or shine.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .srb{max-width:1040px;margin:0 auto;padding:48px 20px;font-family:inherit}\n  .srb__title{text-align:center;margin:0 0 6px;font-size:30px;line-height:1.15;font-weight:800;color:#17141f}\n  .srb__sub{text-align:center;margin:0 0 34px;font-size:16px;color:#6b6b75}\n  .srb__grid{display:grid;gap:18px;grid-template-columns:repeat(3,1fr)}\n  .srb__card{\n    position:relative;background:#fff;border:1px solid #eceaf1;border-radius:18px;\n    padding:24px 22px;text-align:left;\n    box-shadow:0 1px 2px rgba(20,17,25,.04);\n    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;\n  }\n  .srb__card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(20,17,25,.10);border-color:var(--srb)}\n  .srb__chip{\n    display:inline-flex;align-items:center;justify-content:center;\n    width:56px;height:56px;border-radius:16px;font-size:28px;line-height:1;margin-bottom:16px;\n    background:color-mix(in srgb, var(--srb) 14%, #fff);\n    box-shadow:inset 0 0 0 1px color-mix(in srgb, var(--srb) 22%, #fff);\n  }\n  .srb__h{margin:0 0 6px;font-size:18px;font-weight:700;color:#17141f}\n  .srb__t{margin:0;font-size:15px;line-height:1.55;color:#5c5c66}\n  @media (max-width:820px){ .srb__grid{grid-template-columns:repeat(2,1fr)} }\n  @media (max-width:520px){\n    .srb__title{font-size:25px}\n    .srb__grid{grid-template-columns:repeat(2,1fr);gap:14px}\n    .srb__card{padding:18px 16px;border-radius:16px}\n    .srb__chip{width:48px;height:48px;font-size:24px;border-radius:14px}\n    .srb__h{font-size:16px}\n    .srb__t{font-size:13.5px}\n  }\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "benefit_icons": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_ic": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "color": "#111111",
+            "heading": "Why dog parents choose SecureRide",
+            "heading_size": "h2",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 12,
+            "margin_bottom": 20
+          }
+        },
+        "ic1": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "lock",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "above",
+            "icon_color": "#8c30ff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "center",
+            "title": "Buckled harness",
+            "text": "<p>Front legs buckle in secure and supported.</p>",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "ic2": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "air",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "above",
+            "icon_color": "#8c30ff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "center",
+            "title": "360° mesh",
+            "text": "<p>Breathable panels keep your dog cool.</p>",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "ic3": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "icon": "straighten",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "above",
+            "icon_color": "#8c30ff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "center",
+            "title": "4 true sizes",
+            "text": "<p>A real fit for dogs 1-30kg, not \"most dogs\".</p>",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "ic4": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "icon": "visibility",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "above",
+            "icon_color": "#8c30ff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "center",
+            "title": "Head-out view",
+            "text": "<p>Your dog sees, breathes, and rides calm.</p>",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "ic5": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "fitness_center",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "above",
+            "icon_color": "#8c30ff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "center",
+            "title": "Padded straps",
+            "text": "<p>Adjustable, ergonomic - built for you too.</p>",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "ic6": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "hiking",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "above",
+            "icon_color": "#8c30ff",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "center",
+            "title": "All-season use",
+            "text": "<p>Bikes, hikes, vet trips, and daily walks.</p>",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_ic",
+        "ic1",
+        "ic2",
+        "ic3",
+        "ic4",
+        "ic5",
+        "ic6"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".icons-with-text__icon__title {font-size: 18px !important;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "columns_count": 6,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 30,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 2,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 2,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 2,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cmp": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_0": {
+          "type": "row",
+          "settings": {
+            "benefit": "Buckled front-leg harness",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "benefit": "360° breathable mesh",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "benefit": "4 true sizes (1-30kg)",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "benefit": "Head-out visibility",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_4": {
+          "type": "row",
+          "settings": {
+            "benefit": "Padded ergonomic straps",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_5": {
+          "type": "row",
+          "settings": {
+            "benefit": "Reflective safety trim",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_6": {
+          "type": "row",
+          "settings": {
+            "benefit": "30-day guarantee + free exchange",
+            "us": true,
+            "others": false
+          }
+        }
+      },
+      "block_order": [
+        "row_0",
+        "row_1",
+        "row_2",
+        "row_3",
+        "row_4",
+        "row_5",
+        "row_6"
+      ],
+      "settings": {
+        "title": "Built for the dog first",
+        "heading_size": "h1",
+        "text": "<p>Don't settle for a \"one size fits most\" carrier that pinches, sags, or overheats.</p><p>Choose <strong>SecureRide</strong> for a secure, breathable, true-to-size fit your dog will actually want to ride in.</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "layout": "table_second",
+        "color_scheme": "background-1",
+        "logo_width": 135,
+        "mobile_logo_width": 100,
+        "us_label": "",
+        "others_label": "OTHERS",
+        "benefit_color_scheme": "",
+        "checkmark_color": "#030303",
+        "icon_cells_color_scheme": "",
+        "cross_bg_color": "#e20000",
+        "cross_color": "#ffffff",
+        "table_corner_radius": 0,
+        "table_shadow_opacity": 15,
+        "table_shadow_horizontal_offset": 0,
+        "table_shadow_vertical_offset": 0,
+        "table_shadow_blur": 0,
+        "table_border_thickness": 1,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "guarantee": {
+      "type": "lumin-mega",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try it risk-free for 30 days",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If your dog isn't more comfortable, more confident, and coming along for the ride, send it back for a full refund. <strong>Free size exchanges</strong> too, so getting the right fit is never on you.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/Sdb3c2f6c994a49d788aa65d5b7aa4b7aY.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq_0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know which size to order?",
+            "icon": "check_mark",
+            "row_content": "<p>Measure your dog's weight and check the size chart in the buy box (or the Size Guide tab). If your dog is between two sizes, we recommend sizing up. Not sure? Message us before you order and we'll help you pick. Free size exchange within 30 days either way.</p>",
+            "page": ""
+          }
+        },
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can my dog escape or fall out?",
+            "icon": "check_mark",
+            "row_content": "<p>Your dog's front legs go through the harness and buckle securely in place, and the main compartment zips closed around their body. As with any carrier, supervise your dog closely for the first few uses while they get used to it.</p>",
+            "page": ""
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will my dog overheat in the backpack?",
+            "icon": "check_mark",
+            "row_content": "<p>The 360° mesh panels are designed to let heat escape, so your dog gets airflow even on warm days. On hot days, take the same breaks and bring the same water you would on any walk or ride.</p>",
+            "page": ""
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it machine washable?",
+            "icon": "check_mark",
+            "row_content": "<p>We recommend spot cleaning or hand washing in cold water and air drying. Avoid machine washing and tumble drying to protect the padding and mesh.</p>",
+            "page": ""
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if my dog doesn't take to it right away?",
+            "icon": "check_mark",
+            "row_content": "<p>Most dogs need a short adjustment period with any new gear. Try a few minutes at home before your first outing. If it's still not right for your dog, you're covered by our 30-day money-back guarantee.</p>",
+            "page": ""
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which sizes and weights does it fit?",
+            "icon": "check_mark",
+            "row_content": "<p>Four true sizes: S (1-5kg), M (4-9kg), L (8-18kg), and XL (16-30kg). See the Size Guide for back-length measurements too.</p>",
+            "page": ""
+          }
+        },
+        "faq_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What colors are available?",
+            "icon": "check_mark",
+            "row_content": "<p>The SecureRide comes in Blue, Black, Red, Orange, Dark Gray, and Light Gray. Pick your color right in the buy box.</p>",
+            "page": ""
+          }
+        },
+        "faq_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "check_mark",
+            "row_content": "<p>Orders ship within 2-5 business days and most deliveries arrive in about 7-15 business days depending on your location.</p>",
+            "page": ""
+          }
+        },
+        "faq_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it good for bike rides?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes - cycling is one of the SecureRide's core uses. The buckled harness holds your dog steady and the head-out design lets them enjoy the ride. Start on quiet routes while your dog gets comfortable.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_0",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "background_gradient": "linear-gradient(180deg, rgba(3, 3, 3, 1) 23%, rgba(3, 3, 3, 1) 84%)",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "final_cta": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.sr-final{position:relative;border-radius:16px;overflow:hidden;margin:8px 0;min-height:360px;display:flex;align-items:center;justify-content:center;text-align:center;background:#111}.sr-final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}.sr-final .in{position:relative;z-index:2;color:#fff;max-width:640px;padding:40px 24px}.sr-final h2{font-size:32px;line-height:1.15;margin:0 0 12px}.sr-final p{font-size:16px;margin:0 0 22px;opacity:.95}.sr-final button{background:#8c30ff;color:#fff;border:0;border-radius:999px;padding:16px 40px;font-size:16px;font-weight:700;cursor:pointer}.sr-final button:hover{filter:brightness(1.08)}</style><div class=\"sr-final\"><img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/Sf36749833d264ba3aab865949c302f53g.webp\" alt=\"Dog riding in a SecureRide carrier backpack on a bike ride\" loading=\"lazy\"><div class=\"in\"><h2>Start adventuring together</h2><p>Secure, breathable, and built for real life. Free size exchanges if the fit isn't perfect, and a 30-day money-back guarantee.</p><button type=\"button\" onclick=\"window.scrollTo({top:0,behavior:'smooth'})\">Get Your Dog's Perfect Fit</button></div></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "collection_text_alignment": "left",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-db99ff9f-6edc-4519-b5ed-c65e6bf9d4bc",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "ugc_loox": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_HbWCiB": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": true,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_HbWCiB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "subhead",
+    "vp1",
+    "lumin_mega_hftiBy",
+    "vp2",
+    "vp3",
+    "size_guide",
+    "ugc_heading",
+    "custom_liquid_QcHepj",
+    "benefit_icons",
+    "cmp",
+    "guarantee",
+    "faq",
+    "final_cta",
+    "related",
+    "ugc_loox"
+  ]
+}
