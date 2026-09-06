@@ -370,47 +370,58 @@
         "padding_bottom": 44
       }
     },
-    "pas": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pas": {
-          "type": "heading",
-          "settings": {
-            "heading": "Most dog backpacks are built for the bag, not the dog",
-            "heading_size": "h2"
-          }
-        },
-        "text_pas": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Do you hesitate to bring your dog on hikes, bike rides, or errands because you're not sure they can keep up? Are you tired of carriers that pinch your dog's legs, dig into your shoulders, or leave them panting in the heat?</p><p>Here's what usually goes wrong:</p><p>✓ Thin straps that dig into your shoulders after twenty minutes<br>✓ Fabric that traps heat, so your dog is panting before the trail<br>✓ A \"one size fits most\" fit, so small dogs slide and big dogs feel squeezed<br>✓ Seams that give out after a few uses</p><p>Every time that happens, something slips away - the spontaneous hike, the stress-free vet visit, the ride you used to take alone.</p><p><strong>You don't need a bulkier bag. You need a carrier built around how a dog's body actually moves and rests.</strong> Our buckled SecureRide harness holds the front legs in place, 360° mesh lets heat escape, and 4 true sizes give you a fit made for your dog. Every walk, ride, and errand becomes something you do together again.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pas",
-        "text_pas"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "vp1": {
       "type": "lumin-mega",
       "blocks": {
         "h": {
           "type": "heading",
           "settings": {
-            "heading": "Never leave your dog behind again",
+            "heading": "Most dog backpacks are built for the bag, not the dog",
             "heading_size": "h2"
           }
         },
         "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you hesitate to bring your dog on hikes, bike rides, or errands because you're not sure they can keep up? Are you tired of carriers that pinch your dog's legs, dig into your shoulders, or leave them panting in the heat?</p><p>Here's what usually goes wrong:</p><p>✓ Thin straps that dig into your shoulders after twenty minutes<br/>✓ Fabric that traps heat, so your dog is panting before the trail<br/>✓ A \"one size fits most\" fit, so small dogs slide and big dogs feel squeezed<br/>✓ Seams that give out after a few uses</p><p>Every time that happens, something slips away - the spontaneous hike, the stress-free vet visit, the ride you used to take alone.</p><p><strong>You don't need a bulkier bag. You need a carrier built around how a dog's body actually moves and rests.</strong></p><p>Our buckled SecureRide harness holds the front legs in place, 360° mesh lets heat escape, and 4 true sizes give you a fit made for your dog. Every walk, ride, and errand becomes something you do together again.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "color_scheme_main": "",
+        "full-width": false,
+        "image": "shopify://shop_images/Sf36749833d264ba3aab865949c302f53g.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_hftiBy": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_KzYtdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Never leave your dog behind again",
+            "heading_size": "h2"
+          }
+        },
+        "text_UPrx8f": {
           "type": "text",
           "settings": {
             "text": "<p>Feel your dog settle in instantly. The <strong>buckled SecureRide harness</strong> holds their front legs secure and supported, so they ride steady on every bike ride, hike, and walk.</p><p>Hands-free carrying that keeps you both moving - no more choosing between your adventures and your dog.</p>",
@@ -419,8 +430,8 @@
         }
       },
       "block_order": [
-        "h",
-        "t"
+        "heading_KzYtdb",
+        "text_UPrx8f"
       ],
       "settings": {
         "color_scheme_main": "",
@@ -560,30 +571,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 8
-      }
-    },
-    "ugc_loox": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_HbWCiB": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "reviews_to_display": "",
-            "default_tab": "automatic",
-            "only_photos": true,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_HbWCiB"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "benefit_icons": {
@@ -1039,7 +1026,7 @@
         "padding_bottom": 100
       }
     },
-    "reviews_full": {
+    "ugc_loox": {
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_HbWCiB": {
@@ -1047,7 +1034,7 @@
           "settings": {
             "reviews_to_display": "",
             "default_tab": "automatic",
-            "only_photos": false,
+            "only_photos": true,
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
@@ -1068,19 +1055,18 @@
     "breadcrumb",
     "main",
     "subhead",
-    "pas",
     "vp1",
+    "lumin_mega_hftiBy",
     "vp2",
     "vp3",
     "size_guide",
     "ugc_heading",
-    "ugc_loox",
     "benefit_icons",
     "cmp",
     "guarantee",
     "faq",
     "final_cta",
     "related",
-    "reviews_full"
+    "ugc_loox"
   ]
 }
