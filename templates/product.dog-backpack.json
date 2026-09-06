@@ -587,6 +587,16 @@
         "padding_bottom": 8
       }
     },
+    "custom_liquid_QcHepj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "benefit_icons": {
       "type": "custom-columns",
       "blocks": {
@@ -1075,6 +1085,7 @@
     "vp3",
     "size_guide",
     "ugc_heading",
+    "custom_liquid_QcHepj",
     "benefit_icons",
     "cmp",
     "guarantee",
