@@ -260,7 +260,7 @@
         "tab_details": {
           "type": "collapsible_tab",
           "settings": {
-            "open_first_collapsible_row": true,
+            "open_first_collapsible_row": false,
             "heading": "Product Details",
             "icon": "paw_print",
             "content": "<ul><li><strong>Structured carrier backpack</strong> - front legs go through leg holes and buckle into a harness; the body sits in a cushioned, zippered compartment; the head stays out the top.</li><li><strong>360° breathable mesh</strong> side panels for airflow in every season</li><li><strong>Padded, adjustable shoulder straps</strong> built for your comfort too</li><li><strong>Reflective trim</strong> for low-light visibility</li><li><strong>Storage:</strong> two exterior pockets plus one adjustable/expandable pocket</li><li><strong>Thickened cushioned base</strong> for support and comfort</li><li><strong>Material:</strong> durable polyester shell with reinforced stitching</li><li><strong>Sizes:</strong> S, M, L, XL - fits dogs from 1kg to 30kg</li></ul>",
