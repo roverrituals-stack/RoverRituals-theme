@@ -589,10 +589,9 @@
     },
     "custom_liquid_QcHepj": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div class=\"srb\">\n  <h2 class=\"srb__title\">Why dog parents choose SecureRide</h2>\n  <p class=\"srb__sub\">Built around your dog, not the bag.</p>\n\n  <div class=\"srb__grid\">\n    <div class=\"srb__card\" style=\"--srb:#6366f1\">\n      <span class=\"srb__chip\">🐕‍🦺</span>\n      <h3 class=\"srb__h\">Buckled harness</h3>\n      <p class=\"srb__t\">Front legs buckle in secure and supported, so your dog rides steady.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#0ea5e9\">\n      <span class=\"srb__chip\">🌬️</span>\n      <h3 class=\"srb__h\">360° breathable mesh</h3>\n      <p class=\"srb__t\">Airflow on every side keeps your dog cool instead of panting.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#10b981\">\n      <span class=\"srb__chip\">📏</span>\n      <h3 class=\"srb__h\">4 true sizes</h3>\n      <p class=\"srb__t\">A real fit for dogs 1–30kg (S–XL), not “most dogs”.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#f59e0b\">\n      <span class=\"srb__chip\">👀</span>\n      <h3 class=\"srb__h\">Head-out view</h3>\n      <p class=\"srb__t\">Your dog can see, breathe, and take in the whole ride.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#f43f5e\">\n      <span class=\"srb__chip\">💪</span>\n      <h3 class=\"srb__h\">Padded straps</h3>\n      <p class=\"srb__t\">Wide, adjustable, ergonomic straps — comfortable for you too.</p>\n    </div>\n    <div class=\"srb__card\" style=\"--srb:#8b5cf6\">\n      <span class=\"srb__chip\">🚴</span>\n      <h3 class=\"srb__h\">All-season use</h3>\n      <p class=\"srb__t\">Bike rides, hikes, vet trips, and daily walks, rain or shine.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .srb{max-width:1080px;margin:0 auto;padding:48px 20px;font-family:inherit}\n  .srb__title{text-align:center;margin:0 0 6px;font-size:30px;line-height:1.15;font-weight:800;color:#17141f}\n  .srb__sub{text-align:center;margin:0 0 34px;font-size:16px;color:#6b6b75}\n  .srb__grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}\n  .srb__card{\n    position:relative;background:#fff;border:1px solid #eceaf1;border-radius:18px;\n    padding:24px 22px;text-align:left;\n    box-shadow:0 1px 2px rgba(20,17,25,.04);\n    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;\n  }\n  .srb__card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(20,17,25,.10);border-color:var(--srb)}\n  .srb__chip{\n    display:inline-flex;align-items:center;justify-content:center;\n    width:56px;height:56px;border-radius:16px;font-size:28px;line-height:1;margin-bottom:16px;\n    background:color-mix(in srgb, var(--srb) 14%, #fff);\n    box-shadow:inset 0 0 0 1px color-mix(in srgb, var(--srb) 22%, #fff);\n  }\n  .srb__h{margin:0 0 6px;font-size:18px;font-weight:700;color:#17141f}\n  .srb__t{margin:0;font-size:15px;line-height:1.55;color:#5c5c66}\n  @media (max-width:520px){\n    .srb__title{font-size:25px}\n    .srb__grid{grid-template-columns:1fr 1fr;gap:14px}\n    .srb__card{padding:18px 16px;border-radius:16px}\n    .srb__chip{width:48px;height:48px;font-size:24px;border-radius:14px}\n    .srb__h{font-size:16px}\n    .srb__t{font-size:13.5px}\n  }\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -733,6 +732,7 @@
         "ic5",
         "ic6"
       ],
+      "disabled": true,
       "custom_css": [
         ".icons-with-text__icon__title {font-size: 18px !important;}"
       ],
