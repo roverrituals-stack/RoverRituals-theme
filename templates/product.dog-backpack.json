@@ -38,7 +38,7 @@
         "text_tagline": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Hands-free carrying for every hike, bike ride, and walk - your dog secure, cool, and calm from day one.</strong></p>",
+            "text": "<strong>Hands-free carrying for every hike, bike ride, and walk - your dog secure, cool, and calm from day one.</strong>",
             "text_style": "body"
           }
         },
@@ -261,7 +261,7 @@
             "open_first_collapsible_row": false,
             "heading": "📏 Size Guide - find your dog's fit",
             "icon": "ruler",
-            "content": "<p>Measure your dog's weight and back length, then match the chart. Between two sizes? Size up for room to move.</p><img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/S18e816b04db24772b8b7aeac6e5917d3a.webp\" alt=\"SecureRide Dog Carrier Backpack size chart showing S, M, L and XL weight and length ranges\" style=\"width:100%;height:auto;border-radius:8px;margin:8px 0\" loading=\"lazy\"><table style=\"width:100%;border-collapse:collapse;font-size:14px\"><thead><tr><th style=\"text-align:left;border-bottom:1px solid #ddd;padding:6px\">Size</th><th style=\"text-align:left;border-bottom:1px solid #ddd;padding:6px\">Weight</th><th style=\"text-align:left;border-bottom:1px solid #ddd;padding:6px\">Back length</th></tr></thead><tbody><tr><td style=\"padding:6px\">S</td><td style=\"padding:6px\">1-5 kg</td><td style=\"padding:6px\">42 cm / 16.9 in</td></tr><tr><td style=\"padding:6px\">M</td><td style=\"padding:6px\">4-9 kg</td><td style=\"padding:6px\">48 cm / 19.7 in</td></tr><tr><td style=\"padding:6px\">L</td><td style=\"padding:6px\">8-18 kg</td><td style=\"padding:6px\">57 cm / 22.8 in</td></tr><tr><td style=\"padding:6px\">XL</td><td style=\"padding:6px\">16-30 kg</td><td style=\"padding:6px\">68 cm / 26.8 in</td></tr></tbody></table>",
+            "content": "<p>Measure your dog's weight and back length, then match the list below. Between two sizes? Size up for room to move.</p><ul><li><strong>S</strong> - 1-5 kg - back length 42 cm (16.9 in)</li><li><strong>M</strong> - 4-9 kg - back length 48 cm (19.7 in)</li><li><strong>L</strong> - 8-18 kg - back length 57 cm (22.8 in)</li><li><strong>XL</strong> - 16-30 kg - back length 68 cm (26.8 in)</li></ul><p>See the full size chart with photos in the Size Guide section further down the page.</p>",
             "page": ""
           }
         },
@@ -796,6 +796,12 @@
         "custom_liquid": "<style>.sr-final{position:relative;border-radius:16px;overflow:hidden;margin:8px 0;min-height:360px;display:flex;align-items:center;justify-content:center;text-align:center;background:#111}.sr-final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}.sr-final .in{position:relative;z-index:2;color:#fff;max-width:640px;padding:40px 24px}.sr-final h2{font-size:32px;line-height:1.15;margin:0 0 12px}.sr-final p{font-size:16px;margin:0 0 22px;opacity:.95}.sr-final button{background:#8c30ff;color:#fff;border:0;border-radius:999px;padding:16px 40px;font-size:16px;font-weight:700;cursor:pointer}.sr-final button:hover{filter:brightness(1.08)}</style><div class=\"sr-final\"><img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/Sf36749833d264ba3aab865949c302f53g.webp\" alt=\"Dog riding in a SecureRide carrier backpack on a bike ride\" loading=\"lazy\"><div class=\"in\"><h2>Start adventuring together</h2><p>Secure, breathable, and built for real life. Free size exchanges if the fit isn't perfect, and a 30-day money-back guarantee.</p><button type=\"button\" onclick=\"window.scrollTo({top:0,behavior:'smooth'})\">Get Your Dog's Perfect Fit</button></div></div>"
       }
     },
+    "size_guide": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.sr-sg{max-width:900px;margin:0 auto;text-align:center;padding:8px 16px}.sr-sg h2{font-size:28px;margin:0 0 6px}.sr-sg p.sub{color:#555;margin:0 0 18px}.sr-sg img{width:100%;height:auto;border-radius:12px;margin:0 0 18px}.sr-sg table{width:100%;border-collapse:collapse;font-size:15px}.sr-sg th,.sr-sg td{padding:10px 12px;border-bottom:1px solid #e6e6e6;text-align:left}.sr-sg th{background:#f5f5f5;font-weight:700}.sr-sg caption{caption-side:bottom;color:#777;font-size:12px;padding-top:10px}</style><div class=\"sr-sg\"><h2>Find your dog's perfect fit</h2><p class=\"sub\">Measure your dog's weight and back length, then choose the matching size. Between two sizes? Size up.</p><img src=\"https://cdn.shopify.com/s/files/1/0896/9984/4467/files/S18e816b04db24772b8b7aeac6e5917d3a.webp\" alt=\"SecureRide Dog Carrier Backpack size chart: S, M, L and XL weight and length ranges\" loading=\"lazy\"><table><thead><tr><th>Size</th><th>Weight</th><th>Back length</th></tr></thead><tbody><tr><td>S</td><td>1-5 kg</td><td>42 cm / 16.9 in</td></tr><tr><td>M</td><td>4-9 kg</td><td>48 cm / 19.7 in</td></tr><tr><td>L</td><td>8-18 kg</td><td>57 cm / 22.8 in</td></tr><tr><td>XL</td><td>16-30 kg</td><td>68 cm / 26.8 in</td></tr></tbody><caption>Sizes verified against the product size chart. Free size exchange within 30 days.</caption></table></div>"
+      }
+    },
     "related": {
       "type": "related-products",
       "settings": {
@@ -1060,6 +1066,7 @@
     "vp1",
     "vp2",
     "vp3",
+    "size_guide",
     "ugc_heading",
     "ugc_loox",
     "benefit_icons",
