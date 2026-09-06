@@ -268,7 +268,7 @@
           }
         },
         "parcelwill_parcel_panel_edd_hmaVtY": {
-          "type": "shopify://apps/parcelwill-parcel-panel/blocks/edd/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
+          "type": "shopify://apps/cwill-parcel-panel/blocks/edd/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
           "settings": {
             "corner_radius": 4,
             "margin_top": 10,
@@ -312,6 +312,10 @@
             "product_selection": ""
           }
         },
+        "loox_reviews_loox_reviews_stories_wDt6tV": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-reviews-stories/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {}
+        },
         "collapsible_tab_8NhFFC": {
           "type": "collapsible_tab",
           "settings": {
@@ -341,6 +345,7 @@
         "selleasy_lb_upsell_addon_block_4B9Dn6",
         "custom_liquid_CDdbmk",
         "loox_reviews_loox_snippets_widget_aXrVpa",
+        "loox_reviews_loox_reviews_stories_wDt6tV",
         "collapsible_tab_8NhFFC"
       ],
       "custom_css": [],
