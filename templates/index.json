@@ -159,6 +159,61 @@
         "parallax_speed_mobile": 70
       }
     },
+    "image_with_text_overlay_xEyztJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XrBAG8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>50% OFF</strong> SALE",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_dKyqkf": {
+          "type": "buttons",
+          "settings": {
+            "style": "outline",
+            "size": "base",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections",
+            "background": "#064cfd",
+            "text_color": "#030303"
+          }
+        },
+        "text_q3xPCT": {
+          "type": "text",
+          "settings": {
+            "content": "<h4>Shop The Must Have Dog Accessories Pet Parents Trust</h4><h4>Sale Ends Soon</h4>"
+          }
+        },
+        "subheading_cyUn7Q": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Sale Ends May 10th"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XrBAG8",
+        "buttons_dKyqkf",
+        "text_q3xPCT",
+        "subheading_cyUn7Q"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "animations_reveal_on_scroll": false,
+        "image_height": "medium",
+        "image": "shopify://shop_images/0AB14DDE-6572-42B0-A9E3-5DF9075DE874.png",
+        "mobile_image": "shopify://shop_images/0AB14DDE-6572-42B0-A9E3-5DF9075DE874.png",
+        "mobile_text_position": "bottom-center",
+        "desktop_content_position": "bottom-center",
+        "color": "#ffffff",
+        "overlay_color": "#000000",
+        "image_overlay_opacity": 40
+      }
+    },
     "scroll_text_R8i9Wq": {
       "type": "scroll-text",
       "blocks": {
@@ -238,61 +293,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "section_radius": 0
-      }
-    },
-    "image_with_text_overlay_xEyztJ": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_XrBAG8": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>UPTO 50% OFF</strong> SALE",
-            "heading_size": "h2"
-          }
-        },
-        "buttons_dKyqkf": {
-          "type": "buttons",
-          "settings": {
-            "style": "outline",
-            "size": "base",
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections",
-            "background": "#064cfd",
-            "text_color": "#030303"
-          }
-        },
-        "text_q3xPCT": {
-          "type": "text",
-          "settings": {
-            "content": "<h4>Shop The Must Have Dog Accessories Pet Parents Trust</h4><h4>Sale Ends Soon</h4>"
-          }
-        },
-        "subheading_cyUn7Q": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Sale Ends May 10th"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XrBAG8",
-        "buttons_dKyqkf",
-        "text_q3xPCT",
-        "subheading_cyUn7Q"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "animations_reveal_on_scroll": false,
-        "image_height": "medium",
-        "image": "shopify://shop_images/0AB14DDE-6572-42B0-A9E3-5DF9075DE874.png",
-        "mobile_image": "shopify://shop_images/0AB14DDE-6572-42B0-A9E3-5DF9075DE874.png",
-        "mobile_text_position": "bottom-center",
-        "desktop_content_position": "bottom-center",
-        "color": "#ffffff",
-        "overlay_color": "#000000",
-        "image_overlay_opacity": 40
       }
     },
     "collection_list_9JKUVh": {
