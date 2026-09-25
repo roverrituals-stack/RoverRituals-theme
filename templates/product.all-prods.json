@@ -231,7 +231,9 @@
         },
         "globo_product_options_app_block_pT3m8g": {
           "type": "shopify://apps/globo-product-options/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {}
+          "settings": {
+            "product": ""
+          }
         },
         "dealeasy_vd_cards_gwgDGV": {
           "type": "shopify://apps/dealeasy/blocks/vd-cards/e47a8634-0496-480d-9e46-6f7fafd34b30",
@@ -298,7 +300,7 @@
           }
         },
         "parcel_panel_edd_mVMBwy": {
-          "type": "shopify://apps/parcelwill-parcel-panel/blocks/edd/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
+          "type": "shopify://apps/cwill-parcel-panel/blocks/edd/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
           "settings": {
             "corner_radius": 4,
             "margin_top": 10,
@@ -390,7 +392,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#ffa100",
-        "container_text": "<strong>This Offer is For Limited Time Only</strong>",
+        "container_text": "<strong>50% OFF SALE - ENDS SUNDAY</strong>",
         "container_text_bg": "#ffa100",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
