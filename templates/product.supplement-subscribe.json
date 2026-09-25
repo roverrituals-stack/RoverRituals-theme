@@ -316,7 +316,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#ffa100",
-        "container_text": "<strong>This Offer is For Limited Time Only</strong>",
+        "container_text": "<strong>50% OFF SALE - ENDS SUNDAY</strong>",
         "container_text_bg": "#ffa100",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
