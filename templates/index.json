@@ -1067,6 +1067,7 @@
     },
     "custom_html_cVEB4W": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".h1-trusted1 {font-size: 48px; box-shadow: #c2b2bc 4px 4px 16px; border-radius: 50px; padding-top: 25px; padding-bottom: 25px; background-color: #ffffff; background-size: cover; text-align: center; margin-bottom: 25px; color: black; margin-top: 0px;}",
         ".p-trusted {text-align: center; font-size: 20px; margin-bottom: 30px; color: white; /* qitu ja ndrron ngjyren paragrafit */}",
