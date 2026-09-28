@@ -1086,6 +1086,7 @@
     },
     "section_divider_J6NzPr": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "shape": "waves_3",
         "flip_horizontal": false,
