@@ -165,7 +165,7 @@
         "heading_XrBAG8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>50% OFF</strong> SALE - Ends Sunday",
+            "heading": "<strong>50% OFF</strong> Everything Halloween SALE - Ends Oct 31",
             "heading_size": "h2"
           }
         },
@@ -1258,7 +1258,7 @@
       "settings": {
         "color_scheme_main": "",
         "full-width": false,
-        "image": "shopify://shop_images/support.png",
+        "image": "shopify://shop_images/golden-lab-at-desk-with-headset.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
