@@ -304,6 +304,12 @@
             "collection": "sale"
           }
         },
+        "featured_collection_a8izXM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-costumes"
+          }
+        },
         "featured_collection_gVebhe": {
           "type": "featured_collection",
           "settings": {
@@ -333,15 +339,23 @@
           "settings": {
             "collection": "dog-collars"
           }
+        },
+        "featured_collection_WhtWXf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-toys"
+          }
         }
       },
       "block_order": [
         "featured_collection_dKctfV",
+        "featured_collection_a8izXM",
         "featured_collection_gVebhe",
         "featured_collection_RNpjpE",
         "featured_collection_X7CNGF",
         "featured_collection_xBAWgh",
-        "featured_collection_7bbgKk"
+        "featured_collection_7bbgKk",
+        "featured_collection_WhtWXf"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
