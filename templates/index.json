@@ -165,7 +165,7 @@
         "heading_XrBAG8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>50% OFF</strong> Everything Halloween SALE - Ends Oct 31",
+            "heading": "<strong>50% OFF</strong> Everything Halloween SALE",
             "heading_size": "h2"
           }
         },
@@ -174,8 +174,8 @@
           "settings": {
             "style": "outline",
             "size": "base",
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections",
+            "button_label_1": "Shop Sale",
+            "button_link_1": "shopify://collections/sale",
             "background": "#064cfd",
             "text_color": "#030303"
           }
@@ -183,7 +183,7 @@
         "text_q3xPCT": {
           "type": "text",
           "settings": {
-            "content": "<h4>Shop The Must Have Dog Accessories Pet Parents Trust</h4><h4>Sale Ends Soon</h4>"
+            "content": "<h4>Shop The Must Have Dog Accessories Pet Parents Trust</h4><h4>Sale Ends Oct 31</h4>"
           }
         },
         "subheading_cyUn7Q": {
@@ -208,7 +208,7 @@
         "image": "shopify://shop_images/halloween-costume-homepage-hero.png",
         "mobile_image": "shopify://shop_images/url_6aba4f4308d3d.png",
         "mobile_text_position": "bottom-center",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "color": "#ffffff",
         "overlay_color": "#000000",
         "image_overlay_opacity": 40
