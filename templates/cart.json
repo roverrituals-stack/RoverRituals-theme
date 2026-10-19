@@ -33,15 +33,6 @@
     },
     "1774953551cec5ead2": {
       "type": "apps",
-      "blocks": {
-        "dealeasy_cvg_progress_bar_YT8rhV": {
-          "type": "shopify://apps/dealeasy/blocks/cvg-progress-bar/e47a8634-0496-480d-9e46-6f7fafd34b30",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "dealeasy_cvg_progress_bar_YT8rhV"
-      ],
       "settings": {
         "include_margins": true
       }
