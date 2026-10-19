@@ -33,15 +33,6 @@
     },
     "1774953551cec5ead2": {
       "type": "apps",
-      "blocks": {
-        "dealeasy_cvg_progress_bar_Yt7d6A": {
-          "type": "shopify://apps/dealeasy/blocks/cvg-progress-bar/e47a8634-0496-480d-9e46-6f7fafd34b30",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "dealeasy_cvg_progress_bar_Yt7d6A"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -78,15 +69,6 @@
     },
     "1762604057212f669c": {
       "type": "apps",
-      "blocks": {
-        "bogos_io_free_gift_gift_slider_view_9Yp6RB": {
-          "type": "shopify://apps/bogos-io-free-gift/blocks/gift-slider-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "bogos_io_free_gift_gift_slider_view_9Yp6RB"
-      ],
       "disabled": true,
       "settings": {
         "include_margins": true
