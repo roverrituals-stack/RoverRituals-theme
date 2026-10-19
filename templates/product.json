@@ -173,6 +173,10 @@
             "compare_font_color": "#000000"
           }
         },
+        "dealeasy_cvg_progress_bar_m87HDL": {
+          "type": "shopify://apps/dealeasy/blocks/cvg-progress-bar/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -218,6 +222,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "dealeasy_cvg_progress_bar_m87HDL",
         "buy_buttons",
         "custom_liquid_mFHENq",
         "custom_liquid_CDdbmk",
