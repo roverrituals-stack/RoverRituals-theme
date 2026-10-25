@@ -103,7 +103,7 @@
         "text_benefits_PL39h7": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p><strong>🐾 No More Fur Everywhere...</strong></p><p><strong>🐕 The Ultimate Undercoat Rake!</strong></p><p><strong>📦</strong> FREE Shipping Worldwide</p><p><strong>🛡️</strong> Try It Risk-Free for 30 Days</p>"
+            "benefits": "<p><strong>🐾 No More Fur Everywhere...</strong></p><p><strong>🐕 The Ultimate Undercoat Rake!</strong></p><p><strong>📦</strong>&nbsp;Tracked Shipping Worldwide</p><p><strong>🛡️</strong>&nbsp;Try It Risk-Free for 30 Days</p>"
           }
         },
         "variant_picker": {
