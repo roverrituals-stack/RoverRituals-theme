@@ -103,7 +103,7 @@
         "text_benefits_PL39h7": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p><strong>🛡️❄️☔ The Ultimate All-in-One Protection — Safety, Warmth & Water-Resistant Rugged Style. Ready for every adventure and outing with your pup! 🐾</strong></p><p>❤️Puffer with Integrated Harness!</p><p>❄️Warm Inner Polar Fleece Lining</p><p><strong>📦</strong> FREE Tracked Shipping Worldwide</p><p><strong>🛡️</strong>30 Days Returns</p>"
+            "benefits": "<p><strong>🛡️❄️☔ The Ultimate All-in-One Protection — Safety, Warmth & Water-Resistant Rugged Style. Ready for every adventure and outing with your pup! 🐾</strong></p><p>❤️Puffer with Integrated Harness!</p><p>❄️Warm Inner Polar Fleece Lining</p><p><strong>📦</strong>&nbsp;Tracked Shipping Worldwide</p><p><strong>🛡️</strong>30 Days Returns</p>"
           }
         },
         "variant_picker": {
@@ -351,7 +351,7 @@
           "settings": {}
         },
         "kiwi_size_chart_recommender_kiwi_sizing_TKktFn": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
             "fallbackToBlockPosition": true,
             "waitForElementSelector": "",
