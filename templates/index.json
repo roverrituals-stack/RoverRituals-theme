@@ -304,12 +304,6 @@
             "collection": "sale"
           }
         },
-        "featured_collection_a8izXM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dog-costumes"
-          }
-        },
         "featured_collection_gVebhe": {
           "type": "featured_collection",
           "settings": {
@@ -345,21 +339,27 @@
           "settings": {
             "collection": "dog-toys"
           }
+        },
+        "featured_collection_a8izXM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-costumes"
+          }
         }
       },
       "block_order": [
         "featured_collection_dKctfV",
-        "featured_collection_a8izXM",
         "featured_collection_gVebhe",
         "featured_collection_RNpjpE",
         "featured_collection_X7CNGF",
         "featured_collection_xBAWgh",
         "featured_collection_7bbgKk",
-        "featured_collection_WhtWXf"
+        "featured_collection_WhtWXf",
+        "featured_collection_a8izXM"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Shop By Category",
+        "title": "Shop By Category - BLACK FRIDAY SALE",
         "heading_size": "h2",
         "image_ratio": "square",
         "image_radius": 0,
