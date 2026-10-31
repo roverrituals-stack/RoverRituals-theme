@@ -165,8 +165,15 @@
         "heading_XrBAG8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>50% OFF</strong> BLACK FRIDAY SALE🔥",
+            "heading": "BLACK FRIDAY SALE🔥<strong>50% OFF</strong> Everything",
             "heading_size": "h2"
+          }
+        },
+        "subheading_cyUn7Q": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "50% OFF "
           }
         },
         "buttons_dKyqkf": {
@@ -185,30 +192,23 @@
           "settings": {
             "content": "<h4>Shop The Must Have Dog Accessories Pet Parents Trust</h4><h4>Sale Ends Nov 30</h4>"
           }
-        },
-        "subheading_cyUn7Q": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Sale Ends May 10th"
-          }
         }
       },
       "block_order": [
         "heading_XrBAG8",
+        "subheading_cyUn7Q",
         "buttons_dKyqkf",
-        "text_q3xPCT",
-        "subheading_cyUn7Q"
+        "text_q3xPCT"
       ],
       "custom_css": [],
       "settings": {
         "full_width": true,
         "animations_reveal_on_scroll": false,
         "image_height": "medium",
-        "image": "shopify://shop_images/halloween-costume-homepage-hero.png",
-        "mobile_image": "shopify://shop_images/url_6aba4f4308d3d.png",
+        "image": "shopify://shop_images/dog-fetching-disc_d8a71fe1-7874-4f77-9675-8515a963baa7.jpg",
+        "mobile_image": "shopify://shop_images/dog-fetching-disc_d8a71fe1-7874-4f77-9675-8515a963baa7.jpg",
         "mobile_text_position": "bottom-center",
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "bottom-center",
         "color": "#ffffff",
         "overlay_color": "#000000",
         "image_overlay_opacity": 40
