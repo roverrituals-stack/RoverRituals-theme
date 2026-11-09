@@ -350,7 +350,7 @@
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
         },
-        "kiwi_size_chart_recommender_kiwi_sizing_TKktFn": {
+        "kiwi_size_chart_kiwi_sizing_BYxYhW": {
           "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
             "fallbackToBlockPosition": true,
@@ -390,7 +390,7 @@
         "loox_reviews_loox_snippets_widget_aXrVpa",
         "loox_reviews_loox_card_carousel_section_MW4qWn",
         "selleasy_lb_upsell_fbt_block_gBbXbV",
-        "kiwi_size_chart_recommender_kiwi_sizing_TKktFn",
+        "kiwi_size_chart_kiwi_sizing_BYxYhW",
         "collapsible_tab_8NhFFC"
       ],
       "custom_css": [],
