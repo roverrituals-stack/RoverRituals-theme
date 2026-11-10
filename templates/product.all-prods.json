@@ -74,6 +74,30 @@
             "emptyRatingWidget": false
           }
         },
+        "loox_reviews_loox_snippets_widget_XDAJky": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 3,
+            "alignment": "left",
+            "max-width": "544px",
+            "color-scheme": "alternative",
+            "shadow": "basic",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 16,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -88,10 +112,10 @@
             "price_bold_2": false,
             "sale_price_color": "#d50000",
             "regular_price_color": "#000000",
-            "price_bold": false,
+            "price_bold": true,
             "badge_hide": false,
             "taxes_hide": false,
-            "shipping_hide": false,
+            "shipping_hide": true,
             "padding_top": 8,
             "padding_bottom": 0
           }
@@ -110,7 +134,7 @@
         "text_benefits_dkzHhG": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p>✨ Tracked Shipping Worldwide</p><p>✨ 30 day returns</p>"
+            "benefits": "<p>✨ Tracked Shipping Worldwide</p><p>✨ 30 Day Hassle Free Returns</p>"
           }
         },
         "variant_picker": {
@@ -242,6 +266,31 @@
             "lb-product-id": ""
           }
         },
+        "inventory_jXyJ7y": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "bar_font_size": 14,
+            "inventory_threshold": 10,
+            "show_inventory_bar": true,
+            "show_inventory_pill": true,
+            "text_soldout": "Unfortunately this item is sold-out!",
+            "text_untracked": "In Stock, For Fast Shipping",
+            "text_low_one": "Hurry up! Only 1 item is in stock",
+            "text_low_many": "Hurry up! Only [qty] items are in stock.",
+            "text_normal": "In Stock, For Fast Shipping",
+            "inv_bar_height": 3,
+            "inv_bar_radius": 0,
+            "normal_pill_color": "#3ed660",
+            "normal_color": "#0da73f",
+            "normal_color_2": "#9befb6",
+            "low_pill_color": "#ff0505",
+            "low_color": "#ff3484",
+            "low_color_2": "#f1e04d",
+            "sold_pill_color": "#c8c8c8",
+            "background_bar": "#e9ecef"
+          }
+        },
         "seal_subscriptions_subscription_widget_xq7m7w": {
           "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
           "settings": {
@@ -262,6 +311,20 @@
             "cart_text": ""
           }
         },
+        "custom_liquid_yy477k": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rr-trust-bar\">\n  {%- if product.available -%}\n    <span class=\"rr-trust-item rr-in-stock\">&#10003; In Stock</span>\n  {%- else -%}\n    <span class=\"rr-trust-item rr-out-of-stock\">&#10007; Out of Stock</span>\n  {%- endif -%}\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🔄 <strong>30 Day</strong> No Hassles Returns</span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🚚 Fast Delivery <strong>USD$4.95</strong></span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🎁 Free Shipping <strong>USD$50+</strong></span>\n</div>\n\n<style>\n  .rr-trust-bar {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 4px 10px;\n    margin: 14px 0 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #555;\n    text-align: center;\n  }\n  .rr-trust-bar strong {\n    font-weight: 700;\n    color: #222;\n  }\n  .rr-trust-bar .rr-in-stock {\n    color: #2e7d32;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-out-of-stock {\n    color: #c62828;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-sep {\n    color: #bbb;\n  }\n  @media (max-width: 749px) {\n    .rr-trust-bar {\n      font-size: 13px;\n      gap: 4px 8px;\n    }\n    .rr-trust-bar .rr-sep {\n      display: none;\n    }\n    .rr-trust-bar .rr-trust-item {\n      flex: 0 0 100%;\n    }\n  }\n</style>"
+          }
+        },
+        "payment_GxXUDN": {
+          "type": "payment",
+          "settings": {
+            "original": "custom",
+            "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
+            "payment_content_alignment": "center"
+          }
+        },
         "custom_liquid_mFHENq": {
           "type": "custom_liquid",
           "settings": {
@@ -273,30 +336,6 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<!-- Add Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\" />\n\n<style>\n  /* Animation for the up-and-down effect */\n  .swiper-slide {\n    animation: moveUpDown 5.6s ease-in-out infinite; /* Increased the duration by 40% */\n  }\n\n  /* Keyframes for alternating up and down */\n  @keyframes moveUpDown {\n    0% {\n      transform: translateY(0);\n    }\n    50% {\n      transform: translateY(-10px); /* Moves up by 10px */\n    }\n    100% {\n      transform: translateY(0);\n    }\n  }\n\n  /* Stagger the animation using nth-child selector */\n  .swiper-slide:nth-child(odd) {\n    animation-delay: 0s;\n  }\n\n  .swiper-slide:nth-child(even) {\n    animation-delay: 2s; /* Adds a 2-second delay for even elements */\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; overflow: hidden; padding: 20px; background-color: #f9f9f9;\">\n  <div class=\"swiper-container\">\n    <div class=\"swiper-wrapper\">\n\n      <!-- Review 1 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_3.png?v=1738758299\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Alex Logan</div>\n            <div style=\"color: gray; font-size: 12px;\">5h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Couldn’t stop staring at it. The glow, the scene - it’s absolutely beautiful!\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">32</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">10 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/seli_1.png?v=1738757967\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Jane Smith</div>\n            <div style=\"color: gray; font-size: 12px;\">3h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Honestly the best thing I’ve added to my room. Subtle, emotional, and super aesthetic.\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">27</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">15 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_4.png?v=1738758487\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Dario Johnson</div>\n            <div style=\"color: gray; font-size: 12px;\">2h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Didn’t expect it to look this good in person. Feels like a scene alive.\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">12</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">8 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 4 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfi_2.png?v=1738758150\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Emily Davis</div>\n            <div style=\"color: gray; font-size: 12px;\">1h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Everyone who sees it compliments it. Looks even better at night with lights off.\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">45</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">22 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<!-- Add Swiper JS -->\n<script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n\n<script>\n  var swiper = new Swiper('.swiper-container', {\n    slidesPerView: 'auto',\n    spaceBetween: 20,\n    freeMode: true,\n    loop: true,\n  });\n</script>"
-          }
-        },
-        "loox_reviews_loox_snippets_widget_XDAJky": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "reviews-type": "product-reviews",
-            "reviews-limit": 3,
-            "alignment": "left",
-            "max-width": "544px",
-            "color-scheme": "alternative",
-            "shadow": "basic",
-            "show-rating": true,
-            "show-image": true,
-            "hide-arrows-mobile": false,
-            "font-size": 16,
-            "show-border": false,
-            "border-radius": 16,
-            "background-color": "",
-            "text-color": "",
-            "name-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "shadow-color": "",
-            "product_selection": ""
           }
         },
         "parcel_panel_edd_mVMBwy": {
@@ -362,6 +401,7 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_7QwzYW",
+        "loox_reviews_loox_snippets_widget_XDAJky",
         "price",
         "smartbot_product_highlights_RVqMUY",
         "text_g9x6V8",
@@ -371,11 +411,13 @@
         "quantity_selector",
         "globo_product_options_app_block_pT3m8g",
         "dealeasy_vd_cards_gwgDGV",
+        "inventory_jXyJ7y",
         "seal_subscriptions_subscription_widget_xq7m7w",
         "buy_buttons",
+        "custom_liquid_yy477k",
+        "payment_GxXUDN",
         "custom_liquid_mFHENq",
         "custom_liquid_CDdbmk",
-        "loox_reviews_loox_snippets_widget_XDAJky",
         "parcel_panel_edd_mVMBwy",
         "loox_reviews_loox_card_carousel_section_MP6FY3",
         "dealeasy_mm_related_bundles_Xe3KtT",
