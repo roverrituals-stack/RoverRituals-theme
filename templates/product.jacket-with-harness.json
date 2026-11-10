@@ -88,10 +88,10 @@
             "price_bold_2": false,
             "sale_price_color": "#d50000",
             "regular_price_color": "#000000",
-            "price_bold": false,
+            "price_bold": true,
             "badge_hide": false,
             "taxes_hide": false,
-            "shipping_hide": false,
+            "shipping_hide": true,
             "padding_top": 8,
             "padding_bottom": 0
           }
@@ -103,7 +103,7 @@
         "text_benefits_PL39h7": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p><strong>🛡️❄️☔ The Ultimate All-in-One Protection — Safety, Warmth & Water-Resistant Rugged Style. Ready for every adventure and outing with your pup! 🐾</strong></p><p>❤️Puffer with Integrated Harness!</p><p>❄️Warm Inner Polar Fleece Lining</p><p><strong>📦</strong>&nbsp;Tracked Shipping Worldwide</p><p><strong>🛡️</strong>30 Days Returns</p>"
+            "benefits": "<p><strong>🛡️❄️☔ The Ultimate All-in-One Protection — Safety, Warmth & Water-Resistant Rugged Style. Ready for every adventure and outing with your pup! 🐾</strong></p><p>❤️Puffer with Integrated Harness!</p><p>❄️Warm Inner Polar Fleece Lining</p><p><strong>📦</strong>&nbsp;Tracked Shipping Worldwide</p><p><strong>🛡️</strong>30 Day Hassle Free Returns</p>"
           }
         },
         "variant_picker": {
@@ -237,7 +237,6 @@
         },
         "inventory_qFQUbD": {
           "type": "inventory",
-          "disabled": true,
           "settings": {
             "text_style": "body",
             "bar_font_size": 14,
@@ -248,7 +247,7 @@
             "text_untracked": "Currently this item has stock!",
             "text_low_one": "Hurry up! Only 1 item is in stock",
             "text_low_many": "Hurry up! Only [qty] items are in stock.",
-            "text_normal": "Currently [qty] items are in stock!",
+            "text_normal": "In Stock, for Fast Delivery",
             "inv_bar_height": 3,
             "inv_bar_radius": 0,
             "normal_pill_color": "#3ed660",
@@ -273,6 +272,28 @@
             "show_gift_card_recipient": true,
             "skip_cart": false,
             "cart_text": ""
+          }
+        },
+        "text_jAqQex": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "🔄 30 Day No Hassles Returns | 🚚 Fast Delivery USD$4.95 | 🎁 Free Shipping USD$50+",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_JQ8JBg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rr-trust-bar\">\n  {%- if product.available -%}\n    <span class=\"rr-trust-item rr-in-stock\">&#10003; In Stock</span>\n  {%- else -%}\n    <span class=\"rr-trust-item rr-out-of-stock\">&#10007; Out of Stock</span>\n  {%- endif -%}\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🔄 <strong>30 Day</strong> No Hassles Returns</span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🚚 Fast Delivery <strong>USD$4.95</strong></span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🎁 Free Shipping <strong>USD$50+</strong></span>\n</div>\n\n<style>\n  .rr-trust-bar {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 4px 10px;\n    margin: 14px 0 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #555;\n    text-align: center;\n  }\n  .rr-trust-bar strong {\n    font-weight: 700;\n    color: #222;\n  }\n  .rr-trust-bar .rr-in-stock {\n    color: #2e7d32;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-out-of-stock {\n    color: #c62828;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-sep {\n    color: #bbb;\n  }\n  @media (max-width: 749px) {\n    .rr-trust-bar {\n      font-size: 13px;\n      gap: 4px 8px;\n    }\n    .rr-trust-bar .rr-sep {\n      display: none;\n    }\n    .rr-trust-bar .rr-trust-item {\n      flex: 0 0 100%;\n    }\n  }\n</style>"
+          }
+        },
+        "payment_XYA4Ue": {
+          "type": "payment",
+          "settings": {
+            "original": "custom",
+            "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
+            "payment_content_alignment": "center"
           }
         },
         "custom_liquid_mFHENq": {
@@ -384,6 +405,9 @@
         "dealeasy_vd_cards_KTdhEJ",
         "inventory_qFQUbD",
         "buy_buttons",
+        "text_jAqQex",
+        "custom_liquid_JQ8JBg",
+        "payment_XYA4Ue",
         "custom_liquid_mFHENq",
         "parcel_panel_edd_itJKPp",
         "custom_liquid_CDdbmk",
