@@ -383,9 +383,9 @@
           "type": "collapsible_tab",
           "settings": {
             "open_first_collapsible_row": false,
-            "heading": "<b>Description, Size Chart, Specifications</b>",
-            "icon": "question_mark",
-            "content": "{{ product.description }}",
+            "heading": "📋 Description",
+            "icon": "none",
+            "content": "<p>Keep your dog warm and secure with this versatile Waterproof Warm Dog Jacket featuring an integrated harness. Designed for comfort and convenience, it simplifies walks by combining outerwear and safety in one. Perfect for chilly days, this jacket ensures your pet stays cozy while the built-in harness offers reliable control without extra gear. Ideal for active dogs and attentive owners who value both style and practicality.</p>",
             "page": ""
           }
         }
