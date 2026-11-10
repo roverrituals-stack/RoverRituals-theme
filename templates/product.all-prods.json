@@ -126,6 +126,7 @@
         },
         "text_g9x6V8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>🎁FREE GIFT WITH $100 PURCHASE</strong>",
             "text_style": "body"
@@ -134,7 +135,7 @@
         "text_benefits_dkzHhG": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p>✨ Tracked Shipping Worldwide</p><p>✨ 30 Day Hassle Free Returns</p>"
+            "benefits": "<p>✅ 30 Day No Hassles Returns<br/><br/>✅ USD$4.95 Tracked Shipping Worldwide<br/><br/>✅ Free Shipping USD$50+ orders</p>"
           }
         },
         "variant_picker": {
@@ -374,6 +375,7 @@
         },
         "dealeasy_mm_related_bundles_Xe3KtT": {
           "type": "shopify://apps/dealeasy/blocks/mm-related-bundles/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "disabled": true,
           "settings": {}
         },
         "selleasy_lb_upsell_fbt_block_78qkwi": {
