@@ -63,7 +63,7 @@
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 18,
-            "pattern": "<b>[rating] out of [count] reviews</b>",
+            "pattern": "4.6 out of 245 reviews",
             "hideText": false,
             "alignment": "",
             "layout": "",
@@ -81,13 +81,13 @@
             "reviews-limit": 3,
             "alignment": "left",
             "max-width": "544px",
-            "color-scheme": "alternative",
+            "color-scheme": "default",
             "shadow": "basic",
             "show-rating": true,
             "show-image": true,
             "hide-arrows-mobile": false,
-            "font-size": 16,
-            "show-border": false,
+            "font-size": 12,
+            "show-border": true,
             "border-radius": 16,
             "background-color": "",
             "text-color": "",
@@ -135,7 +135,7 @@
         "text_benefits_dkzHhG": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p>✅ 30 Day No Hassles Returns<br/><br/>✅ USD$4.95 Tracked Shipping Worldwide<br/><br/>✅ Free Shipping USD$50+ orders</p>"
+            "benefits": "<p>✅ 30 Day No Hassles Returns<br/>✅ USD$4.95 Tracked Shipping Worldwide | Express Options avail.<br/>✅ Free Shipping USD$50+ orders</p>"
           }
         },
         "variant_picker": {
@@ -158,7 +158,7 @@
         "text_NtLBNb": {
           "type": "text",
           "settings": {
-            "text": "<a href=\"/pages/how-to-measure-your-dog\" title=\"Sizing, How to Measure Your Dog | Rover Rituals\"><em><strong>Sizing Guide  - </strong></em></a><strong>Refer Product Images for Size Chart</strong>",
+            "text": "<strong>Refer Product Images for Size Chart - if applicable</strong>",
             "text_style": "body"
           }
         },
@@ -386,9 +386,19 @@
           "type": "collapsible_tab",
           "settings": {
             "open_first_collapsible_row": false,
-            "heading": "<b> Description & Specifications</b>",
-            "icon": "question_mark",
-            "content": "<p>{{ product.description }}</p>",
+            "heading": "📋 Description & Specifications",
+            "icon": "none",
+            "content": "{{ product.description }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_JhwCwC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "🚚 Shipping & Returns",
+            "icon": "none",
+            "content": "<p><strong>Shipping</strong></p><ul><li>USD$4.95 Worldwide Tracked Shipping on all orders</li><li><strong>Free Shipping</strong> on USD$50+ orders</li><li>Orders are processed and dispatched within 1–3 business days</li><li>Estimated delivery: 7–15 business days (may vary by location)</li></ul><p><strong>Returns</strong></p><ul><li><strong>30-day hassle free returns </strong>from the date of delivery</li><li>Purchaser pays return postage</li><li>If you're not completely satisfied, contact our team to initiate a return or exchange</li></ul>",
             "page": ""
           }
         },
@@ -425,6 +435,7 @@
         "dealeasy_mm_related_bundles_Xe3KtT",
         "selleasy_lb_upsell_fbt_block_78qkwi",
         "collapsible_tab_gkh6PC",
+        "collapsible_tab_JhwCwC",
         "description_ghn3LD"
       ],
       "custom_css": [],
