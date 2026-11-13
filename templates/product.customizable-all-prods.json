@@ -74,6 +74,30 @@
             "emptyRatingWidget": false
           }
         },
+        "loox_reviews_loox_snippets_widget_ezNpBp": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 10,
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "basic",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 12,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -88,10 +112,10 @@
             "price_bold_2": false,
             "sale_price_color": "#d50000",
             "regular_price_color": "#000000",
-            "price_bold": false,
+            "price_bold": true,
             "badge_hide": false,
             "taxes_hide": false,
-            "shipping_hide": false,
+            "shipping_hide": true,
             "padding_top": 8,
             "padding_bottom": 0
           }
@@ -100,17 +124,10 @@
           "type": "shopify://apps/smartbot/blocks/product-highlights/d9407b81-7d3e-4612-91c3-2020086e2073",
           "settings": {}
         },
-        "text_NLnEQx": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>FREE GIFT with $100 orders</strong>",
-            "text_style": "body"
-          }
-        },
         "text_benefits_dkzHhG": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p>✨ Tracked Shipping Worldwide<br/>✨ Try Risk-Free for 30 days!</p>"
+            "benefits": "<p>✨ Tracked Shipping Worldwide<br/>✨ 30 day Hassle Free Returns</p>"
           }
         },
         "variant_picker": {
@@ -279,6 +296,31 @@
             "lb-product-id": ""
           }
         },
+        "inventory_e9VbiE": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "bar_font_size": 14,
+            "inventory_threshold": 10,
+            "show_inventory_bar": true,
+            "show_inventory_pill": true,
+            "text_soldout": "Unfortunately this item is sold-out!",
+            "text_untracked": "In stock for Fast Shipping",
+            "text_low_one": "Hurry up! Only 1 item is in stock",
+            "text_low_many": "Hurry up! Only [qty] items are in stock.",
+            "text_normal": "In stock for Fast Shipping",
+            "inv_bar_height": 3,
+            "inv_bar_radius": 0,
+            "normal_pill_color": "#3ed660",
+            "normal_color": "#0da73f",
+            "normal_color_2": "#9befb6",
+            "low_pill_color": "#ff0505",
+            "low_color": "#ff3484",
+            "low_color_2": "#f1e04d",
+            "sold_pill_color": "#c8c8c8",
+            "background_bar": "#e9ecef"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -293,10 +335,24 @@
             "cart_text": ""
           }
         },
+        "custom_liquid_enHWJx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rr-trust-bar\">\n  {%- if product.available -%}\n    <span class=\"rr-trust-item rr-in-stock\">&#10003; In Stock</span>\n  {%- else -%}\n    <span class=\"rr-trust-item rr-out-of-stock\">&#10007; Out of Stock</span>\n  {%- endif -%}\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🔄 <strong>30 Day</strong> No Hassles Returns</span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🚚 Fast Delivery <strong>USD$4.95</strong></span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🎁 Free Shipping <strong>USD$50+</strong></span>\n</div>\n\n<style>\n  .rr-trust-bar {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 4px 10px;\n    margin: 14px 0 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #555;\n    text-align: center;\n  }\n  .rr-trust-bar strong {\n    font-weight: 700;\n    color: #222;\n  }\n  .rr-trust-bar .rr-in-stock {\n    color: #2e7d32;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-out-of-stock {\n    color: #c62828;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-sep {\n    color: #bbb;\n  }\n  @media (max-width: 749px) {\n    .rr-trust-bar {\n      font-size: 13px;\n      gap: 4px 8px;\n    }\n    .rr-trust-bar .rr-sep {\n      display: none;\n    }\n    .rr-trust-bar .rr-trust-item {\n      flex: 0 0 100%;\n    }\n  }\n</style>"
+          }
+        },
         "custom_liquid_mFHENq": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    .custom-shipping-container {\n      display: flex;\n      padding: 6px 16px;\n      justify-content: space-between;\n      align-items: center;\n      background-color: #f6f6f6;\n      border-radius: 20px;\n      margin-top: 10px;\n    }\n\n    .custom-shipping-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .text-block-shipping {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-date {\n      font-weight: bold;\n    }\n\n    .shipping-worldwide {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-worldwide .bold {\n      font-weight: bold;\n    }\n\n    .green-circle {\n      animation: fade 1s ease-in-out infinite;\n    }\n\n    @keyframes fade {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .flags-container {\n      display: flex;\n      gap: 6px;\n      align-items: center;\n    }\n    \n    .custom-icon {\n      width: 12px;\n      height: 8px;\n    }\n  </style>\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      function getNextWeekday(date) {\n        var day = date.getDay();\n        var daysToAdd = (day === 5) ? 3 : (day === 6) ? 2 : 1;\n        return new Date(date.setDate(date.getDate() + daysToAdd));\n      }\n\n      var today = new Date();\n      var shipDate = getNextWeekday(today);\n      var options = { weekday: 'short', month: 'long', day: 'numeric' };\n      var formattedDate = shipDate.toLocaleDateString('en-US', options);\n      document.getElementById('shipping-date').textContent = formattedDate;\n    });\n  </script>\n</head>\n<body>\n  <div class=\"custom-shipping-container\">\n    <div class=\"custom-shipping-item\">\n      <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n        <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n      </svg>\n      <div class=\"text-block-shipping\">Ships by <span id=\"shipping-date\" class=\"shipping-date\"></span></div>\n    </div>\n    <div class=\"custom-shipping-item flags-container\">\n      <img class=\"custom-icon\" src=\"https://flagcdn.com/w20/{{ localization.country.iso_code | downcase }}.png\" alt=\"{{ localization.country.name }} Flag\">\n      <div class=\"shipping-worldwide\">Fast <span class=\"bold\">{{ localization.country.iso_code }}</span> Shipping</div>\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "payment_ymQUCD": {
+          "type": "payment",
+          "settings": {
+            "original": "custom",
+            "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
+            "payment_content_alignment": "center"
           }
         },
         "custom_liquid_CDdbmk": {
@@ -366,9 +422,9 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_7QwzYW",
+        "loox_reviews_loox_snippets_widget_ezNpBp",
         "price",
         "smartbot_product_highlights_eEYbUM",
-        "text_NLnEQx",
         "text_benefits_dkzHhG",
         "variant_picker",
         "text_dg4Ttw",
@@ -377,8 +433,11 @@
         "globo_product_options_app_block_83indJ",
         "quantity_selector",
         "dealeasy_vd_cards_gwgDGV",
+        "inventory_e9VbiE",
         "buy_buttons",
+        "custom_liquid_enHWJx",
         "custom_liquid_mFHENq",
+        "payment_ymQUCD",
         "custom_liquid_CDdbmk",
         "loox_reviews_loox_snippets_widget_XDAJky",
         "dealeasy_mm_bundle_builder_ChThi3",
