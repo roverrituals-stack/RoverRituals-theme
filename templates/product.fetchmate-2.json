@@ -252,10 +252,6 @@
             "lb-product-id": ""
           }
         },
-        "selleasy_lb_upsell_addon_block_manXUF": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
         "inventory_8t7a9a": {
           "type": "inventory",
           "settings": {
@@ -348,8 +344,13 @@
             "productIds": "{{ product }}"
           }
         },
+        "selleasy_lb_upsell_addon_block_manXUF": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "selleasy_lb_upsell_fbt_block_L4mrmc": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "disabled": true,
           "settings": {}
         },
         "collapsible_tab_UDXTX9": {
@@ -426,7 +427,6 @@
         "variant_picker",
         "quantity_selector",
         "dealeasy_vd_cards_RrakMx",
-        "selleasy_lb_upsell_addon_block_manXUF",
         "inventory_8t7a9a",
         "buy_buttons",
         "custom_liquid_rNLqex",
@@ -434,6 +434,7 @@
         "parcelwill_parcel_panel_edd_nVXfBT",
         "custom_liquid_CDdbmk",
         "loox_reviews_loox_card_carousel_section_aGBBnX",
+        "selleasy_lb_upsell_addon_block_manXUF",
         "selleasy_lb_upsell_fbt_block_L4mrmc",
         "collapsible_tab_UDXTX9",
         "collapsible_tab_CYF9aN",
