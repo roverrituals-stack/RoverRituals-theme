@@ -247,7 +247,7 @@
             "show_inventory_bar": true,
             "show_inventory_pill": true,
             "text_soldout": "Unfortunately this item is sold-out!",
-            "text_untracked": "Currently this item has stock!",
+            "text_untracked": "In Stock for Fast Shipping",
             "text_low_one": "Hurry up! Only 1 item is in stock",
             "text_low_many": "Hurry up! Only [qty] items are in stock.",
             "text_normal": "In Stock for Fast Shipping",
