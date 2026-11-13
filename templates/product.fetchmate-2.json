@@ -74,6 +74,30 @@
             "emptyRatingWidget": false
           }
         },
+        "loox_reviews_loox_snippets_widget_fVVrR7": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 10,
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -232,6 +256,31 @@
           "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
         },
+        "inventory_8t7a9a": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "bar_font_size": 14,
+            "inventory_threshold": 10,
+            "show_inventory_bar": true,
+            "show_inventory_pill": true,
+            "text_soldout": "Unfortunately this item is sold-out!",
+            "text_untracked": "Currently this item has stock!",
+            "text_low_one": "Hurry up! Only 1 item is in stock",
+            "text_low_many": "Hurry up! Only [qty] items are in stock.",
+            "text_normal": "In Stock, for Fast Delivery",
+            "inv_bar_height": 3,
+            "inv_bar_radius": 0,
+            "normal_pill_color": "#3ed660",
+            "normal_color": "#0da73f",
+            "normal_color_2": "#9befb6",
+            "low_pill_color": "#ff0505",
+            "low_color": "#ff3484",
+            "low_color_2": "#f1e04d",
+            "sold_pill_color": "#c8c8c8",
+            "background_bar": "#e9ecef"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -292,7 +341,7 @@
             "arrows_backgroundColor": "#ffffff",
             "arrows_iconColor": "#9a9a9a",
             "shadow": "offset-dark",
-            "border_active": true,
+            "border_active": false,
             "border_width": 2,
             "border_color": "#000000",
             "productIds": "{{ product }}"
@@ -368,6 +417,7 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_xnBNQ6",
+        "loox_reviews_loox_snippets_widget_fVVrR7",
         "price",
         "smartbot_product_highlights_zgeXm3",
         "custom_liquid_8HfVEe",
@@ -376,6 +426,7 @@
         "quantity_selector",
         "dealeasy_vd_cards_RrakMx",
         "selleasy_lb_upsell_addon_block_manXUF",
+        "inventory_8t7a9a",
         "buy_buttons",
         "custom_liquid_rNLqex",
         "custom_liquid_mFHENq",
