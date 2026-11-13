@@ -74,6 +74,30 @@
             "emptyRatingWidget": false
           }
         },
+        "loox_reviews_loox_snippets_widget_mUEF7B": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 3,
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "basic",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 12,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -88,10 +112,10 @@
             "price_bold_2": false,
             "sale_price_color": "#d50000",
             "regular_price_color": "#000000",
-            "price_bold": false,
+            "price_bold": true,
             "badge_hide": false,
             "taxes_hide": false,
-            "shipping_hide": false,
+            "shipping_hide": true,
             "padding_top": 8,
             "padding_bottom": 0
           }
@@ -103,7 +127,7 @@
         "text_benefits_PL39h7": {
           "type": "text_benefits",
           "settings": {
-            "benefits": "<p>❤️<strong> Voted #1 pet hair remover tool by pet parents!</strong></p><p><strong>🐾 Effortlessly lifts pet fur with short sharp strokes</strong></p><p><strong>📦</strong>&nbsp;Tracked Shipping Worldwide</p><p><strong>🛡️</strong>&nbsp;Try It <strong>Risk-Free</strong> for 30 Days</p>"
+            "benefits": "<p>❤️<strong> Voted #1 pet hair remover tool by pet parents!</strong></p><p><strong>🐾 Effortlessly lifts pet fur with short sharp strokes</strong></p><p><strong>📦</strong>&nbsp;Tracked Shipping Worldwide</p><p><strong>🛡️</strong>&nbsp;30 day <strong>Hassle Free</strong> Returns</p>"
           }
         },
         "variant_picker": {
@@ -216,7 +240,6 @@
         },
         "inventory_qFQUbD": {
           "type": "inventory",
-          "disabled": true,
           "settings": {
             "text_style": "body",
             "bar_font_size": 14,
@@ -227,7 +250,7 @@
             "text_untracked": "Currently this item has stock!",
             "text_low_one": "Hurry up! Only 1 item is in stock",
             "text_low_many": "Hurry up! Only [qty] items are in stock.",
-            "text_normal": "Currently [qty] items are in stock!",
+            "text_normal": "In Stock for Fast Shipping",
             "inv_bar_height": 3,
             "inv_bar_radius": 0,
             "normal_pill_color": "#3ed660",
@@ -254,10 +277,24 @@
             "cart_text": ""
           }
         },
+        "custom_liquid_6whNKY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rr-trust-bar\">\n  {%- if product.available -%}\n    <span class=\"rr-trust-item rr-in-stock\">&#10003; In Stock</span>\n  {%- else -%}\n    <span class=\"rr-trust-item rr-out-of-stock\">&#10007; Out of Stock</span>\n  {%- endif -%}\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🔄 <strong>30 Day</strong> No Hassles Returns</span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🚚 Fast Delivery <strong>USD$4.95</strong></span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🎁 Free Shipping <strong>USD$50+</strong></span>\n</div>\n\n<style>\n  .rr-trust-bar {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 4px 10px;\n    margin: 14px 0 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #555;\n    text-align: center;\n  }\n  .rr-trust-bar strong {\n    font-weight: 700;\n    color: #222;\n  }\n  .rr-trust-bar .rr-in-stock {\n    color: #2e7d32;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-out-of-stock {\n    color: #c62828;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-sep {\n    color: #bbb;\n  }\n  @media (max-width: 749px) {\n    .rr-trust-bar {\n      font-size: 13px;\n      gap: 4px 8px;\n    }\n    .rr-trust-bar .rr-sep {\n      display: none;\n    }\n    .rr-trust-bar .rr-trust-item {\n      flex: 0 0 100%;\n    }\n  }\n</style>"
+          }
+        },
         "custom_liquid_mFHENq": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    .custom-shipping-container {\n      display: flex;\n      padding: 6px 16px;\n      justify-content: space-between;\n      align-items: center;\n      background-color: #f6f6f6;\n      border-radius: 20px;\n      margin-top: 10px;\n    }\n\n    .custom-shipping-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .text-block-shipping {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-date {\n      font-weight: bold;\n    }\n\n    .shipping-worldwide {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-worldwide .bold {\n      font-weight: bold;\n    }\n\n    .green-circle {\n      animation: fade 1s ease-in-out infinite;\n    }\n\n    @keyframes fade {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .flags-container {\n      display: flex;\n      gap: 6px;\n      align-items: center;\n    }\n    \n    .custom-icon {\n      width: 12px;\n      height: 8px;\n    }\n  </style>\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      function getNextWeekday(date) {\n        var day = date.getDay();\n        var daysToAdd = (day === 5) ? 3 : (day === 6) ? 2 : 1;\n        return new Date(date.setDate(date.getDate() + daysToAdd));\n      }\n\n      var today = new Date();\n      var shipDate = getNextWeekday(today);\n      var options = { weekday: 'short', month: 'long', day: 'numeric' };\n      var formattedDate = shipDate.toLocaleDateString('en-US', options);\n      document.getElementById('shipping-date').textContent = formattedDate;\n    });\n  </script>\n</head>\n<body>\n  <div class=\"custom-shipping-container\">\n    <div class=\"custom-shipping-item\">\n      <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n        <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n      </svg>\n      <div class=\"text-block-shipping\">Ships by <span id=\"shipping-date\" class=\"shipping-date\"></span></div>\n    </div>\n    <div class=\"custom-shipping-item flags-container\">\n      <img class=\"custom-icon\" src=\"https://flagcdn.com/w20/{{ localization.country.iso_code | downcase }}.png\" alt=\"{{ localization.country.name }} Flag\">\n      <div class=\"shipping-worldwide\">Fast <span class=\"bold\">{{ localization.country.iso_code }}</span> Shipping</div>\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "payment_gKGdiT": {
+          "type": "payment",
+          "settings": {
+            "original": "custom",
+            "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
+            "payment_content_alignment": "center"
           }
         },
         "custom_liquid_CDdbmk": {
@@ -269,6 +306,7 @@
         },
         "loox_reviews_loox_snippets_widget_aXrVpa": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "reviews-type": "product-reviews",
             "reviews-limit": 3,
@@ -291,6 +329,29 @@
             "product_selection": ""
           }
         },
+        "loox_reviews_loox_card_carousel_section_fCjGGY": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 2,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#FFFFFF",
+            "arrows_iconColor": "#9A9A9A",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "furgone-broom-pet-hair-remover"
+          }
+        },
         "selleasy_lb_upsell_fbt_block_gBbXbV": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
@@ -311,6 +372,7 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_KCyQ9A",
+        "loox_reviews_loox_snippets_widget_mUEF7B",
         "price",
         "smartbot_product_highlights_pgiTkV",
         "text_benefits_PL39h7",
@@ -318,9 +380,12 @@
         "quantity_selector",
         "inventory_qFQUbD",
         "buy_buttons",
+        "custom_liquid_6whNKY",
         "custom_liquid_mFHENq",
+        "payment_gKGdiT",
         "custom_liquid_CDdbmk",
         "loox_reviews_loox_snippets_widget_aXrVpa",
+        "loox_reviews_loox_card_carousel_section_fCjGGY",
         "selleasy_lb_upsell_fbt_block_gBbXbV",
         "collapsible_tab_8NhFFC"
       ],
