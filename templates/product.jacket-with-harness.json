@@ -380,6 +380,16 @@
             "content": "<p>Keep your dog warm and secure with this versatile Waterproof Warm Dog Jacket featuring an integrated harness. Designed for comfort and convenience, it simplifies walks by combining outerwear and safety in one. Perfect for chilly days, this jacket ensures your pet stays cozy while the built-in harness offers reliable control without extra gear. Ideal for active dogs and attentive owners who value both style and practicality.</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_zi73jg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_first_collapsible_row": false,
+            "heading": "🚚 Shipping & Returns",
+            "icon": "none",
+            "content": "<p><strong>Shipping</strong></p><ul><li>USD$4.95 Worldwide Shipping on all orders</li><li>Free Shipping on USD$50+ orders</li><li>Orders are processed and dispatched within 1–3 business days</li><li>Estimated delivery: 7–15 business days (may vary by location)</li></ul><p><strong>Returns</strong></p><ul><li><strong>30-day hassle free returns </strong>from the date of delivery</li><li>Purchaser pays return postage</li><li>If you're not completely satisfied, contact our team to initiate a return or exchange</li></ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -406,7 +416,8 @@
         "loox_reviews_loox_card_carousel_section_MW4qWn",
         "selleasy_lb_upsell_fbt_block_gBbXbV",
         "kiwi_size_chart_kiwi_sizing_BYxYhW",
-        "collapsible_tab_8NhFFC"
+        "collapsible_tab_8NhFFC",
+        "collapsible_tab_zi73jg"
       ],
       "custom_css": [],
       "settings": {
