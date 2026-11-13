@@ -246,6 +246,12 @@
             "cart_text": ""
           }
         },
+        "custom_liquid_rNLqex": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rr-trust-bar\">\n  {%- if product.available -%}\n    <span class=\"rr-trust-item rr-in-stock\">&#10003; In Stock</span>\n  {%- else -%}\n    <span class=\"rr-trust-item rr-out-of-stock\">&#10007; Out of Stock</span>\n  {%- endif -%}\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🔄 <strong>30 Day</strong> No Hassles Returns</span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🚚 Fast Delivery <strong>USD$4.95</strong></span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🎁 Free Shipping <strong>USD$50+</strong></span>\n</div>\n\n<style>\n  .rr-trust-bar {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 4px 10px;\n    margin: 14px 0 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #555;\n    text-align: center;\n  }\n  .rr-trust-bar strong {\n    font-weight: 700;\n    color: #222;\n  }\n  .rr-trust-bar .rr-in-stock {\n    color: #2e7d32;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-out-of-stock {\n    color: #c62828;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-sep {\n    color: #bbb;\n  }\n  @media (max-width: 749px) {\n    .rr-trust-bar {\n      font-size: 13px;\n      gap: 4px 8px;\n    }\n    .rr-trust-bar .rr-sep {\n      display: none;\n    }\n    .rr-trust-bar .rr-trust-item {\n      flex: 0 0 100%;\n    }\n  }\n</style>"
+          }
+        },
         "custom_liquid_mFHENq": {
           "type": "custom_liquid",
           "settings": {
@@ -302,7 +308,7 @@
             "open_first_collapsible_row": false,
             "heading": "🐾 Features",
             "icon": "none",
-            "content": "<ul><li><strong>3 Adjustable Launch Distances</strong></li></ul><p>Classic: 3m, 6m, or 9m (10, 20, 30 ft) </p><p>Upgraded: 6m, 10m or 14m (19, 32, 45 ft)</p><p>to suit any room or backyard</p><ul><li><strong>Fires on every ball drop</strong> - no timer and no remote. Drop a ball in and it launches, so a dog that learns to load it can run the game alone.</li><li><strong>Random distance mode (Upgraded)</strong> - hold the Distance Setting button for 3 seconds and the throw varies across all three distances</li><li><strong>Auto standby</strong> - powers down after about 30 minutes unused. Hold Distance Setting for 3 seconds to wake it.</li><li><strong>One-Button Control</strong> — Single button powers on and cycles through distance settings</li><li><strong>USB Rechargeable</strong> — No batteries required; charges like your phone. Upgraded lasts about 5 to 6 hours per charge</li><li><strong>Compact Design</strong> — Small enough to tuck into any corner when not in use</li><li><strong>Works Indoors & Outdoors</strong> — Great for living rooms, patios, backyards, and hallways</li></ul>",
+            "content": "<ul><li><strong>3 Adjustable Launch Distances</strong></li></ul><p>Classic: 3m, 6m, or 9m (10, 20, 30 ft)&nbsp;</p><p>Upgraded: 6m, 10m or 14m (19, 32, 45 ft)</p><p>to suit any room or backyard</p><ul><li><strong>Fires on every ball drop</strong> - no timer and no remote. Drop a ball in and it launches, so a dog that learns to load it can run the game alone.</li><li><strong>Random distance mode (Upgraded)</strong> - hold the Distance Setting button for 3 seconds and the throw varies across all three distances</li><li><strong>Auto standby</strong> - powers down after about 30 minutes unused. Hold Distance Setting for 3 seconds to wake it.</li><li><strong>One-Button Control</strong> — Single button powers on and cycles through distance settings</li><li><strong>USB Rechargeable</strong> — No batteries required; charges like your phone. Upgraded lasts about 5 to 6 hours per charge</li><li><strong>Compact Design</strong> — Small enough to tuck into any corner when not in use</li><li><strong>Works Indoors & Outdoors</strong> — Great for living rooms, patios, backyards, and hallways</li></ul>",
             "page": ""
           }
         },
@@ -371,6 +377,7 @@
         "dealeasy_vd_cards_RrakMx",
         "selleasy_lb_upsell_addon_block_manXUF",
         "buy_buttons",
+        "custom_liquid_rNLqex",
         "custom_liquid_mFHENq",
         "parcelwill_parcel_panel_edd_nVXfBT",
         "custom_liquid_CDdbmk",
