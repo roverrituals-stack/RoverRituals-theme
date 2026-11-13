@@ -274,14 +274,6 @@
             "cart_text": ""
           }
         },
-        "text_jAqQex": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "🔄 30 Day No Hassles Returns | 🚚 Fast Delivery USD$4.95 | 🎁 Free Shipping USD$50+",
-            "text_style": "body"
-          }
-        },
         "custom_liquid_JQ8JBg": {
           "type": "custom_liquid",
           "settings": {
@@ -405,7 +397,6 @@
         "dealeasy_vd_cards_KTdhEJ",
         "inventory_qFQUbD",
         "buy_buttons",
-        "text_jAqQex",
         "custom_liquid_JQ8JBg",
         "payment_XYA4Ue",
         "custom_liquid_mFHENq",
