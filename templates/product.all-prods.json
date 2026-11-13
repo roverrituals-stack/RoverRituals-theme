@@ -80,7 +80,7 @@
             "reviews-type": "product-reviews",
             "reviews-limit": 3,
             "alignment": "left",
-            "max-width": "544px",
+            "max-width": "",
             "color-scheme": "default",
             "shadow": "basic",
             "show-rating": true,
