@@ -471,7 +471,7 @@
         "text_L94gEy": {
           "type": "text",
           "settings": {
-            "text": "<p>Please note, weight is only a guide. Please size harness based on chest measurement.</p>",
+            "text": "<p>Please note, weight is only a guide. Please select harness based on chest measurement.</p>",
             "text_style": "body"
           }
         }
@@ -485,7 +485,7 @@
         "image": "shopify://shop_images/Sd713abd0632e4d2ea77fef5aed44a796W.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
