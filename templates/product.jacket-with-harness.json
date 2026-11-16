@@ -74,6 +74,30 @@
             "emptyRatingWidget": false
           }
         },
+        "loox_reviews_loox_snippets_widget_aXrVpa": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 3,
+            "alignment": "left",
+            "max-width": "736px",
+            "color-scheme": "alternative",
+            "shadow": "basic",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": true,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -311,31 +335,6 @@
             "custom_liquid": "<!-- Add Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\" />\n\n<style>\n  /* Animation for the up-and-down effect */\n  .swiper-slide {\n    animation: moveUpDown 5.6s ease-in-out infinite; /* Increased the duration by 40% */\n  }\n\n  /* Keyframes for alternating up and down */\n  @keyframes moveUpDown {\n    0% {\n      transform: translateY(0);\n    }\n    50% {\n      transform: translateY(-10px); /* Moves up by 10px */\n    }\n    100% {\n      transform: translateY(0);\n    }\n  }\n\n  /* Stagger the animation using nth-child selector */\n  .swiper-slide:nth-child(odd) {\n    animation-delay: 0s;\n  }\n\n  .swiper-slide:nth-child(even) {\n    animation-delay: 2s; /* Adds a 2-second delay for even elements */\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; overflow: hidden; padding: 20px; background-color: #f9f9f9;\">\n  <div class=\"swiper-container\">\n    <div class=\"swiper-wrapper\">\n\n      <!-- Review 1 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_3.png?v=1738758299\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Alex Logan</div>\n            <div style=\"color: gray; font-size: 12px;\">5h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Saw this cozy hoodie trending on Instagram and had to try it. It’s way warmer than I expected, fits perfectly, and the pet pouch is such a cute touch. Totally obsessed!\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">32</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">10 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/seli_1.png?v=1738757967\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Jane Smith</div>\n            <div style=\"color: gray; font-size: 12px;\">3h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          I kept seeing the HugBuddy™ all over TikTok and finally got one — best decision ever! It’s super soft, heats up fast, and my pup loves snuggling in the pocket with me!\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">27</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">15 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfie_4.png?v=1738758487\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Dario Johnson</div>\n            <div style=\"color: gray; font-size: 12px;\">2h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          I didn’t believe the hype until I got mine! The heating panels are amazing, and the fabric feels like a cloud. My cat curls up inside the pocket every night — we’re both hooked!\n\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">12</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">8 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n      <!-- Review 4 -->\n      <div class=\"swiper-slide\" style=\"flex: 1 1 auto; min-width: 300px; max-width: 380px; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background-color: white;\">\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0669/7019/0131/files/selfi_2.png?v=1738758150\" alt=\"Profile Picture\" style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;\">\n          <div>\n            <div style=\"font-weight: bold; font-size: 16px;\">Emily Davis</div>\n            <div style=\"color: gray; font-size: 12px;\">1h ago</div>\n          </div>\n        </div>\n        <div style=\"font-size: 14px; line-height: 1.5; margin-bottom: 15px;\">\n          Everyone who sees it compliments it. Looks even better at night with lights off.\n        </div>\n        <div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n          <div style=\"display: flex; align-items: center; margin-right: auto;\">\n            <span style=\"font-size: 16px; margin-right: -7px;\">👍</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">❤️</span>\n            <span style=\"font-size: 16px; margin-right: -7px;\">😮</span>\n            <span style=\"font-size: 14px; margin-left: 10px;\">45</span> <!-- Added margin-left here -->\n          </div>\n          <div style=\"font-size: 14px;\">22 Comments</div>\n        </div>\n        <div style=\"border-top: 1px solid #e0e0e0; padding-top: 10px; display: flex; justify-content: space-between; font-size: 14px; color: gray;\">\n          <div>Like</div>\n          <div>Comment</div>\n          <div>Share</div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<!-- Add Swiper JS -->\n<script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n\n<script>\n  var swiper = new Swiper('.swiper-container', {\n    slidesPerView: 'auto',\n    spaceBetween: 20,\n    freeMode: true,\n    loop: true,\n  });\n</script>"
           }
         },
-        "loox_reviews_loox_snippets_widget_aXrVpa": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "reviews-type": "product-reviews",
-            "reviews-limit": 3,
-            "alignment": "left",
-            "max-width": "736px",
-            "color-scheme": "alternative",
-            "shadow": "basic",
-            "show-rating": true,
-            "show-image": true,
-            "hide-arrows-mobile": false,
-            "font-size": 14,
-            "show-border": true,
-            "border-radius": 16,
-            "background-color": "",
-            "text-color": "",
-            "name-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "shadow-color": "",
-            "product_selection": ""
-          }
-        },
         "loox_reviews_loox_card_carousel_section_MW4qWn": {
           "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -397,6 +396,7 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_KCyQ9A",
+        "loox_reviews_loox_snippets_widget_aXrVpa",
         "price",
         "smartbot_product_highlights_JHfdUW",
         "text_benefits_PL39h7",
@@ -412,7 +412,6 @@
         "custom_liquid_mFHENq",
         "parcel_panel_edd_itJKPp",
         "custom_liquid_CDdbmk",
-        "loox_reviews_loox_snippets_widget_aXrVpa",
         "loox_reviews_loox_card_carousel_section_MW4qWn",
         "selleasy_lb_upsell_fbt_block_gBbXbV",
         "kiwi_size_chart_kiwi_sizing_BYxYhW",
@@ -428,7 +427,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#b0014d",
-        "container_text": "&nbsp;<strong>50% OFF BLACK FRIDAY SALE</strong>",
+        "container_text": "<strong>Today's 50% Off Better Than Black Friday Flash Sale</strong>",
         "container_text_bg": "#b0014d",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
