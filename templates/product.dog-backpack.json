@@ -58,6 +58,30 @@
             "emptyRatingWidget": false
           }
         },
+        "loox_reviews_loox_snippets_widget_YQ6aqg": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 10,
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -213,6 +237,31 @@
             "compare_font_color": "#000000"
           }
         },
+        "inventory_TDxEJb": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "bar_font_size": 14,
+            "inventory_threshold": 10,
+            "show_inventory_bar": true,
+            "show_inventory_pill": true,
+            "text_soldout": "Unfortunately this item is sold-out!",
+            "text_untracked": "In Stock for Fast Shipping",
+            "text_low_one": "Hurry up! Only 1 item is in stock",
+            "text_low_many": "Hurry up! Only [qty] items are in stock.",
+            "text_normal": "In Stock for Fast Shipping",
+            "inv_bar_height": 3,
+            "inv_bar_radius": 0,
+            "normal_pill_color": "#3ed660",
+            "normal_color": "#0da73f",
+            "normal_color_2": "#9befb6",
+            "low_pill_color": "#ff0505",
+            "low_color": "#ff3484",
+            "low_color_2": "#f1e04d",
+            "sold_pill_color": "#c8c8c8",
+            "background_bar": "#e9ecef"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -229,8 +278,23 @@
         },
         "custom_liquid_trust": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>.sr-trust{display:flex;justify-content:space-between;gap:8px;margin-top:14px;padding:12px 8px;border-top:1px solid #ececec;border-bottom:1px solid #ececec}.sr-trust a,.sr-trust div{flex:1;text-align:center;text-decoration:none;color:#111;font-size:12px;line-height:1.3}.sr-trust svg{display:block;margin:0 auto 6px;width:24px;height:24px;stroke:#111;fill:none;stroke-width:1.6}.sr-trust span{font-weight:600}</style><div class=\"sr-trust\"><div><svg viewBox=\"0 0 24 24\"><path d=\"M3 12a9 9 0 1 0 3-6.7\"/><path d=\"M3 4v4h4\"/></svg><span>Free Returns</span><br>30-day money-back</div><div><svg viewBox=\"0 0 24 24\"><rect x=\"1\" y=\"6\" width=\"15\" height=\"11\" rx=\"1\"/><path d=\"M16 9h4l3 3v5h-7z\"/><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"19\" cy=\"18\" r=\"2\"/></svg><span>Fast Shipping</span><br>Tracked worldwide</div><div><svg viewBox=\"0 0 24 24\"><path d=\"M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z\"/><path d=\"M9 12l2 2 4-4\"/></svg><span>Fit Guarantee</span><br>Free size exchange</div></div>"
+          }
+        },
+        "custom_liquid_8ae3fh": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rr-trust-bar\">\n  {%- if product.available -%}\n    <span class=\"rr-trust-item rr-in-stock\">&#10003; In Stock</span>\n  {%- else -%}\n    <span class=\"rr-trust-item rr-out-of-stock\">&#10007; Out of Stock</span>\n  {%- endif -%}\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🔄 <strong>30 Day</strong> No Hassles Returns</span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🚚 Fast Delivery <strong>USD$4.95</strong></span>\n  <span class=\"rr-sep\" aria-hidden=\"true\">|</span>\n  <span class=\"rr-trust-item\">🎁 Free Shipping <strong>USD$50+</strong></span>\n</div>\n\n<style>\n  .rr-trust-bar {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 4px 10px;\n    margin: 14px 0 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #555;\n    text-align: center;\n  }\n  .rr-trust-bar strong {\n    font-weight: 700;\n    color: #222;\n  }\n  .rr-trust-bar .rr-in-stock {\n    color: #2e7d32;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-out-of-stock {\n    color: #c62828;\n    font-weight: 600;\n  }\n  .rr-trust-bar .rr-sep {\n    color: #bbb;\n  }\n  @media (max-width: 749px) {\n    .rr-trust-bar {\n      font-size: 13px;\n      gap: 4px 8px;\n    }\n    .rr-trust-bar .rr-sep {\n      display: none;\n    }\n    .rr-trust-bar .rr-trust-item {\n      flex: 0 0 100%;\n    }\n  }\n</style>"
+          }
+        },
+        "payment_qqBzrF": {
+          "type": "payment",
+          "settings": {
+            "original": "custom",
+            "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
+            "payment_content_alignment": "center"
           }
         },
         "loox_snippets": {
@@ -302,6 +366,7 @@
         "title",
         "line_div",
         "loox_rating",
+        "loox_reviews_loox_snippets_widget_YQ6aqg",
         "price",
         "text_tagline",
         "text_benefits",
@@ -309,8 +374,11 @@
         "variant_picker",
         "dealeasy_vd_cards_D4R8fT",
         "quantity_selector",
+        "inventory_TDxEJb",
         "buy_buttons",
         "custom_liquid_trust",
+        "custom_liquid_8ae3fh",
+        "payment_qqBzrF",
         "loox_snippets",
         "tab_details",
         "tab_sizeguide",
@@ -326,7 +394,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#8c30ff",
-        "container_text": "&nbsp;<strong>50% OFF BLACK FRIDAY SALE</strong>",
+        "container_text": "<strong>Today's 50% Off Better Than Black Friday Flash Sale </strong>&nbsp;",
         "container_text_bg": "#8c30ff",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
