@@ -319,6 +319,7 @@
         },
         "selleasy_lb_upsell_fbt_block_gBbXbV": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "disabled": true,
           "settings": {}
         },
         "collapsible_tab_8NhFFC": {
