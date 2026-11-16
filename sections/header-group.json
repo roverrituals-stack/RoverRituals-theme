@@ -62,6 +62,7 @@
         },
         "text_wKCJyf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>4,400+ 5 STAR REVIEWS❤️</strong>",
             "url": "",
