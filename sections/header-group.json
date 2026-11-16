@@ -157,31 +157,6 @@
         "section_radius": 0
       }
     },
-    "announcement_bar_3dr6me": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_LbfMLn": {
-          "type": "announcement",
-          "settings": {
-            "text": "FREE GIFTS WITH $100 + $150 ORDERS",
-            "link": "shopify://products/dog-bandana-dog-scarf-with-buckle-sca_clone_freegift"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_LbfMLn"
-      ],
-      "settings": {
-        "color_scheme": "scheme-78d2e301-66be-46b4-8bf3-c85455b81fc4",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": true,
-        "hide_arrows": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
-    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -217,11 +192,36 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_3dr6me": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_LbfMLn": {
+          "type": "announcement",
+          "settings": {
+            "text": "4,400+ 5 STAR REVIEWS❤️ | 😊20k+ Happy Pet Parents",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_LbfMLn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-78d2e301-66be-46b4-8bf3-c85455b81fc4",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "hide_arrows": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "scroll_text_yhGTtr",
-    "announcement_bar_3dr6me",
-    "header"
+    "header",
+    "announcement_bar_3dr6me"
   ]
 }
