@@ -45,6 +45,7 @@
         },
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239": {
           "type": "review",
+          "disabled": true,
           "settings": {
             "lrw_text": "<strong>4.5 From 200+ Reviews</strong>",
             "text_size": 14,
@@ -60,10 +61,9 @@
         },
         "loox_reviews_loox_rating_xnBNQ6": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
           "settings": {
             "contentSize": 18,
-            "pattern": "<b>[rating] of [count] reviews</b>",
+            "pattern": "[rating] of 200+ reviews",
             "hideText": false,
             "alignment": "",
             "layout": "",
@@ -72,6 +72,30 @@
             "showAllReviews": false,
             "looxOpenFloatingWidget": true,
             "emptyRatingWidget": false
+          }
+        },
+        "loox_reviews_loox_snippets_widget_Rna4jY": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 10,
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "alternative",
+            "shadow": "basic",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
           }
         },
         "price": {
@@ -88,10 +112,10 @@
             "price_bold_2": false,
             "sale_price_color": "#d50000",
             "regular_price_color": "#000000",
-            "price_bold": false,
+            "price_bold": true,
             "badge_hide": false,
             "taxes_hide": false,
-            "shipping_hide": false,
+            "shipping_hide": true,
             "padding_top": 8,
             "padding_bottom": 0
           }
@@ -286,6 +310,7 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_xnBNQ6",
+        "loox_reviews_loox_snippets_widget_Rna4jY",
         "price",
         "smartbot_product_highlights_zgeXm3",
         "text_benefits_YhdXMz",
@@ -309,7 +334,7 @@
         "container_padding": 30,
         "container_color": "#ffffff",
         "container_border_color": "#ffa100",
-        "container_text": "&nbsp;<strong>50% OFF BLACK FRIDAY SALE</strong>",
+        "container_text": "<strong>Today's 50% Off Better Than Black Friday Flash Sale</strong>",
         "container_text_bg": "#ffa100",
         "container_text_txt": "#ffffff",
         "show_container_mb": true,
