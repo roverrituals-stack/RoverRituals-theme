@@ -74,28 +74,6 @@
             "emptyRatingWidget": false
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_style": "price_2",
-            "price_size": 19,
-            "badge_text_1": 10,
-            "price_first": true,
-            "badge_bg_1": "#c74b4b",
-            "badge_price_1": "#ffffff",
-            "price_size_2": 0.7,
-            "badge_price": "#8b8d8f",
-            "price_bold_2": false,
-            "sale_price_color": "#d50000",
-            "regular_price_color": "#000000",
-            "price_bold": true,
-            "badge_hide": false,
-            "taxes_hide": false,
-            "shipping_hide": true,
-            "padding_top": 8,
-            "padding_bottom": 0
-          }
-        },
         "loox_reviews_loox_snippets_widget_aXrVpa": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -118,6 +96,28 @@
             "border-color": "",
             "shadow-color": "",
             "product_selection": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_style": "price_2",
+            "price_size": 19,
+            "badge_text_1": 10,
+            "price_first": true,
+            "badge_bg_1": "#c74b4b",
+            "badge_price_1": "#ffffff",
+            "price_size_2": 0.7,
+            "badge_price": "#8b8d8f",
+            "price_bold_2": false,
+            "sale_price_color": "#d50000",
+            "regular_price_color": "#000000",
+            "price_bold": true,
+            "badge_hide": false,
+            "taxes_hide": false,
+            "shipping_hide": true,
+            "padding_top": 8,
+            "padding_bottom": 0
           }
         },
         "smartbot_product_highlights_yeHAfr": {
@@ -362,8 +362,8 @@
         "line_NzbVwF",
         "ad73ef22-d96e-41c5-b4e1-ed8d9daf2239",
         "loox_reviews_loox_rating_KCyQ9A",
-        "price",
         "loox_reviews_loox_snippets_widget_aXrVpa",
+        "price",
         "smartbot_product_highlights_yeHAfr",
         "text_benefits_PL39h7",
         "variant_picker",
@@ -921,7 +921,7 @@
         "text_HYHPr8": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover the journey of <strong>Rover Rituals™</strong>, born in the vibrant heart of <strong>Melbourne</strong>.</p><p>Our headquarters are in AU while our warehouses are located across the United States, Europe and Australia</p><p>Meticulously crafted, our products blend innovative <strong>design</strong> with unmatched functionality, making everyday pet care easier and more enjoyable.</p><p>We’re dedicated to your <strong>satisfaction</strong>, proudly backing every purchase with a <strong>Satisfaction Guarantee</strong>.</p>",
+            "text": "<p>Discover the journey of&nbsp;<strong>Rover Rituals™</strong>, born in the vibrant heart of&nbsp;<strong>Melbourne</strong>.</p><p>Our headquarters are in AU while our warehouses are located across the United States, Europe and Australia</p><p>Meticulously crafted, our products blend innovative&nbsp;<strong>design</strong>&nbsp;with unmatched functionality, making everyday pet care easier and more enjoyable.</p><p>We’re dedicated to your&nbsp;<strong>satisfaction</strong>, proudly backing every purchase with a&nbsp;<strong>Satisfaction Guarantee</strong>.</p>",
             "text_style": "body"
           }
         }
